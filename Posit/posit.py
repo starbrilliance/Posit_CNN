@@ -51,7 +51,7 @@ class PositN8E1(object):
         self.__p8_1 = unum.maxpos_8_1()
         return self
 
-    def set_zero(self):
+    def reset(self):
         self.__p8_1 = unum.Posit_8_1_t(0)
         return self
 

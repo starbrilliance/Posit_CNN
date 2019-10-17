@@ -1,41 +1,54 @@
 from Matrix import convert, func
 from Posit import posit, quire
+from LeNet import weight2posit
+import torch
 
 
 a = [
-    [1.3, 0.8, 2.0],
-    [10, 5.0, 0],
-    [0, 3.0, 1.0]
-]
+        [posit.PositN8E1(1), posit.PositN8E1(2), posit.PositN8E1(3)],
+        [posit.PositN8E1(1), posit.PositN8E1(1.5), posit.PositN8E1(1)],
+        [posit.PositN8E1(4), posit.PositN8E1(8), posit.PositN8E1(3)]
+    ]
 
-b = convert.float2posit(a, 3, 3)
-c = convert.posit2float(b, 3, 3)
+b = [
+        [posit.PositN8E1(1), posit.PositN8E1(1)],
+        [posit.PositN8E1(1), posit.PositN8E1(1)]
+    ]
 
-out = 0.0
+c = [posit.PositN8E1(1)]
 
-for i in range(0, 3):
-    for j in range(0, 3):
-        tmp = a[i][j] * a[i][j]
-        out += tmp
+x = func.posit_conv2d([a],[[b]],c,3,2,use_fma=True)
 
-print(out)
+for i in range(len(x[0])):
+    for j in range(len(x[0][0])):
+        print(x[0][i][j].to_float(),end="\t")
+    print("\n")
 
-posit_out = func.posit_dot_mul(b, b, 3, 3)
-print(posit_out.value_string())
-posit_out_quire = func.posit_dot_mul(b, b, 3, 3, True)
-print(posit_out_quire.to_float())
-q2p = posit_out_quire.to_posit8_1()
-print(q2p.value_string())
 
-p1 = posit.PositN8E1(-2)
-p2 = posit.PositN8E1(-3)
-p3 = posit.PositN8E1(-2)
-x = p1.fma(p2, p3)
-print(x.value_string())
-y = p1.fam(p2, p3)
-print(y.value_string())
+x = func.posit_conv2d([a],[[b]],c,3,2,use_quire=True)
 
-q1 = quire.QuireN8E1C14()
-q1 += p1
-print(q1.to_float())
+for i in range(len(x[0])):
+    for j in range(len(x[0][0])):
+        print(x[0][i][j].to_float(),end="\t")
+    print("\n")
 
+x = func.posit_conv2d([a],[[b]],c,3,2)
+
+for i in range(len(x[0])):
+    for j in range(len(x[0][0])):
+        print(x[0][i][j].to_float(),end="\t")
+    print("\n")
+
+"""
+ifile = r"./LeNet/mnist_cnn.pt"
+#wfile = "a.txt"
+#bfile = "b.txt"
+#weight2posit.posit_weight_file(ifile, wfile, bfile)
+
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+collection = torch.load(ifile, map_location=device)
+print(collection['conv1.weight'])
+
+p8 = posit.PositN8E1(collection['conv1.weight'][0][0][4][4].item())
+print(p8.raw_hex_string())
+"""
