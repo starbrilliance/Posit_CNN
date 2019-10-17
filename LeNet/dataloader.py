@@ -34,7 +34,7 @@ equal = 0
 (weight, bias) = lenet.read_param_from_txt('./p8_1_weight.txt', './p8_1_bias.txt')
 
 for i,(images, labels) in enumerate(test_loader):
-    if total == 100:
+    if total == 1:
         break
 
     total += 1
