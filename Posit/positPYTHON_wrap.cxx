@@ -3010,20 +3010,41 @@ SWIG_Python_NonDynamicSetAttr(PyObject *obj, PyObject *name, PyObject *value) {
 #define SWIGTYPE_p_short swig_types[4]
 #define SWIGTYPE_p_signed_char swig_types[5]
 #define SWIGTYPE_p_std__streamsize swig_types[6]
-#define SWIGTYPE_p_sw__unum__bitblockT_63_t swig_types[7]
-#define SWIGTYPE_p_sw__unum__bitblockT_8_t swig_types[8]
-#define SWIGTYPE_p_sw__unum__positT_8_1_t swig_types[9]
-#define SWIGTYPE_p_sw__unum__quireT_8_1_14_t swig_types[10]
-#define SWIGTYPE_p_sw__unum__valueT_15_t swig_types[11]
-#define SWIGTYPE_p_sw__unum__valueT_20_t swig_types[12]
-#define SWIGTYPE_p_sw__unum__valueT_4_t swig_types[13]
-#define SWIGTYPE_p_sw__unum__valueT_62_t swig_types[14]
-#define SWIGTYPE_p_unsigned_char swig_types[15]
-#define SWIGTYPE_p_unsigned_int swig_types[16]
-#define SWIGTYPE_p_unsigned_long_long swig_types[17]
-#define SWIGTYPE_p_unsigned_short swig_types[18]
-static swig_type_info *swig_types[20];
-static swig_module_info swig_module = {swig_types, 19, 0, 0, 0, 0};
+#define SWIGTYPE_p_sw__unum__bitblockT_127_t swig_types[7]
+#define SWIGTYPE_p_sw__unum__bitblockT_15_t swig_types[8]
+#define SWIGTYPE_p_sw__unum__bitblockT_31_t swig_types[9]
+#define SWIGTYPE_p_sw__unum__bitblockT_4_t swig_types[10]
+#define SWIGTYPE_p_sw__unum__bitblockT_63_t swig_types[11]
+#define SWIGTYPE_p_sw__unum__bitblockT_8_t swig_types[12]
+#define SWIGTYPE_p_sw__unum__positT_4_0_t swig_types[13]
+#define SWIGTYPE_p_sw__unum__positT_8_0_t swig_types[14]
+#define SWIGTYPE_p_sw__unum__positT_8_1_t swig_types[15]
+#define SWIGTYPE_p_sw__unum__positT_8_2_t swig_types[16]
+#define SWIGTYPE_p_sw__unum__quireT_4_0_6_t swig_types[17]
+#define SWIGTYPE_p_sw__unum__quireT_8_0_6_t swig_types[18]
+#define SWIGTYPE_p_sw__unum__quireT_8_1_14_t swig_types[19]
+#define SWIGTYPE_p_sw__unum__quireT_8_2_30_t swig_types[20]
+#define SWIGTYPE_p_sw__unum__valueT_126_t swig_types[21]
+#define SWIGTYPE_p_sw__unum__valueT_13_t swig_types[22]
+#define SWIGTYPE_p_sw__unum__valueT_14_t swig_types[23]
+#define SWIGTYPE_p_sw__unum__valueT_15_t swig_types[24]
+#define SWIGTYPE_p_sw__unum__valueT_17_t swig_types[25]
+#define SWIGTYPE_p_sw__unum__valueT_18_t swig_types[26]
+#define SWIGTYPE_p_sw__unum__valueT_1_t swig_types[27]
+#define SWIGTYPE_p_sw__unum__valueT_20_t swig_types[28]
+#define SWIGTYPE_p_sw__unum__valueT_22_t swig_types[29]
+#define SWIGTYPE_p_sw__unum__valueT_30_t swig_types[30]
+#define SWIGTYPE_p_sw__unum__valueT_3_t swig_types[31]
+#define SWIGTYPE_p_sw__unum__valueT_4_t swig_types[32]
+#define SWIGTYPE_p_sw__unum__valueT_5_t swig_types[33]
+#define SWIGTYPE_p_sw__unum__valueT_62_t swig_types[34]
+#define SWIGTYPE_p_sw__unum__valueT_9_t swig_types[35]
+#define SWIGTYPE_p_unsigned_char swig_types[36]
+#define SWIGTYPE_p_unsigned_int swig_types[37]
+#define SWIGTYPE_p_unsigned_long_long swig_types[38]
+#define SWIGTYPE_p_unsigned_short swig_types[39]
+static swig_type_info *swig_types[41];
+static swig_module_info swig_module = {swig_types, 40, 0, 0, 0, 0};
 #define SWIG_TypeQuery(name) SWIG_TypeQueryModule(&swig_module, &swig_module, name)
 #define SWIG_MangledTypeQuery(name) SWIG_MangledTypeQueryModule(&swig_module, &swig_module, name)
 
@@ -4058,6 +4079,4523 @@ SWIGINTERN PyObject *_wrap_bitblock_8_tohexstring(PyObject *SWIGUNUSEDPARM(self)
   }
   result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR to_hex< 8 >(arg1);
   resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Value_5_t_to_long_double(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 5 > *arg1 = (sw::unum::value< 5 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  long double result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Value_5_t_to_long_double",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_5_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Value_5_t_to_long_double" "', argument " "1"" of type '" "sw::unum::value< 5 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 5 > * >(argp1);
+  result = (long double)((sw::unum::value< 5 > const *)arg1)->to_long_double();
+  resultobj = SWIG_NewPointerObj((new long double(static_cast< const long double& >(result))), SWIGTYPE_p_long_double, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Value_5_t_to_double(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 5 > *arg1 = (sw::unum::value< 5 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  double result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Value_5_t_to_double",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_5_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Value_5_t_to_double" "', argument " "1"" of type '" "sw::unum::value< 5 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 5 > * >(argp1);
+  result = (double)((sw::unum::value< 5 > const *)arg1)->to_double();
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Value_5_t_to_float(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 5 > *arg1 = (sw::unum::value< 5 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Value_5_t_to_float",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_5_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Value_5_t_to_float" "', argument " "1"" of type '" "sw::unum::value< 5 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 5 > * >(argp1);
+  result = (float)((sw::unum::value< 5 > const *)arg1)->to_float();
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Value_5_t(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 5 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)":new_Value_5_t")) SWIG_fail;
+  result = (sw::unum::value< 5 > *)new sw::unum::value< 5 >();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__valueT_5_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_Value_5_t(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 5 > *arg1 = (sw::unum::value< 5 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:delete_Value_5_t",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_5_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_Value_5_t" "', argument " "1"" of type '" "sw::unum::value< 5 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 5 > * >(argp1);
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *Value_5_t_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_ParseTuple(args,(char *)"O:swigregister", &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_sw__unum__valueT_5_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_Value_17_t_to_long_double(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 17 > *arg1 = (sw::unum::value< 17 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  long double result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Value_17_t_to_long_double",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_17_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Value_17_t_to_long_double" "', argument " "1"" of type '" "sw::unum::value< 17 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 17 > * >(argp1);
+  result = (long double)((sw::unum::value< 17 > const *)arg1)->to_long_double();
+  resultobj = SWIG_NewPointerObj((new long double(static_cast< const long double& >(result))), SWIGTYPE_p_long_double, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Value_17_t_to_double(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 17 > *arg1 = (sw::unum::value< 17 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  double result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Value_17_t_to_double",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_17_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Value_17_t_to_double" "', argument " "1"" of type '" "sw::unum::value< 17 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 17 > * >(argp1);
+  result = (double)((sw::unum::value< 17 > const *)arg1)->to_double();
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Value_17_t_to_float(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 17 > *arg1 = (sw::unum::value< 17 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Value_17_t_to_float",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_17_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Value_17_t_to_float" "', argument " "1"" of type '" "sw::unum::value< 17 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 17 > * >(argp1);
+  result = (float)((sw::unum::value< 17 > const *)arg1)->to_float();
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Value_17_t(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 17 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)":new_Value_17_t")) SWIG_fail;
+  result = (sw::unum::value< 17 > *)new sw::unum::value< 17 >();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__valueT_17_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_Value_17_t(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 17 > *arg1 = (sw::unum::value< 17 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:delete_Value_17_t",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_17_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_Value_17_t" "', argument " "1"" of type '" "sw::unum::value< 17 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 17 > * >(argp1);
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *Value_17_t_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_ParseTuple(args,(char *)"O:swigregister", &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_sw__unum__valueT_17_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_Value_22_t_to_long_double(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 22 > *arg1 = (sw::unum::value< 22 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  long double result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Value_22_t_to_long_double",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_22_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Value_22_t_to_long_double" "', argument " "1"" of type '" "sw::unum::value< 22 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 22 > * >(argp1);
+  result = (long double)((sw::unum::value< 22 > const *)arg1)->to_long_double();
+  resultobj = SWIG_NewPointerObj((new long double(static_cast< const long double& >(result))), SWIGTYPE_p_long_double, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Value_22_t_to_double(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 22 > *arg1 = (sw::unum::value< 22 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  double result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Value_22_t_to_double",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_22_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Value_22_t_to_double" "', argument " "1"" of type '" "sw::unum::value< 22 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 22 > * >(argp1);
+  result = (double)((sw::unum::value< 22 > const *)arg1)->to_double();
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Value_22_t_to_float(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 22 > *arg1 = (sw::unum::value< 22 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Value_22_t_to_float",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_22_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Value_22_t_to_float" "', argument " "1"" of type '" "sw::unum::value< 22 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 22 > * >(argp1);
+  result = (float)((sw::unum::value< 22 > const *)arg1)->to_float();
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Value_22_t(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 22 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)":new_Value_22_t")) SWIG_fail;
+  result = (sw::unum::value< 22 > *)new sw::unum::value< 22 >();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__valueT_22_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_Value_22_t(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 22 > *arg1 = (sw::unum::value< 22 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:delete_Value_22_t",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_22_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_Value_22_t" "', argument " "1"" of type '" "sw::unum::value< 22 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 22 > * >(argp1);
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *Value_22_t_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_ParseTuple(args,(char *)"O:swigregister", &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_sw__unum__valueT_22_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_new_Posit_8_0_t__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)":new_Posit_8_0_t")) SWIG_fail;
+  result = (sw::unum::posit< 8,0 > *)new sw::unum::posit< 8,0 >();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_0_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Posit_8_0_t__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 8,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Posit_8_0_t",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_8_0_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_Posit_8_0_t" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_Posit_8_0_t" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  result = (sw::unum::posit< 8,0 > *)new sw::unum::posit< 8,0 >((sw::unum::posit< 8,0 > const &)*arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_0_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Posit_8_0_t__SWIG_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  signed char arg1 ;
+  signed char val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 8,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Posit_8_0_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_signed_SS_char(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Posit_8_0_t" "', argument " "1"" of type '" "signed char""'");
+  } 
+  arg1 = static_cast< signed char >(val1);
+  result = (sw::unum::posit< 8,0 > *)new sw::unum::posit< 8,0 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_0_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Posit_8_0_t__SWIG_3(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  char arg1 ;
+  char val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 8,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Posit_8_0_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_char(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Posit_8_0_t" "', argument " "1"" of type '" "char""'");
+  } 
+  arg1 = static_cast< char >(val1);
+  result = (sw::unum::posit< 8,0 > *)new sw::unum::posit< 8,0 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_0_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Posit_8_0_t__SWIG_4(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  short arg1 ;
+  short val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 8,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Posit_8_0_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_short(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Posit_8_0_t" "', argument " "1"" of type '" "short""'");
+  } 
+  arg1 = static_cast< short >(val1);
+  result = (sw::unum::posit< 8,0 > *)new sw::unum::posit< 8,0 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_0_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Posit_8_0_t__SWIG_5(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  int arg1 ;
+  int val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 8,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Posit_8_0_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_int(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Posit_8_0_t" "', argument " "1"" of type '" "int""'");
+  } 
+  arg1 = static_cast< int >(val1);
+  result = (sw::unum::posit< 8,0 > *)new sw::unum::posit< 8,0 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_0_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Posit_8_0_t__SWIG_6(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  float arg1 ;
+  float val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 8,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Posit_8_0_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_float(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Posit_8_0_t" "', argument " "1"" of type '" "float""'");
+  } 
+  arg1 = static_cast< float >(val1);
+  result = (sw::unum::posit< 8,0 > *)new sw::unum::posit< 8,0 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_0_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Posit_8_0_t__SWIG_7(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  double arg1 ;
+  double val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 8,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Posit_8_0_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_double(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Posit_8_0_t" "', argument " "1"" of type '" "double""'");
+  } 
+  arg1 = static_cast< double >(val1);
+  result = (sw::unum::posit< 8,0 > *)new sw::unum::posit< 8,0 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_0_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Posit_8_0_t__SWIG_8(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  long double arg1 ;
+  void *argp1 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 8,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Posit_8_0_t",&obj0)) SWIG_fail;
+  {
+    res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_long_double,  0  | 0);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_Posit_8_0_t" "', argument " "1"" of type '" "long double const""'"); 
+    }  
+    if (!argp1) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_Posit_8_0_t" "', argument " "1"" of type '" "long double const""'");
+    } else {
+      long double * temp = reinterpret_cast< long double * >(argp1);
+      arg1 = *temp;
+      if (SWIG_IsNewObj(res1)) delete temp;
+    }
+  }
+  result = (sw::unum::posit< 8,0 > *)new sw::unum::posit< 8,0 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_0_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Posit_8_0_t__SWIG_9(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  unsigned int arg1 ;
+  unsigned int val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 8,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Posit_8_0_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_unsigned_SS_int(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Posit_8_0_t" "', argument " "1"" of type '" "unsigned int""'");
+  } 
+  arg1 = static_cast< unsigned int >(val1);
+  result = (sw::unum::posit< 8,0 > *)new sw::unum::posit< 8,0 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_0_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Posit_8_0_t__SWIG_10(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  unsigned long long arg1 ;
+  unsigned long long val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 8,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Posit_8_0_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_unsigned_SS_long_SS_long(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Posit_8_0_t" "', argument " "1"" of type '" "unsigned long long""'");
+  } 
+  arg1 = static_cast< unsigned long long >(val1);
+  result = (sw::unum::posit< 8,0 > *)new sw::unum::posit< 8,0 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_0_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Posit_8_0_t(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[2] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 1) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 0) {
+    return _wrap_new_Posit_8_0_t__SWIG_0(self, args);
+  }
+  if (argc == 1) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_Posit_8_0_t__SWIG_1(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_long_double, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_Posit_8_0_t__SWIG_8(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_signed_SS_char(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Posit_8_0_t__SWIG_2(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_short(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Posit_8_0_t__SWIG_4(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_unsigned_SS_int(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Posit_8_0_t__SWIG_9(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_int(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Posit_8_0_t__SWIG_5(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_unsigned_SS_long_SS_long(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Posit_8_0_t__SWIG_10(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_float(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Posit_8_0_t__SWIG_6(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_double(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Posit_8_0_t__SWIG_7(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_char(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Posit_8_0_t__SWIG_3(self, args);
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'new_Posit_8_0_t'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    sw::unum::posit< 8,0 >::posit()\n"
+    "    sw::unum::posit< 8,0 >::posit(sw::unum::posit< 8,0 > const &)\n"
+    "    sw::unum::posit< 8,0 >::posit(signed char const)\n"
+    "    sw::unum::posit< 8,0 >::posit(char const)\n"
+    "    sw::unum::posit< 8,0 >::posit(short const)\n"
+    "    sw::unum::posit< 8,0 >::posit(int const)\n"
+    "    sw::unum::posit< 8,0 >::posit(float const)\n"
+    "    sw::unum::posit< 8,0 >::posit(double const)\n"
+    "    sw::unum::posit< 8,0 >::posit(long double const)\n"
+    "    sw::unum::posit< 8,0 >::posit(unsigned int const)\n"
+    "    sw::unum::posit< 8,0 >::posit(unsigned long long const)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_0_t_to_int(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = (sw::unum::posit< 8,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_0_t_to_int",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_0_t_to_int" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  result = (int)((sw::unum::posit< 8,0 > const *)arg1)->operator int();
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_0_t_to_long(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = (sw::unum::posit< 8,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  long result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_0_t_to_long",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_0_t_to_long" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  result = (long)((sw::unum::posit< 8,0 > const *)arg1)->operator long();
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_0_t_to_long_long(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = (sw::unum::posit< 8,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  long long result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_0_t_to_long_long",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_0_t_to_long_long" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  result = (long long)((sw::unum::posit< 8,0 > const *)arg1)->operator long long();
+  resultobj = SWIG_From_long_SS_long(static_cast< long long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_0_t_to_float(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = (sw::unum::posit< 8,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_0_t_to_float",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_0_t_to_float" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  result = (float)((sw::unum::posit< 8,0 > const *)arg1)->operator float();
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_0_t_to_double(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = (sw::unum::posit< 8,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  double result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_0_t_to_double",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_0_t_to_double" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  result = (double)((sw::unum::posit< 8,0 > const *)arg1)->operator double();
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_0_t_to_long_double(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = (sw::unum::posit< 8,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  long double result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_0_t_to_long_double",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_0_t_to_long_double" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  result = (long double)((sw::unum::posit< 8,0 > const *)arg1)->operator long double();
+  resultobj = SWIG_NewPointerObj((new long double(static_cast< const long double& >(result))), SWIGTYPE_p_long_double, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_0_t_assign__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = (sw::unum::posit< 8,0 > *) 0 ;
+  signed char arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 8,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Posit_8_0_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_0_t_assign" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Posit_8_0_t_assign" "', argument " "2"" of type '" "signed char""'");
+  } 
+  arg2 = static_cast< signed char >(val2);
+  result = (sw::unum::posit< 8,0 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_0_t_assign__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = (sw::unum::posit< 8,0 > *) 0 ;
+  char arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  char val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 8,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Posit_8_0_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_0_t_assign" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  ecode2 = SWIG_AsVal_char(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Posit_8_0_t_assign" "', argument " "2"" of type '" "char""'");
+  } 
+  arg2 = static_cast< char >(val2);
+  result = (sw::unum::posit< 8,0 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_0_t_assign__SWIG_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = (sw::unum::posit< 8,0 > *) 0 ;
+  short arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 8,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Posit_8_0_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_0_t_assign" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  ecode2 = SWIG_AsVal_short(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Posit_8_0_t_assign" "', argument " "2"" of type '" "short""'");
+  } 
+  arg2 = static_cast< short >(val2);
+  result = (sw::unum::posit< 8,0 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_0_t_assign__SWIG_3(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = (sw::unum::posit< 8,0 > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 8,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Posit_8_0_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_0_t_assign" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Posit_8_0_t_assign" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  result = (sw::unum::posit< 8,0 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_0_t_assign__SWIG_4(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = (sw::unum::posit< 8,0 > *) 0 ;
+  long long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 8,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Posit_8_0_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_0_t_assign" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  ecode2 = SWIG_AsVal_long_SS_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Posit_8_0_t_assign" "', argument " "2"" of type '" "long long""'");
+  } 
+  arg2 = static_cast< long long >(val2);
+  result = (sw::unum::posit< 8,0 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_0_t_assign__SWIG_5(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = (sw::unum::posit< 8,0 > *) 0 ;
+  float arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  float val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 8,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Posit_8_0_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_0_t_assign" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  ecode2 = SWIG_AsVal_float(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Posit_8_0_t_assign" "', argument " "2"" of type '" "float""'");
+  } 
+  arg2 = static_cast< float >(val2);
+  result = (sw::unum::posit< 8,0 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_0_t_assign__SWIG_6(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = (sw::unum::posit< 8,0 > *) 0 ;
+  double arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  double val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 8,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Posit_8_0_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_0_t_assign" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  ecode2 = SWIG_AsVal_double(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Posit_8_0_t_assign" "', argument " "2"" of type '" "double""'");
+  } 
+  arg2 = static_cast< double >(val2);
+  result = (sw::unum::posit< 8,0 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_0_t_assign__SWIG_7(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = (sw::unum::posit< 8,0 > *) 0 ;
+  long double arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 8,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Posit_8_0_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_0_t_assign" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_long_double,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Posit_8_0_t_assign" "', argument " "2"" of type '" "long double const""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Posit_8_0_t_assign" "', argument " "2"" of type '" "long double const""'");
+    } else {
+      long double * temp = reinterpret_cast< long double * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  result = (sw::unum::posit< 8,0 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_0_t_assign(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__positT_8_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_long_double, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_Posit_8_0_t_assign__SWIG_7(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__positT_8_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_signed_SS_char(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Posit_8_0_t_assign__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__positT_8_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_short(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Posit_8_0_t_assign__SWIG_2(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__positT_8_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Posit_8_0_t_assign__SWIG_3(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__positT_8_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long_SS_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Posit_8_0_t_assign__SWIG_4(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__positT_8_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_float(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Posit_8_0_t_assign__SWIG_5(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__positT_8_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_double(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Posit_8_0_t_assign__SWIG_6(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__positT_8_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_char(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Posit_8_0_t_assign__SWIG_1(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'Posit_8_0_t_assign'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    sw::unum::posit< 8,0 >::operator =(signed char const)\n"
+    "    sw::unum::posit< 8,0 >::operator =(char const)\n"
+    "    sw::unum::posit< 8,0 >::operator =(short const)\n"
+    "    sw::unum::posit< 8,0 >::operator =(int const)\n"
+    "    sw::unum::posit< 8,0 >::operator =(long long const)\n"
+    "    sw::unum::posit< 8,0 >::operator =(float const)\n"
+    "    sw::unum::posit< 8,0 >::operator =(double const)\n"
+    "    sw::unum::posit< 8,0 >::operator =(long double const)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_0_t___neg__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = (sw::unum::posit< 8,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 8,0 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_0_t___neg__",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_0_t___neg__" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  result = ((sw::unum::posit< 8,0 > const *)arg1)->operator -();
+  resultobj = SWIG_NewPointerObj((new sw::unum::posit< 8,0 >(static_cast< const sw::unum::posit< 8,0 >& >(result))), SWIGTYPE_p_sw__unum__positT_8_0_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_0_t___pos__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = (sw::unum::posit< 8,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 8,0 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_0_t___pos__",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_0_t___pos__" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  result = ((sw::unum::posit< 8,0 > const *)arg1)->operator +();
+  resultobj = SWIG_NewPointerObj((new sw::unum::posit< 8,0 >(static_cast< const sw::unum::posit< 8,0 >& >(result))), SWIGTYPE_p_sw__unum__positT_8_0_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_0_t___iadd__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = (sw::unum::posit< 8,0 > *) 0 ;
+  sw::unum::posit< 8,0 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 8,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Posit_8_0_t___iadd__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_0_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_0_t___iadd__" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_0_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Posit_8_0_t___iadd__" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Posit_8_0_t___iadd__" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp2);
+  result = (sw::unum::posit< 8,0 > *) &(arg1)->operator +=((sw::unum::posit< 8,0 > const &)*arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_0_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_0_t___isub__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = (sw::unum::posit< 8,0 > *) 0 ;
+  sw::unum::posit< 8,0 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 8,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Posit_8_0_t___isub__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_0_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_0_t___isub__" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_0_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Posit_8_0_t___isub__" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Posit_8_0_t___isub__" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp2);
+  result = (sw::unum::posit< 8,0 > *) &(arg1)->operator -=((sw::unum::posit< 8,0 > const &)*arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_0_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_0_t___imul__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = (sw::unum::posit< 8,0 > *) 0 ;
+  sw::unum::posit< 8,0 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 8,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Posit_8_0_t___imul__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_0_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_0_t___imul__" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_0_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Posit_8_0_t___imul__" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Posit_8_0_t___imul__" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp2);
+  result = (sw::unum::posit< 8,0 > *) &(arg1)->operator *=((sw::unum::posit< 8,0 > const &)*arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_0_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_0_t___itruediv__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = (sw::unum::posit< 8,0 > *) 0 ;
+  sw::unum::posit< 8,0 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 8,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Posit_8_0_t___itruediv__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_0_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_0_t___itruediv__" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_0_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Posit_8_0_t___itruediv__" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Posit_8_0_t___itruediv__" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp2);
+  result = (sw::unum::posit< 8,0 > *) &(arg1)->operator /=((sw::unum::posit< 8,0 > const &)*arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_0_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_0_t_increment(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = (sw::unum::posit< 8,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 8,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_0_t_increment",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_0_t_increment" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  result = (sw::unum::posit< 8,0 > *) &(arg1)->operator ++();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_0_t_decrement(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = (sw::unum::posit< 8,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 8,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_0_t_decrement",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_0_t_decrement" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  result = (sw::unum::posit< 8,0 > *) &(arg1)->operator --();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_0_t_reciprocate(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = (sw::unum::posit< 8,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 8,0 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_0_t_reciprocate",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_0_t_reciprocate" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  result = ((sw::unum::posit< 8,0 > const *)arg1)->reciprocate();
+  resultobj = SWIG_NewPointerObj((new sw::unum::posit< 8,0 >(static_cast< const sw::unum::posit< 8,0 >& >(result))), SWIGTYPE_p_sw__unum__positT_8_0_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_0_t_set_raw_bits(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = (sw::unum::posit< 8,0 > *) 0 ;
+  uint64_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned long long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 8,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Posit_8_0_t_set_raw_bits",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_0_t_set_raw_bits" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_long_SS_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Posit_8_0_t_set_raw_bits" "', argument " "2"" of type '" "uint64_t""'");
+  } 
+  arg2 = static_cast< uint64_t >(val2);
+  result = (sw::unum::posit< 8,0 > *) &(arg1)->set_raw_bits(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_0_t_abs(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = (sw::unum::posit< 8,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 8,0 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_0_t_abs",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_0_t_abs" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  result = ((sw::unum::posit< 8,0 > const *)arg1)->abs();
+  resultobj = SWIG_NewPointerObj((new sw::unum::posit< 8,0 >(static_cast< const sw::unum::posit< 8,0 >& >(result))), SWIGTYPE_p_sw__unum__positT_8_0_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_0_t_isnar(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = (sw::unum::posit< 8,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_0_t_isnar",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_0_t_isnar" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  result = (bool)((sw::unum::posit< 8,0 > const *)arg1)->isnar();
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_0_t_iszero(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = (sw::unum::posit< 8,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_0_t_iszero",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_0_t_iszero" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  result = (bool)((sw::unum::posit< 8,0 > const *)arg1)->iszero();
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_0_t_isone(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = (sw::unum::posit< 8,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_0_t_isone",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_0_t_isone" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  result = (bool)((sw::unum::posit< 8,0 > const *)arg1)->isone();
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_0_t_isminusone(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = (sw::unum::posit< 8,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_0_t_isminusone",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_0_t_isminusone" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  result = (bool)((sw::unum::posit< 8,0 > const *)arg1)->isminusone();
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_0_t_isneg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = (sw::unum::posit< 8,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_0_t_isneg",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_0_t_isneg" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  result = (bool)((sw::unum::posit< 8,0 > const *)arg1)->isneg();
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_0_t_ispos(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = (sw::unum::posit< 8,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_0_t_ispos",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_0_t_ispos" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  result = (bool)((sw::unum::posit< 8,0 > const *)arg1)->ispos();
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_0_t_ispowerof2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = (sw::unum::posit< 8,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_0_t_ispowerof2",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_0_t_ispowerof2" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  result = (bool)((sw::unum::posit< 8,0 > const *)arg1)->ispowerof2();
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_0_t_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = (sw::unum::posit< 8,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::bitblock< 8 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_0_t_get",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_0_t_get" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  result = ((sw::unum::posit< 8,0 > const *)arg1)->get();
+  resultobj = SWIG_NewPointerObj((new sw::unum::bitblock< 8 >(static_cast< const sw::unum::bitblock< 8 >& >(result))), SWIGTYPE_p_sw__unum__bitblockT_8_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_0_t_cfg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = (sw::unum::posit< 8,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_0_t_cfg",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_0_t_cfg" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  result = (arg1)->cfg();
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_Posit_8_0_t(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = (sw::unum::posit< 8,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:delete_Posit_8_0_t",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_0_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_Posit_8_0_t" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *Posit_8_0_t_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_ParseTuple(args,(char *)"O:swigregister", &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_sw__unum__positT_8_0_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_posit_to_binary_8_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:posit_to_binary_8_0",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_8_0_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "posit_to_binary_8_0" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "posit_to_binary_8_0" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR to_binary< sw::unum::posit< 8,0 > >((sw::unum::posit< 8,0 > const &)*arg1);
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___eq____SWIG_3(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = 0 ;
+  sw::unum::posit< 8,0 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__eq__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_8_0_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__eq__" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__eq__" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_0_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__eq__" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__eq__" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator ==< 8,0 >((sw::unum::posit< 8,0 > const &)*arg1,(sw::unum::posit< 8,0 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___ne____SWIG_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = 0 ;
+  sw::unum::posit< 8,0 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__ne__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_8_0_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__ne__" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__ne__" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_0_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__ne__" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__ne__" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator !=< 8,0 >((sw::unum::posit< 8,0 > const &)*arg1,(sw::unum::posit< 8,0 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___lt____SWIG_3(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = 0 ;
+  sw::unum::posit< 8,0 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__lt__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_8_0_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__lt__" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__lt__" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_0_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__lt__" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__lt__" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator < < 8,0 >((sw::unum::posit< 8,0 > const &)*arg1,(sw::unum::posit< 8,0 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___gt____SWIG_3(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = 0 ;
+  sw::unum::posit< 8,0 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__gt__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_8_0_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__gt__" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__gt__" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_0_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__gt__" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__gt__" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator >< 8,0 >((sw::unum::posit< 8,0 > const &)*arg1,(sw::unum::posit< 8,0 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___le____SWIG_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = 0 ;
+  sw::unum::posit< 8,0 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__le__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_8_0_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__le__" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__le__" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_0_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__le__" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__le__" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator <=< 8,0 >((sw::unum::posit< 8,0 > const &)*arg1,(sw::unum::posit< 8,0 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___ge____SWIG_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = 0 ;
+  sw::unum::posit< 8,0 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__ge__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_8_0_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__ge__" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__ge__" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_0_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__ge__" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__ge__" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator >=< 8,0 >((sw::unum::posit< 8,0 > const &)*arg1,(sw::unum::posit< 8,0 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___add____SWIG_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = 0 ;
+  sw::unum::posit< 8,0 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 8,0 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__add__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_8_0_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__add__" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__add__" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_0_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__add__" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__add__" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp2);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator +< 8,0 >((sw::unum::posit< 8,0 > const &)*arg1,(sw::unum::posit< 8,0 > const &)*arg2);
+  resultobj = SWIG_NewPointerObj((new sw::unum::posit< 8,0 >(static_cast< const sw::unum::posit< 8,0 >& >(result))), SWIGTYPE_p_sw__unum__positT_8_0_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___sub____SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = 0 ;
+  sw::unum::posit< 8,0 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 8,0 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__sub__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_8_0_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__sub__" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__sub__" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_0_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__sub__" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__sub__" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp2);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator -< 8,0 >((sw::unum::posit< 8,0 > const &)*arg1,(sw::unum::posit< 8,0 > const &)*arg2);
+  resultobj = SWIG_NewPointerObj((new sw::unum::posit< 8,0 >(static_cast< const sw::unum::posit< 8,0 >& >(result))), SWIGTYPE_p_sw__unum__positT_8_0_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___mul____SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = 0 ;
+  sw::unum::posit< 8,0 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 8,0 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__mul__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_8_0_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__mul__" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__mul__" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_0_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__mul__" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__mul__" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp2);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator *< 8,0 >((sw::unum::posit< 8,0 > const &)*arg1,(sw::unum::posit< 8,0 > const &)*arg2);
+  resultobj = SWIG_NewPointerObj((new sw::unum::posit< 8,0 >(static_cast< const sw::unum::posit< 8,0 >& >(result))), SWIGTYPE_p_sw__unum__positT_8_0_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___truediv____SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = 0 ;
+  sw::unum::posit< 8,0 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 8,0 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__truediv__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_8_0_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__truediv__" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__truediv__" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_0_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__truediv__" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__truediv__" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp2);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator /< 8,0 >((sw::unum::posit< 8,0 > const &)*arg1,(sw::unum::posit< 8,0 > const &)*arg2);
+  resultobj = SWIG_NewPointerObj((new sw::unum::posit< 8,0 >(static_cast< const sw::unum::posit< 8,0 >& >(result))), SWIGTYPE_p_sw__unum__positT_8_0_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_posit_format_8_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:posit_format_8_0",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_8_0_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "posit_format_8_0" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "posit_format_8_0" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR posit_format< 8,0 >((sw::unum::posit< 8,0 > const &)*arg1);
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_posit_to_string_8_0__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = 0 ;
+  std::streamsize arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  std::string result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:posit_to_string_8_0",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_8_0_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "posit_to_string_8_0" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "posit_to_string_8_0" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_std__streamsize,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "posit_to_string_8_0" "', argument " "2"" of type '" "std::streamsize""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "posit_to_string_8_0" "', argument " "2"" of type '" "std::streamsize""'");
+    } else {
+      std::streamsize * temp = reinterpret_cast< std::streamsize * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR to_string< 8,0 >((sw::unum::posit< 8,0 > const &)*arg1,arg2);
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_posit_to_string_8_0__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:posit_to_string_8_0",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_8_0_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "posit_to_string_8_0" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "posit_to_string_8_0" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR to_string< 8,0 >((sw::unum::posit< 8,0 > const &)*arg1);
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_posit_to_string_8_0(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_posit_to_string_8_0__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_std__streamsize, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_posit_to_string_8_0__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'posit_to_string_8_0'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    sw::unum::to_string< 8,0 >(sw::unum::posit< 8,0 > const &,std::streamsize)\n"
+    "    sw::unum::to_string< 8,0 >(sw::unum::posit< 8,0 > const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_posit_to_base2_scientific_8_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:posit_to_base2_scientific_8_0",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_8_0_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "posit_to_base2_scientific_8_0" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "posit_to_base2_scientific_8_0" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR to_base2_scientific< sw::unum::posit< 8,0 > >((sw::unum::posit< 8,0 > const &)*arg1);
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_minpos_8_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)":minpos_8_0")) SWIG_fail;
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR minpos< 8,0 >();
+  resultobj = SWIG_NewPointerObj((new sw::unum::posit< 8,0 >(static_cast< const sw::unum::posit< 8,0 >& >(result))), SWIGTYPE_p_sw__unum__positT_8_0_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_maxpos_8_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)":maxpos_8_0")) SWIG_fail;
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR maxpos< 8,0 >();
+  resultobj = SWIG_NewPointerObj((new sw::unum::posit< 8,0 >(static_cast< const sw::unum::posit< 8,0 >& >(result))), SWIGTYPE_p_sw__unum__positT_8_0_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_fma_8_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = 0 ;
+  sw::unum::posit< 8,0 > *arg2 = 0 ;
+  sw::unum::posit< 8,0 > *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  sw::unum::value< 17 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OOO:fma_8_0",&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_8_0_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fma_8_0" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fma_8_0" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_0_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fma_8_0" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fma_8_0" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp2);
+  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_sw__unum__positT_8_0_t,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "fma_8_0" "', argument " "3"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fma_8_0" "', argument " "3"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  arg3 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp3);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR fma_swig< 8,0,17 >((sw::unum::posit< 8,0 > const &)*arg1,(sw::unum::posit< 8,0 > const &)*arg2,(sw::unum::posit< 8,0 > const &)*arg3);
+  resultobj = SWIG_NewPointerObj((new sw::unum::value< 17 >(static_cast< const sw::unum::value< 17 >& >(result))), SWIGTYPE_p_sw__unum__valueT_17_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_fam_8_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = 0 ;
+  sw::unum::posit< 8,0 > *arg2 = 0 ;
+  sw::unum::posit< 8,0 > *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  sw::unum::value< 22 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OOO:fam_8_0",&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_8_0_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fam_8_0" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fam_8_0" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_0_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fam_8_0" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fam_8_0" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp2);
+  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_sw__unum__positT_8_0_t,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "fam_8_0" "', argument " "3"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fam_8_0" "', argument " "3"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  arg3 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp3);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR fam_swig< 8,0,22 >((sw::unum::posit< 8,0 > const &)*arg1,(sw::unum::posit< 8,0 > const &)*arg2,(sw::unum::posit< 8,0 > const &)*arg3);
+  resultobj = SWIG_NewPointerObj((new sw::unum::value< 22 >(static_cast< const sw::unum::value< 22 >& >(result))), SWIGTYPE_p_sw__unum__valueT_22_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_convert_17_to_8(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 17 > *arg1 = 0 ;
+  sw::unum::posit< 8,0 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 8,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:convert_17_to_8",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__valueT_17_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "convert_17_to_8" "', argument " "1"" of type '" "sw::unum::value< 17 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "convert_17_to_8" "', argument " "1"" of type '" "sw::unum::value< 17 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 17 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_0_t,  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "convert_17_to_8" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "convert_17_to_8" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp2);
+  result = (sw::unum::posit< 8,0 > *) &sw::unum::SWIGTEMPLATEDISAMBIGUATOR convert< 8,0,17 >((sw::unum::value< 17 > const &)*arg1,*arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_convert_22_to_8(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 22 > *arg1 = 0 ;
+  sw::unum::posit< 8,0 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 8,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:convert_22_to_8",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__valueT_22_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "convert_22_to_8" "', argument " "1"" of type '" "sw::unum::value< 22 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "convert_22_to_8" "', argument " "1"" of type '" "sw::unum::value< 22 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 22 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_0_t,  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "convert_22_to_8" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "convert_22_to_8" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp2);
+  result = (sw::unum::posit< 8,0 > *) &sw::unum::SWIGTEMPLATEDISAMBIGUATOR convert< 8,0,22 >((sw::unum::value< 22 > const &)*arg1,*arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_posit_to_value_8_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::value< 5 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:posit_to_value_8_0",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_8_0_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "posit_to_value_8_0" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "posit_to_value_8_0" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR posit_to_value< 8,0,5 >((sw::unum::posit< 8,0 > const &)*arg1);
+  resultobj = SWIG_NewPointerObj((new sw::unum::value< 5 >(static_cast< const sw::unum::value< 5 >& >(result))), SWIGTYPE_p_sw__unum__valueT_5_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Bitblock_31_t_to_ulong(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::bitblock< 31 > *arg1 = (sw::unum::bitblock< 31 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  unsigned long result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Bitblock_31_t_to_ulong",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__bitblockT_31_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Bitblock_31_t_to_ulong" "', argument " "1"" of type '" "sw::unum::bitblock< 31 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::bitblock< 31 > * >(argp1);
+  result = (unsigned long)((sw::unum::bitblock< 31 > const *)arg1)->to_ulong();
+  resultobj = SWIG_From_unsigned_SS_long(static_cast< unsigned long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Bitblock_31_t_to_ullong(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::bitblock< 31 > *arg1 = (sw::unum::bitblock< 31 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  unsigned long long result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Bitblock_31_t_to_ullong",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__bitblockT_31_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Bitblock_31_t_to_ullong" "', argument " "1"" of type '" "sw::unum::bitblock< 31 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::bitblock< 31 > * >(argp1);
+  result = (unsigned long long)((sw::unum::bitblock< 31 > const *)arg1)->to_ullong();
+  resultobj = SWIG_From_unsigned_SS_long_SS_long(static_cast< unsigned long long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Bitblock_31_t(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::bitblock< 31 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)":new_Bitblock_31_t")) SWIG_fail;
+  result = (sw::unum::bitblock< 31 > *)new sw::unum::bitblock< 31 >();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__bitblockT_31_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_Bitblock_31_t(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::bitblock< 31 > *arg1 = (sw::unum::bitblock< 31 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:delete_Bitblock_31_t",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__bitblockT_31_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_Bitblock_31_t" "', argument " "1"" of type '" "sw::unum::bitblock< 31 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::bitblock< 31 > * >(argp1);
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *Bitblock_31_t_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_ParseTuple(args,(char *)"O:swigregister", &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_sw__unum__bitblockT_31_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_bitblock_31_tobitstring__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::bitblock< 31 > arg1 ;
+  bool arg2 ;
+  void *argp1 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  std::string result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:bitblock_31_tobitstring",&obj0,&obj1)) SWIG_fail;
+  {
+    res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__bitblockT_31_t,  0  | 0);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "bitblock_31_tobitstring" "', argument " "1"" of type '" "sw::unum::bitblock< 31 >""'"); 
+    }  
+    if (!argp1) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "bitblock_31_tobitstring" "', argument " "1"" of type '" "sw::unum::bitblock< 31 >""'");
+    } else {
+      sw::unum::bitblock< 31 > * temp = reinterpret_cast< sw::unum::bitblock< 31 > * >(argp1);
+      arg1 = *temp;
+      if (SWIG_IsNewObj(res1)) delete temp;
+    }
+  }
+  ecode2 = SWIG_AsVal_bool(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "bitblock_31_tobitstring" "', argument " "2"" of type '" "bool""'");
+  } 
+  arg2 = static_cast< bool >(val2);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR to_bit_string< 31 >(arg1,arg2);
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_bitblock_31_tobitstring__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::bitblock< 31 > arg1 ;
+  void *argp1 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:bitblock_31_tobitstring",&obj0)) SWIG_fail;
+  {
+    res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__bitblockT_31_t,  0  | 0);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "bitblock_31_tobitstring" "', argument " "1"" of type '" "sw::unum::bitblock< 31 >""'"); 
+    }  
+    if (!argp1) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "bitblock_31_tobitstring" "', argument " "1"" of type '" "sw::unum::bitblock< 31 >""'");
+    } else {
+      sw::unum::bitblock< 31 > * temp = reinterpret_cast< sw::unum::bitblock< 31 > * >(argp1);
+      arg1 = *temp;
+      if (SWIG_IsNewObj(res1)) delete temp;
+    }
+  }
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR to_bit_string< 31 >(arg1);
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_bitblock_31_tobitstring(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__bitblockT_31_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_bitblock_31_tobitstring__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__bitblockT_31_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_bool(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_bitblock_31_tobitstring__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'bitblock_31_tobitstring'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    sw::unum::to_bit_string< 31 >(sw::unum::bitblock< 31 >,bool)\n"
+    "    sw::unum::to_bit_string< 31 >(sw::unum::bitblock< 31 >)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_bitblock_31_tohexstring(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::bitblock< 31 > arg1 ;
+  void *argp1 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:bitblock_31_tohexstring",&obj0)) SWIG_fail;
+  {
+    res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__bitblockT_31_t,  0  | 0);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "bitblock_31_tohexstring" "', argument " "1"" of type '" "sw::unum::bitblock< 31 >""'"); 
+    }  
+    if (!argp1) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "bitblock_31_tohexstring" "', argument " "1"" of type '" "sw::unum::bitblock< 31 >""'");
+    } else {
+      sw::unum::bitblock< 31 > * temp = reinterpret_cast< sw::unum::bitblock< 31 > * >(argp1);
+      arg1 = *temp;
+      if (SWIG_IsNewObj(res1)) delete temp;
+    }
+  }
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR to_hex< 31 >(arg1);
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Value_30_t_to_long_double(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 30 > *arg1 = (sw::unum::value< 30 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  long double result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Value_30_t_to_long_double",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_30_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Value_30_t_to_long_double" "', argument " "1"" of type '" "sw::unum::value< 30 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 30 > * >(argp1);
+  result = (long double)((sw::unum::value< 30 > const *)arg1)->to_long_double();
+  resultobj = SWIG_NewPointerObj((new long double(static_cast< const long double& >(result))), SWIGTYPE_p_long_double, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Value_30_t_to_double(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 30 > *arg1 = (sw::unum::value< 30 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  double result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Value_30_t_to_double",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_30_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Value_30_t_to_double" "', argument " "1"" of type '" "sw::unum::value< 30 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 30 > * >(argp1);
+  result = (double)((sw::unum::value< 30 > const *)arg1)->to_double();
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Value_30_t_to_float(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 30 > *arg1 = (sw::unum::value< 30 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Value_30_t_to_float",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_30_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Value_30_t_to_float" "', argument " "1"" of type '" "sw::unum::value< 30 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 30 > * >(argp1);
+  result = (float)((sw::unum::value< 30 > const *)arg1)->to_float();
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Value_30_t(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 30 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)":new_Value_30_t")) SWIG_fail;
+  result = (sw::unum::value< 30 > *)new sw::unum::value< 30 >();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__valueT_30_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_Value_30_t(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 30 > *arg1 = (sw::unum::value< 30 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:delete_Value_30_t",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_30_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_Value_30_t" "', argument " "1"" of type '" "sw::unum::value< 30 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 30 > * >(argp1);
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *Value_30_t_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_ParseTuple(args,(char *)"O:swigregister", &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_sw__unum__valueT_30_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_value_30_show(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 30 > *arg1 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:value_30_show",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__valueT_30_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "value_30_show" "', argument " "1"" of type '" "sw::unum::value< 30 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "value_30_show" "', argument " "1"" of type '" "sw::unum::value< 30 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 30 > * >(argp1);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR components< 30 >((sw::unum::value< 30 > const &)*arg1);
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Quire_8_0_6_t__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,0,6 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)":new_Quire_8_0_6_t")) SWIG_fail;
+  result = (sw::unum::quire< 8,0,6 > *)new sw::unum::quire< 8,0,6 >();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_8_0_6_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Quire_8_0_6_t__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  int8_t arg1 ;
+  signed char val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::quire< 8,0,6 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Quire_8_0_6_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_signed_SS_char(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Quire_8_0_6_t" "', argument " "1"" of type '" "int8_t""'");
+  } 
+  arg1 = static_cast< int8_t >(val1);
+  result = (sw::unum::quire< 8,0,6 > *)new sw::unum::quire< 8,0,6 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_8_0_6_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Quire_8_0_6_t__SWIG_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  int16_t arg1 ;
+  short val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::quire< 8,0,6 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Quire_8_0_6_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_short(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Quire_8_0_6_t" "', argument " "1"" of type '" "int16_t""'");
+  } 
+  arg1 = static_cast< int16_t >(val1);
+  result = (sw::unum::quire< 8,0,6 > *)new sw::unum::quire< 8,0,6 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_8_0_6_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Quire_8_0_6_t__SWIG_3(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  int32_t arg1 ;
+  int val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::quire< 8,0,6 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Quire_8_0_6_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_int(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Quire_8_0_6_t" "', argument " "1"" of type '" "int32_t""'");
+  } 
+  arg1 = static_cast< int32_t >(val1);
+  result = (sw::unum::quire< 8,0,6 > *)new sw::unum::quire< 8,0,6 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_8_0_6_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Quire_8_0_6_t__SWIG_4(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  int64_t arg1 ;
+  long long val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::quire< 8,0,6 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Quire_8_0_6_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_long_SS_long(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Quire_8_0_6_t" "', argument " "1"" of type '" "int64_t""'");
+  } 
+  arg1 = static_cast< int64_t >(val1);
+  result = (sw::unum::quire< 8,0,6 > *)new sw::unum::quire< 8,0,6 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_8_0_6_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Quire_8_0_6_t__SWIG_5(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  float arg1 ;
+  float val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::quire< 8,0,6 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Quire_8_0_6_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_float(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Quire_8_0_6_t" "', argument " "1"" of type '" "float""'");
+  } 
+  arg1 = static_cast< float >(val1);
+  result = (sw::unum::quire< 8,0,6 > *)new sw::unum::quire< 8,0,6 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_8_0_6_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Quire_8_0_6_t__SWIG_6(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  double arg1 ;
+  double val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::quire< 8,0,6 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Quire_8_0_6_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_double(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Quire_8_0_6_t" "', argument " "1"" of type '" "double""'");
+  } 
+  arg1 = static_cast< double >(val1);
+  result = (sw::unum::quire< 8,0,6 > *)new sw::unum::quire< 8,0,6 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_8_0_6_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Quire_8_0_6_t__SWIG_7(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,0 > *arg1 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::quire< 8,0,6 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Quire_8_0_6_t",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_8_0_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_Quire_8_0_6_t" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_Quire_8_0_6_t" "', argument " "1"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp1);
+  result = (sw::unum::quire< 8,0,6 > *)new sw::unum::quire< 8,0,6 >((sw::unum::posit< 8,0 > const &)*arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_8_0_6_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Quire_8_0_6_t(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[2] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 1) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 0) {
+    return _wrap_new_Quire_8_0_6_t__SWIG_0(self, args);
+  }
+  if (argc == 1) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_Quire_8_0_6_t__SWIG_7(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_signed_SS_char(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Quire_8_0_6_t__SWIG_1(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_short(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Quire_8_0_6_t__SWIG_2(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_int(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Quire_8_0_6_t__SWIG_3(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_long_SS_long(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Quire_8_0_6_t__SWIG_4(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_float(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Quire_8_0_6_t__SWIG_5(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_double(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Quire_8_0_6_t__SWIG_6(self, args);
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'new_Quire_8_0_6_t'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    sw::unum::quire< 8,0,6 >::quire()\n"
+    "    sw::unum::quire< 8,0,6 >::quire(int8_t)\n"
+    "    sw::unum::quire< 8,0,6 >::quire(int16_t)\n"
+    "    sw::unum::quire< 8,0,6 >::quire(int32_t)\n"
+    "    sw::unum::quire< 8,0,6 >::quire(int64_t)\n"
+    "    sw::unum::quire< 8,0,6 >::quire(float)\n"
+    "    sw::unum::quire< 8,0,6 >::quire(double)\n"
+    "    sw::unum::quire< 8,0,6 >::quire(sw::unum::posit< 8,0 > const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_0_6_t_assign__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,0,6 > *arg1 = (sw::unum::quire< 8,0,6 > *) 0 ;
+  int8_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::quire< 8,0,6 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_8_0_6_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_8_0_6_t_assign" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Quire_8_0_6_t_assign" "', argument " "2"" of type '" "int8_t""'");
+  } 
+  arg2 = static_cast< int8_t >(val2);
+  result = (sw::unum::quire< 8,0,6 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_0_6_t_assign__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,0,6 > *arg1 = (sw::unum::quire< 8,0,6 > *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::quire< 8,0,6 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_8_0_6_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_8_0_6_t_assign" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp1);
+  ecode2 = SWIG_AsVal_short(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Quire_8_0_6_t_assign" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  result = (sw::unum::quire< 8,0,6 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_0_6_t_assign__SWIG_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,0,6 > *arg1 = (sw::unum::quire< 8,0,6 > *) 0 ;
+  int32_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::quire< 8,0,6 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_8_0_6_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_8_0_6_t_assign" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Quire_8_0_6_t_assign" "', argument " "2"" of type '" "int32_t""'");
+  } 
+  arg2 = static_cast< int32_t >(val2);
+  result = (sw::unum::quire< 8,0,6 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_0_6_t_assign__SWIG_3(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,0,6 > *arg1 = (sw::unum::quire< 8,0,6 > *) 0 ;
+  int64_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::quire< 8,0,6 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_8_0_6_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_8_0_6_t_assign" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp1);
+  ecode2 = SWIG_AsVal_long_SS_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Quire_8_0_6_t_assign" "', argument " "2"" of type '" "int64_t""'");
+  } 
+  arg2 = static_cast< int64_t >(val2);
+  result = (sw::unum::quire< 8,0,6 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_0_6_t_assign__SWIG_4(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,0,6 > *arg1 = (sw::unum::quire< 8,0,6 > *) 0 ;
+  unsigned long long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned long long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::quire< 8,0,6 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_8_0_6_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_8_0_6_t_assign" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_long_SS_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Quire_8_0_6_t_assign" "', argument " "2"" of type '" "unsigned long long""'");
+  } 
+  arg2 = static_cast< unsigned long long >(val2);
+  result = (sw::unum::quire< 8,0,6 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_0_6_t_assign__SWIG_5(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,0,6 > *arg1 = (sw::unum::quire< 8,0,6 > *) 0 ;
+  float arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  float val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::quire< 8,0,6 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_8_0_6_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_8_0_6_t_assign" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp1);
+  ecode2 = SWIG_AsVal_float(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Quire_8_0_6_t_assign" "', argument " "2"" of type '" "float""'");
+  } 
+  arg2 = static_cast< float >(val2);
+  result = (sw::unum::quire< 8,0,6 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_0_6_t_assign__SWIG_6(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,0,6 > *arg1 = (sw::unum::quire< 8,0,6 > *) 0 ;
+  double arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  double val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::quire< 8,0,6 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_8_0_6_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_8_0_6_t_assign" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp1);
+  ecode2 = SWIG_AsVal_double(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Quire_8_0_6_t_assign" "', argument " "2"" of type '" "double""'");
+  } 
+  arg2 = static_cast< double >(val2);
+  result = (sw::unum::quire< 8,0,6 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_0_6_t_assign__SWIG_7(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,0,6 > *arg1 = (sw::unum::quire< 8,0,6 > *) 0 ;
+  long double arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::quire< 8,0,6 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_8_0_6_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_8_0_6_t_assign" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_long_double,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Quire_8_0_6_t_assign" "', argument " "2"" of type '" "long double""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Quire_8_0_6_t_assign" "', argument " "2"" of type '" "long double""'");
+    } else {
+      long double * temp = reinterpret_cast< long double * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  result = (sw::unum::quire< 8,0,6 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_0_6_t_assign(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_long_double, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_Quire_8_0_6_t_assign__SWIG_7(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_signed_SS_char(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Quire_8_0_6_t_assign__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_short(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Quire_8_0_6_t_assign__SWIG_1(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Quire_8_0_6_t_assign__SWIG_2(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_unsigned_SS_long_SS_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Quire_8_0_6_t_assign__SWIG_4(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long_SS_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Quire_8_0_6_t_assign__SWIG_3(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_float(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Quire_8_0_6_t_assign__SWIG_5(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_double(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Quire_8_0_6_t_assign__SWIG_6(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'Quire_8_0_6_t_assign'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    sw::unum::quire< 8,0,6 >::operator =(int8_t)\n"
+    "    sw::unum::quire< 8,0,6 >::operator =(int16_t)\n"
+    "    sw::unum::quire< 8,0,6 >::operator =(int32_t)\n"
+    "    sw::unum::quire< 8,0,6 >::operator =(int64_t)\n"
+    "    sw::unum::quire< 8,0,6 >::operator =(unsigned long long)\n"
+    "    sw::unum::quire< 8,0,6 >::operator =(float)\n"
+    "    sw::unum::quire< 8,0,6 >::operator =(double)\n"
+    "    sw::unum::quire< 8,0,6 >::operator =(long double)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_0_6_t___iadd____SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,0,6 > *arg1 = (sw::unum::quire< 8,0,6 > *) 0 ;
+  sw::unum::posit< 8,0 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::quire< 8,0,6 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_8_0_6_t___iadd__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_8_0_6_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_8_0_6_t___iadd__" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_0_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Quire_8_0_6_t___iadd__" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Quire_8_0_6_t___iadd__" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp2);
+  result = (sw::unum::quire< 8,0,6 > *) &(arg1)->operator +=((sw::unum::posit< 8,0 > const &)*arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_8_0_6_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_0_6_t___isub____SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,0,6 > *arg1 = (sw::unum::quire< 8,0,6 > *) 0 ;
+  sw::unum::posit< 8,0 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::quire< 8,0,6 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_8_0_6_t___isub__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_8_0_6_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_8_0_6_t___isub__" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_0_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Quire_8_0_6_t___isub__" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Quire_8_0_6_t___isub__" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp2);
+  result = (sw::unum::quire< 8,0,6 > *) &(arg1)->operator -=((sw::unum::posit< 8,0 > const &)*arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_8_0_6_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_0_6_t___iadd____SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,0,6 > *arg1 = (sw::unum::quire< 8,0,6 > *) 0 ;
+  sw::unum::quire< 8,0,6 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::quire< 8,0,6 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_8_0_6_t___iadd__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_8_0_6_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_8_0_6_t___iadd__" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__quireT_8_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Quire_8_0_6_t___iadd__" "', argument " "2"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Quire_8_0_6_t___iadd__" "', argument " "2"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp2);
+  result = (sw::unum::quire< 8,0,6 > *) &(arg1)->operator +=((sw::unum::quire< 8,0,6 > const &)*arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_8_0_6_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_0_6_t___iadd__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_8_0_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_Quire_8_0_6_t___iadd____SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_Quire_8_0_6_t___iadd____SWIG_1(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'Quire_8_0_6_t___iadd__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    sw::unum::quire< 8,0,6 >::operator +=(sw::unum::posit< 8,0 > const &)\n"
+    "    sw::unum::quire< 8,0,6 >::operator +=(sw::unum::quire< 8,0,6 > const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_0_6_t___isub____SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,0,6 > *arg1 = (sw::unum::quire< 8,0,6 > *) 0 ;
+  sw::unum::quire< 8,0,6 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::quire< 8,0,6 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_8_0_6_t___isub__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_8_0_6_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_8_0_6_t___isub__" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__quireT_8_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Quire_8_0_6_t___isub__" "', argument " "2"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Quire_8_0_6_t___isub__" "', argument " "2"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp2);
+  result = (sw::unum::quire< 8,0,6 > *) &(arg1)->operator -=((sw::unum::quire< 8,0,6 > const &)*arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_8_0_6_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_0_6_t___isub__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_8_0_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_Quire_8_0_6_t___isub____SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_Quire_8_0_6_t___isub____SWIG_1(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'Quire_8_0_6_t___isub__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    sw::unum::quire< 8,0,6 >::operator -=(sw::unum::posit< 8,0 > const &)\n"
+    "    sw::unum::quire< 8,0,6 >::operator -=(sw::unum::quire< 8,0,6 > const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_0_6_t_reset(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,0,6 > *arg1 = (sw::unum::quire< 8,0,6 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Quire_8_0_6_t_reset",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_8_0_6_t_reset" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp1);
+  (arg1)->reset();
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_0_6_t_set_sign(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,0,6 > *arg1 = (sw::unum::quire< 8,0,6 > *) 0 ;
+  bool arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_8_0_6_t_set_sign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_8_0_6_t_set_sign" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp1);
+  ecode2 = SWIG_AsVal_bool(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Quire_8_0_6_t_set_sign" "', argument " "2"" of type '" "bool""'");
+  } 
+  arg2 = static_cast< bool >(val2);
+  (arg1)->set_sign(arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_0_6_t_sign(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,0,6 > *arg1 = (sw::unum::quire< 8,0,6 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Quire_8_0_6_t_sign",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_8_0_6_t_sign" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp1);
+  result = (bool)((sw::unum::quire< 8,0,6 > const *)arg1)->sign();
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_0_6_t_load_bits(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,0,6 > *arg1 = (sw::unum::quire< 8,0,6 > *) 0 ;
+  std::string *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_8_0_6_t_load_bits",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_8_0_6_t_load_bits" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(obj1, &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Quire_8_0_6_t_load_bits" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Quire_8_0_6_t_load_bits" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  result = (bool)(arg1)->load_bits((std::string const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_0_6_t_isneg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,0,6 > *arg1 = (sw::unum::quire< 8,0,6 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Quire_8_0_6_t_isneg",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_8_0_6_t_isneg" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp1);
+  result = (bool)((sw::unum::quire< 8,0,6 > const *)arg1)->isneg();
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_0_6_t_ispos(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,0,6 > *arg1 = (sw::unum::quire< 8,0,6 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Quire_8_0_6_t_ispos",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_8_0_6_t_ispos" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp1);
+  result = (bool)((sw::unum::quire< 8,0,6 > const *)arg1)->ispos();
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_0_6_t_iszero(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,0,6 > *arg1 = (sw::unum::quire< 8,0,6 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Quire_8_0_6_t_iszero",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_8_0_6_t_iszero" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp1);
+  result = (bool)((sw::unum::quire< 8,0,6 > const *)arg1)->iszero();
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_Quire_8_0_6_t(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,0,6 > *arg1 = (sw::unum::quire< 8,0,6 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:delete_Quire_8_0_6_t",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_8_0_6_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_Quire_8_0_6_t" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp1);
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *Quire_8_0_6_t_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_ParseTuple(args,(char *)"O:swigregister", &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_sw__unum__quireT_8_0_6_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap___eq____SWIG_4(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,0,6 > *arg1 = 0 ;
+  sw::unum::quire< 8,0,6 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__eq__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_8_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__eq__" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__eq__" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__quireT_8_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__eq__" "', argument " "2"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__eq__" "', argument " "2"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator ==< 8,0,6 >((sw::unum::quire< 8,0,6 > const &)*arg1,(sw::unum::quire< 8,0,6 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___ne____SWIG_3(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,0,6 > *arg1 = 0 ;
+  sw::unum::quire< 8,0,6 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__ne__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_8_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__ne__" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__ne__" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__quireT_8_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__ne__" "', argument " "2"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__ne__" "', argument " "2"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator !=< 8,0,6 >((sw::unum::quire< 8,0,6 > const &)*arg1,(sw::unum::quire< 8,0,6 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___lt____SWIG_4(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,0,6 > *arg1 = 0 ;
+  sw::unum::quire< 8,0,6 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__lt__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_8_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__lt__" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__lt__" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__quireT_8_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__lt__" "', argument " "2"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__lt__" "', argument " "2"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator < < 8,0,6 >((sw::unum::quire< 8,0,6 > const &)*arg1,(sw::unum::quire< 8,0,6 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___gt____SWIG_4(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,0,6 > *arg1 = 0 ;
+  sw::unum::quire< 8,0,6 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__gt__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_8_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__gt__" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__gt__" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__quireT_8_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__gt__" "', argument " "2"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__gt__" "', argument " "2"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator >< 8,0,6 >((sw::unum::quire< 8,0,6 > const &)*arg1,(sw::unum::quire< 8,0,6 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___le____SWIG_3(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,0,6 > *arg1 = 0 ;
+  sw::unum::quire< 8,0,6 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__le__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_8_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__le__" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__le__" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__quireT_8_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__le__" "', argument " "2"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__le__" "', argument " "2"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator <=< 8,0,6 >((sw::unum::quire< 8,0,6 > const &)*arg1,(sw::unum::quire< 8,0,6 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___ge____SWIG_3(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,0,6 > *arg1 = 0 ;
+  sw::unum::quire< 8,0,6 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__ge__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_8_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__ge__" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__ge__" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__quireT_8_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__ge__" "', argument " "2"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__ge__" "', argument " "2"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator >=< 8,0,6 >((sw::unum::quire< 8,0,6 > const &)*arg1,(sw::unum::quire< 8,0,6 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___eq____SWIG_5(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,0,6 > *arg1 = 0 ;
+  sw::unum::value< 5 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__eq__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_8_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__eq__" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__eq__" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__valueT_5_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__eq__" "', argument " "2"" of type '" "sw::unum::value< 5 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__eq__" "', argument " "2"" of type '" "sw::unum::value< 5 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::value< 5 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator ==< 8,0,6,5 >((sw::unum::quire< 8,0,6 > const &)*arg1,(sw::unum::value< 5 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___lt____SWIG_5(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,0,6 > *arg1 = 0 ;
+  sw::unum::value< 5 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__lt__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_8_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__lt__" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__lt__" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__valueT_5_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__lt__" "', argument " "2"" of type '" "sw::unum::value< 5 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__lt__" "', argument " "2"" of type '" "sw::unum::value< 5 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::value< 5 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator < < 8,0,6,5 >((sw::unum::quire< 8,0,6 > const &)*arg1,(sw::unum::value< 5 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___gt____SWIG_5(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,0,6 > *arg1 = 0 ;
+  sw::unum::value< 5 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__gt__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_8_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__gt__" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__gt__" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__valueT_5_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__gt__" "', argument " "2"" of type '" "sw::unum::value< 5 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__gt__" "', argument " "2"" of type '" "sw::unum::value< 5 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::value< 5 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator >< 8,0,6,5 >((sw::unum::quire< 8,0,6 > const &)*arg1,(sw::unum::value< 5 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_quire_abs_8_0_6(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,0,6 > *arg1 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::quire< 8,0,6 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:quire_abs_8_0_6",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_8_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "quire_abs_8_0_6" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "quire_abs_8_0_6" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp1);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR abs< 8,0,6 >((sw::unum::quire< 8,0,6 > const &)*arg1);
+  resultobj = SWIG_NewPointerObj((new sw::unum::quire< 8,0,6 >(static_cast< const sw::unum::quire< 8,0,6 >& >(result))), SWIGTYPE_p_sw__unum__quireT_8_0_6_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_quire_to_value_8_0_6(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,0,6 > *arg1 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::value< 30 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:quire_to_value_8_0_6",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_8_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "quire_to_value_8_0_6" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "quire_to_value_8_0_6" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp1);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR quire_to_value< 8,0,6,30 >((sw::unum::quire< 8,0,6 > const &)*arg1);
+  resultobj = SWIG_NewPointerObj((new sw::unum::value< 30 >(static_cast< const sw::unum::value< 30 >& >(result))), SWIGTYPE_p_sw__unum__valueT_30_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_quire_from_value_8_0_6(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,0,6 > *arg1 = 0 ;
+  sw::unum::value< 30 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:quire_from_value_8_0_6",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_8_0_6_t,  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "quire_from_value_8_0_6" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "quire_from_value_8_0_6" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__valueT_30_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "quire_from_value_8_0_6" "', argument " "2"" of type '" "sw::unum::value< 30 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "quire_from_value_8_0_6" "', argument " "2"" of type '" "sw::unum::value< 30 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::value< 30 > * >(argp2);
+  sw::unum::SWIGTEMPLATEDISAMBIGUATOR quire_from_value< 8,0,6,30 >(*arg1,(sw::unum::value< 30 > const &)*arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_convert_q80_to_p80(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 30 > *arg1 = 0 ;
+  sw::unum::posit< 8,0 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 8,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:convert_q80_to_p80",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__valueT_30_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "convert_q80_to_p80" "', argument " "1"" of type '" "sw::unum::value< 30 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "convert_q80_to_p80" "', argument " "1"" of type '" "sw::unum::value< 30 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 30 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_0_t,  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "convert_q80_to_p80" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "convert_q80_to_p80" "', argument " "2"" of type '" "sw::unum::posit< 8,0 > &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,0 > * >(argp2);
+  result = (sw::unum::posit< 8,0 > *) &sw::unum::SWIGTEMPLATEDISAMBIGUATOR convert< 8,0,30 >((sw::unum::value< 30 > const &)*arg1,*arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_0_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_quire_tobits_8_0_6(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,0,6 > *arg1 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::bitblock< 31 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:quire_tobits_8_0_6",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_8_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "quire_tobits_8_0_6" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "quire_tobits_8_0_6" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp1);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR quire_to_bitblock< 8,0,6,31 >((sw::unum::quire< 8,0,6 > const &)*arg1);
+  resultobj = SWIG_NewPointerObj((new sw::unum::bitblock< 31 >(static_cast< const sw::unum::bitblock< 31 >& >(result))), SWIGTYPE_p_sw__unum__bitblockT_31_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___add____SWIG_3(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,0,6 > *arg1 = 0 ;
+  sw::unum::quire< 8,0,6 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::quire< 8,0,6 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__add__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_8_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__add__" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__add__" "', argument " "1"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__quireT_8_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__add__" "', argument " "2"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__add__" "', argument " "2"" of type '" "sw::unum::quire< 8,0,6 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::quire< 8,0,6 > * >(argp2);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator +< 8,0,6 >((sw::unum::quire< 8,0,6 > const &)*arg1,(sw::unum::quire< 8,0,6 > const &)*arg2);
+  resultobj = SWIG_NewPointerObj((new sw::unum::quire< 8,0,6 >(static_cast< const sw::unum::quire< 8,0,6 >& >(result))), SWIGTYPE_p_sw__unum__quireT_8_0_6_t, SWIG_POINTER_OWN |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -5818,7 +10356,7 @@ SWIGINTERN PyObject *Posit_8_1_t_swigregister(PyObject *SWIGUNUSEDPARM(self), Py
   return SWIG_Py_Void();
 }
 
-SWIGINTERN PyObject *_wrap_to_binary_8_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_posit_to_binary_8_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   sw::unum::posit< 8,1 > *arg1 = 0 ;
   void *argp1 = 0 ;
@@ -5826,13 +10364,13 @@ SWIGINTERN PyObject *_wrap_to_binary_8_1(PyObject *SWIGUNUSEDPARM(self), PyObjec
   PyObject * obj0 = 0 ;
   std::string result;
   
-  if (!PyArg_ParseTuple(args,(char *)"O:to_binary_8_1",&obj0)) SWIG_fail;
+  if (!PyArg_ParseTuple(args,(char *)"O:posit_to_binary_8_1",&obj0)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_8_1_t,  0  | 0);
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "to_binary_8_1" "', argument " "1"" of type '" "sw::unum::posit< 8,1 > const &""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "posit_to_binary_8_1" "', argument " "1"" of type '" "sw::unum::posit< 8,1 > const &""'"); 
   }
   if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "to_binary_8_1" "', argument " "1"" of type '" "sw::unum::posit< 8,1 > const &""'"); 
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "posit_to_binary_8_1" "', argument " "1"" of type '" "sw::unum::posit< 8,1 > const &""'"); 
   }
   arg1 = reinterpret_cast< sw::unum::posit< 8,1 > * >(argp1);
   result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR to_binary< sw::unum::posit< 8,1 > >((sw::unum::posit< 8,1 > const &)*arg1);
@@ -5843,7 +10381,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap___eq____SWIG_3(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap___eq____SWIG_6(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   sw::unum::posit< 8,1 > *arg1 = 0 ;
   sw::unum::posit< 8,1 > *arg2 = 0 ;
@@ -5880,7 +10418,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap___ne____SWIG_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap___ne____SWIG_4(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   sw::unum::posit< 8,1 > *arg1 = 0 ;
   sw::unum::posit< 8,1 > *arg2 = 0 ;
@@ -5917,7 +10455,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap___lt____SWIG_3(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap___lt____SWIG_6(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   sw::unum::posit< 8,1 > *arg1 = 0 ;
   sw::unum::posit< 8,1 > *arg2 = 0 ;
@@ -5954,7 +10492,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap___gt____SWIG_3(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap___gt____SWIG_6(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   sw::unum::posit< 8,1 > *arg1 = 0 ;
   sw::unum::posit< 8,1 > *arg2 = 0 ;
@@ -5991,7 +10529,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap___le____SWIG_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap___le____SWIG_4(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   sw::unum::posit< 8,1 > *arg1 = 0 ;
   sw::unum::posit< 8,1 > *arg2 = 0 ;
@@ -6028,7 +10566,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap___ge____SWIG_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap___ge____SWIG_4(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   sw::unum::posit< 8,1 > *arg1 = 0 ;
   sw::unum::posit< 8,1 > *arg2 = 0 ;
@@ -6065,7 +10603,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap___add____SWIG_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap___add____SWIG_4(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   sw::unum::posit< 8,1 > *arg1 = 0 ;
   sw::unum::posit< 8,1 > *arg2 = 0 ;
@@ -6102,7 +10640,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap___sub__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap___sub____SWIG_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   sw::unum::posit< 8,1 > *arg1 = 0 ;
   sw::unum::posit< 8,1 > *arg2 = 0 ;
@@ -6139,7 +10677,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap___mul__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap___mul____SWIG_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   sw::unum::posit< 8,1 > *arg1 = 0 ;
   sw::unum::posit< 8,1 > *arg2 = 0 ;
@@ -6176,7 +10714,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap___truediv__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap___truediv____SWIG_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   sw::unum::posit< 8,1 > *arg1 = 0 ;
   sw::unum::posit< 8,1 > *arg2 = 0 ;
@@ -8063,7 +12601,7 @@ SWIGINTERN PyObject *Quire_8_1_14_t_swigregister(PyObject *SWIGUNUSEDPARM(self),
   return SWIG_Py_Void();
 }
 
-SWIGINTERN PyObject *_wrap___eq____SWIG_4(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap___eq____SWIG_7(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   sw::unum::quire< 8,1,14 > *arg1 = 0 ;
   sw::unum::quire< 8,1,14 > *arg2 = 0 ;
@@ -8100,7 +12638,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap___ne____SWIG_3(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap___ne____SWIG_5(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   sw::unum::quire< 8,1,14 > *arg1 = 0 ;
   sw::unum::quire< 8,1,14 > *arg2 = 0 ;
@@ -8137,50 +12675,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap___ne__(PyObject *self, PyObject *args) {
-  Py_ssize_t argc;
-  PyObject *argv[3] = {
-    0
-  };
-  Py_ssize_t ii;
-  
-  if (!PyTuple_Check(args)) SWIG_fail;
-  argc = args ? PyObject_Length(args) : 0;
-  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
-    argv[ii] = PyTuple_GET_ITEM(args,ii);
-  }
-  if (argc == 2) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_1_t, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_8_1_t, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap___ne____SWIG_2(self, args);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_8_1_14_t, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__quireT_8_1_14_t, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap___ne____SWIG_3(self, args);
-      }
-    }
-  }
-  
-fail:
-  Py_INCREF(Py_NotImplemented);
-  return Py_NotImplemented;
-}
-
-
-SWIGINTERN PyObject *_wrap___lt____SWIG_4(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap___lt____SWIG_7(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   sw::unum::quire< 8,1,14 > *arg1 = 0 ;
   sw::unum::quire< 8,1,14 > *arg2 = 0 ;
@@ -8217,7 +12712,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap___gt____SWIG_4(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap___gt____SWIG_7(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   sw::unum::quire< 8,1,14 > *arg1 = 0 ;
   sw::unum::quire< 8,1,14 > *arg2 = 0 ;
@@ -8254,7 +12749,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap___le____SWIG_3(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap___le____SWIG_5(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   sw::unum::quire< 8,1,14 > *arg1 = 0 ;
   sw::unum::quire< 8,1,14 > *arg2 = 0 ;
@@ -8291,50 +12786,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap___le__(PyObject *self, PyObject *args) {
-  Py_ssize_t argc;
-  PyObject *argv[3] = {
-    0
-  };
-  Py_ssize_t ii;
-  
-  if (!PyTuple_Check(args)) SWIG_fail;
-  argc = args ? PyObject_Length(args) : 0;
-  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
-    argv[ii] = PyTuple_GET_ITEM(args,ii);
-  }
-  if (argc == 2) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_1_t, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_8_1_t, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap___le____SWIG_2(self, args);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_8_1_14_t, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__quireT_8_1_14_t, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap___le____SWIG_3(self, args);
-      }
-    }
-  }
-  
-fail:
-  Py_INCREF(Py_NotImplemented);
-  return Py_NotImplemented;
-}
-
-
-SWIGINTERN PyObject *_wrap___ge____SWIG_3(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap___ge____SWIG_5(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   sw::unum::quire< 8,1,14 > *arg1 = 0 ;
   sw::unum::quire< 8,1,14 > *arg2 = 0 ;
@@ -8371,50 +12823,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap___ge__(PyObject *self, PyObject *args) {
-  Py_ssize_t argc;
-  PyObject *argv[3] = {
-    0
-  };
-  Py_ssize_t ii;
-  
-  if (!PyTuple_Check(args)) SWIG_fail;
-  argc = args ? PyObject_Length(args) : 0;
-  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
-    argv[ii] = PyTuple_GET_ITEM(args,ii);
-  }
-  if (argc == 2) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_1_t, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_8_1_t, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap___ge____SWIG_2(self, args);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_8_1_14_t, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__quireT_8_1_14_t, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap___ge____SWIG_3(self, args);
-      }
-    }
-  }
-  
-fail:
-  Py_INCREF(Py_NotImplemented);
-  return Py_NotImplemented;
-}
-
-
-SWIGINTERN PyObject *_wrap___eq____SWIG_5(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap___eq____SWIG_8(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   sw::unum::quire< 8,1,14 > *arg1 = 0 ;
   sw::unum::value< 4 > *arg2 = 0 ;
@@ -8451,62 +12860,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap___eq__(PyObject *self, PyObject *args) {
-  Py_ssize_t argc;
-  PyObject *argv[3] = {
-    0
-  };
-  Py_ssize_t ii;
-  
-  if (!PyTuple_Check(args)) SWIG_fail;
-  argc = args ? PyObject_Length(args) : 0;
-  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
-    argv[ii] = PyTuple_GET_ITEM(args,ii);
-  }
-  if (argc == 2) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_1_t, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_8_1_t, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap___eq____SWIG_3(self, args);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_8_1_14_t, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__quireT_8_1_14_t, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap___eq____SWIG_4(self, args);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_8_1_14_t, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__valueT_4_t, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap___eq____SWIG_5(self, args);
-      }
-    }
-  }
-  
-fail:
-  Py_INCREF(Py_NotImplemented);
-  return Py_NotImplemented;
-}
-
-
-SWIGINTERN PyObject *_wrap___lt____SWIG_5(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap___lt____SWIG_8(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   sw::unum::quire< 8,1,14 > *arg1 = 0 ;
   sw::unum::value< 4 > *arg2 = 0 ;
@@ -8543,62 +12897,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap___lt__(PyObject *self, PyObject *args) {
-  Py_ssize_t argc;
-  PyObject *argv[3] = {
-    0
-  };
-  Py_ssize_t ii;
-  
-  if (!PyTuple_Check(args)) SWIG_fail;
-  argc = args ? PyObject_Length(args) : 0;
-  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
-    argv[ii] = PyTuple_GET_ITEM(args,ii);
-  }
-  if (argc == 2) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_1_t, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_8_1_t, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap___lt____SWIG_3(self, args);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_8_1_14_t, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__quireT_8_1_14_t, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap___lt____SWIG_4(self, args);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_8_1_14_t, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__valueT_4_t, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap___lt____SWIG_5(self, args);
-      }
-    }
-  }
-  
-fail:
-  Py_INCREF(Py_NotImplemented);
-  return Py_NotImplemented;
-}
-
-
-SWIGINTERN PyObject *_wrap___gt____SWIG_5(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap___gt____SWIG_8(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   sw::unum::quire< 8,1,14 > *arg1 = 0 ;
   sw::unum::value< 4 > *arg2 = 0 ;
@@ -8632,61 +12931,6 @@ SWIGINTERN PyObject *_wrap___gt____SWIG_5(PyObject *SWIGUNUSEDPARM(self), PyObje
   return resultobj;
 fail:
   return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap___gt__(PyObject *self, PyObject *args) {
-  Py_ssize_t argc;
-  PyObject *argv[3] = {
-    0
-  };
-  Py_ssize_t ii;
-  
-  if (!PyTuple_Check(args)) SWIG_fail;
-  argc = args ? PyObject_Length(args) : 0;
-  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
-    argv[ii] = PyTuple_GET_ITEM(args,ii);
-  }
-  if (argc == 2) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_1_t, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_8_1_t, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap___gt____SWIG_3(self, args);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_8_1_14_t, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__quireT_8_1_14_t, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap___gt____SWIG_4(self, args);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_8_1_14_t, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__valueT_4_t, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap___gt____SWIG_5(self, args);
-      }
-    }
-  }
-  
-fail:
-  Py_INCREF(Py_NotImplemented);
-  return Py_NotImplemented;
 }
 
 
@@ -8776,7 +13020,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_convert_q8_to_p8(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_convert_q81_to_p81(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   sw::unum::value< 62 > *arg1 = 0 ;
   sw::unum::posit< 8,1 > *arg2 = 0 ;
@@ -8788,21 +13032,21 @@ SWIGINTERN PyObject *_wrap_convert_q8_to_p8(PyObject *SWIGUNUSEDPARM(self), PyOb
   PyObject * obj1 = 0 ;
   sw::unum::posit< 8,1 > *result = 0 ;
   
-  if (!PyArg_ParseTuple(args,(char *)"OO:convert_q8_to_p8",&obj0,&obj1)) SWIG_fail;
+  if (!PyArg_ParseTuple(args,(char *)"OO:convert_q81_to_p81",&obj0,&obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__valueT_62_t,  0  | 0);
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "convert_q8_to_p8" "', argument " "1"" of type '" "sw::unum::value< 62 > const &""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "convert_q81_to_p81" "', argument " "1"" of type '" "sw::unum::value< 62 > const &""'"); 
   }
   if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "convert_q8_to_p8" "', argument " "1"" of type '" "sw::unum::value< 62 > const &""'"); 
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "convert_q81_to_p81" "', argument " "1"" of type '" "sw::unum::value< 62 > const &""'"); 
   }
   arg1 = reinterpret_cast< sw::unum::value< 62 > * >(argp1);
   res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_1_t,  0 );
   if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "convert_q8_to_p8" "', argument " "2"" of type '" "sw::unum::posit< 8,1 > &""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "convert_q81_to_p81" "', argument " "2"" of type '" "sw::unum::posit< 8,1 > &""'"); 
   }
   if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "convert_q8_to_p8" "', argument " "2"" of type '" "sw::unum::posit< 8,1 > &""'"); 
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "convert_q81_to_p81" "', argument " "2"" of type '" "sw::unum::posit< 8,1 > &""'"); 
   }
   arg2 = reinterpret_cast< sw::unum::posit< 8,1 > * >(argp2);
   result = (sw::unum::posit< 8,1 > *) &sw::unum::SWIGTEMPLATEDISAMBIGUATOR convert< 8,1,62 >((sw::unum::value< 62 > const &)*arg1,*arg2);
@@ -8838,7 +13082,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap___add____SWIG_3(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap___add____SWIG_5(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   sw::unum::quire< 8,1,14 > *arg1 = 0 ;
   sw::unum::quire< 8,1,14 > *arg2 = 0 ;
@@ -8875,6 +13119,10196 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_Value_3_t_to_long_double(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 3 > *arg1 = (sw::unum::value< 3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  long double result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Value_3_t_to_long_double",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Value_3_t_to_long_double" "', argument " "1"" of type '" "sw::unum::value< 3 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 3 > * >(argp1);
+  result = (long double)((sw::unum::value< 3 > const *)arg1)->to_long_double();
+  resultobj = SWIG_NewPointerObj((new long double(static_cast< const long double& >(result))), SWIGTYPE_p_long_double, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Value_3_t_to_double(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 3 > *arg1 = (sw::unum::value< 3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  double result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Value_3_t_to_double",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Value_3_t_to_double" "', argument " "1"" of type '" "sw::unum::value< 3 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 3 > * >(argp1);
+  result = (double)((sw::unum::value< 3 > const *)arg1)->to_double();
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Value_3_t_to_float(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 3 > *arg1 = (sw::unum::value< 3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Value_3_t_to_float",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Value_3_t_to_float" "', argument " "1"" of type '" "sw::unum::value< 3 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 3 > * >(argp1);
+  result = (float)((sw::unum::value< 3 > const *)arg1)->to_float();
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Value_3_t(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 3 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)":new_Value_3_t")) SWIG_fail;
+  result = (sw::unum::value< 3 > *)new sw::unum::value< 3 >();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__valueT_3_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_Value_3_t(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 3 > *arg1 = (sw::unum::value< 3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:delete_Value_3_t",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_3_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_Value_3_t" "', argument " "1"" of type '" "sw::unum::value< 3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 3 > * >(argp1);
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *Value_3_t_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_ParseTuple(args,(char *)"O:swigregister", &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_sw__unum__valueT_3_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_Value_13_t_to_long_double(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 13 > *arg1 = (sw::unum::value< 13 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  long double result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Value_13_t_to_long_double",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_13_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Value_13_t_to_long_double" "', argument " "1"" of type '" "sw::unum::value< 13 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 13 > * >(argp1);
+  result = (long double)((sw::unum::value< 13 > const *)arg1)->to_long_double();
+  resultobj = SWIG_NewPointerObj((new long double(static_cast< const long double& >(result))), SWIGTYPE_p_long_double, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Value_13_t_to_double(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 13 > *arg1 = (sw::unum::value< 13 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  double result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Value_13_t_to_double",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_13_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Value_13_t_to_double" "', argument " "1"" of type '" "sw::unum::value< 13 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 13 > * >(argp1);
+  result = (double)((sw::unum::value< 13 > const *)arg1)->to_double();
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Value_13_t_to_float(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 13 > *arg1 = (sw::unum::value< 13 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Value_13_t_to_float",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_13_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Value_13_t_to_float" "', argument " "1"" of type '" "sw::unum::value< 13 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 13 > * >(argp1);
+  result = (float)((sw::unum::value< 13 > const *)arg1)->to_float();
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Value_13_t(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 13 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)":new_Value_13_t")) SWIG_fail;
+  result = (sw::unum::value< 13 > *)new sw::unum::value< 13 >();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__valueT_13_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_Value_13_t(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 13 > *arg1 = (sw::unum::value< 13 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:delete_Value_13_t",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_13_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_Value_13_t" "', argument " "1"" of type '" "sw::unum::value< 13 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 13 > * >(argp1);
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *Value_13_t_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_ParseTuple(args,(char *)"O:swigregister", &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_sw__unum__valueT_13_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_Value_18_t_to_long_double(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 18 > *arg1 = (sw::unum::value< 18 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  long double result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Value_18_t_to_long_double",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_18_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Value_18_t_to_long_double" "', argument " "1"" of type '" "sw::unum::value< 18 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 18 > * >(argp1);
+  result = (long double)((sw::unum::value< 18 > const *)arg1)->to_long_double();
+  resultobj = SWIG_NewPointerObj((new long double(static_cast< const long double& >(result))), SWIGTYPE_p_long_double, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Value_18_t_to_double(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 18 > *arg1 = (sw::unum::value< 18 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  double result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Value_18_t_to_double",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_18_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Value_18_t_to_double" "', argument " "1"" of type '" "sw::unum::value< 18 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 18 > * >(argp1);
+  result = (double)((sw::unum::value< 18 > const *)arg1)->to_double();
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Value_18_t_to_float(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 18 > *arg1 = (sw::unum::value< 18 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Value_18_t_to_float",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_18_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Value_18_t_to_float" "', argument " "1"" of type '" "sw::unum::value< 18 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 18 > * >(argp1);
+  result = (float)((sw::unum::value< 18 > const *)arg1)->to_float();
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Value_18_t(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 18 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)":new_Value_18_t")) SWIG_fail;
+  result = (sw::unum::value< 18 > *)new sw::unum::value< 18 >();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__valueT_18_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_Value_18_t(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 18 > *arg1 = (sw::unum::value< 18 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:delete_Value_18_t",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_18_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_Value_18_t" "', argument " "1"" of type '" "sw::unum::value< 18 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 18 > * >(argp1);
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *Value_18_t_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_ParseTuple(args,(char *)"O:swigregister", &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_sw__unum__valueT_18_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_new_Posit_8_2_t__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)":new_Posit_8_2_t")) SWIG_fail;
+  result = (sw::unum::posit< 8,2 > *)new sw::unum::posit< 8,2 >();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_2_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Posit_8_2_t__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 8,2 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Posit_8_2_t",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_8_2_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_Posit_8_2_t" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_Posit_8_2_t" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  result = (sw::unum::posit< 8,2 > *)new sw::unum::posit< 8,2 >((sw::unum::posit< 8,2 > const &)*arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_2_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Posit_8_2_t__SWIG_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  signed char arg1 ;
+  signed char val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 8,2 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Posit_8_2_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_signed_SS_char(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Posit_8_2_t" "', argument " "1"" of type '" "signed char""'");
+  } 
+  arg1 = static_cast< signed char >(val1);
+  result = (sw::unum::posit< 8,2 > *)new sw::unum::posit< 8,2 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_2_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Posit_8_2_t__SWIG_3(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  char arg1 ;
+  char val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 8,2 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Posit_8_2_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_char(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Posit_8_2_t" "', argument " "1"" of type '" "char""'");
+  } 
+  arg1 = static_cast< char >(val1);
+  result = (sw::unum::posit< 8,2 > *)new sw::unum::posit< 8,2 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_2_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Posit_8_2_t__SWIG_4(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  short arg1 ;
+  short val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 8,2 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Posit_8_2_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_short(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Posit_8_2_t" "', argument " "1"" of type '" "short""'");
+  } 
+  arg1 = static_cast< short >(val1);
+  result = (sw::unum::posit< 8,2 > *)new sw::unum::posit< 8,2 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_2_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Posit_8_2_t__SWIG_5(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  int arg1 ;
+  int val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 8,2 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Posit_8_2_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_int(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Posit_8_2_t" "', argument " "1"" of type '" "int""'");
+  } 
+  arg1 = static_cast< int >(val1);
+  result = (sw::unum::posit< 8,2 > *)new sw::unum::posit< 8,2 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_2_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Posit_8_2_t__SWIG_6(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  float arg1 ;
+  float val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 8,2 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Posit_8_2_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_float(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Posit_8_2_t" "', argument " "1"" of type '" "float""'");
+  } 
+  arg1 = static_cast< float >(val1);
+  result = (sw::unum::posit< 8,2 > *)new sw::unum::posit< 8,2 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_2_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Posit_8_2_t__SWIG_7(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  double arg1 ;
+  double val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 8,2 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Posit_8_2_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_double(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Posit_8_2_t" "', argument " "1"" of type '" "double""'");
+  } 
+  arg1 = static_cast< double >(val1);
+  result = (sw::unum::posit< 8,2 > *)new sw::unum::posit< 8,2 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_2_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Posit_8_2_t__SWIG_8(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  long double arg1 ;
+  void *argp1 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 8,2 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Posit_8_2_t",&obj0)) SWIG_fail;
+  {
+    res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_long_double,  0  | 0);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_Posit_8_2_t" "', argument " "1"" of type '" "long double const""'"); 
+    }  
+    if (!argp1) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_Posit_8_2_t" "', argument " "1"" of type '" "long double const""'");
+    } else {
+      long double * temp = reinterpret_cast< long double * >(argp1);
+      arg1 = *temp;
+      if (SWIG_IsNewObj(res1)) delete temp;
+    }
+  }
+  result = (sw::unum::posit< 8,2 > *)new sw::unum::posit< 8,2 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_2_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Posit_8_2_t__SWIG_9(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  unsigned int arg1 ;
+  unsigned int val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 8,2 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Posit_8_2_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_unsigned_SS_int(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Posit_8_2_t" "', argument " "1"" of type '" "unsigned int""'");
+  } 
+  arg1 = static_cast< unsigned int >(val1);
+  result = (sw::unum::posit< 8,2 > *)new sw::unum::posit< 8,2 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_2_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Posit_8_2_t__SWIG_10(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  unsigned long long arg1 ;
+  unsigned long long val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 8,2 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Posit_8_2_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_unsigned_SS_long_SS_long(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Posit_8_2_t" "', argument " "1"" of type '" "unsigned long long""'");
+  } 
+  arg1 = static_cast< unsigned long long >(val1);
+  result = (sw::unum::posit< 8,2 > *)new sw::unum::posit< 8,2 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_2_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Posit_8_2_t(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[2] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 1) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 0) {
+    return _wrap_new_Posit_8_2_t__SWIG_0(self, args);
+  }
+  if (argc == 1) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_2_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_Posit_8_2_t__SWIG_1(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_long_double, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_Posit_8_2_t__SWIG_8(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_signed_SS_char(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Posit_8_2_t__SWIG_2(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_short(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Posit_8_2_t__SWIG_4(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_unsigned_SS_int(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Posit_8_2_t__SWIG_9(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_int(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Posit_8_2_t__SWIG_5(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_unsigned_SS_long_SS_long(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Posit_8_2_t__SWIG_10(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_float(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Posit_8_2_t__SWIG_6(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_double(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Posit_8_2_t__SWIG_7(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_char(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Posit_8_2_t__SWIG_3(self, args);
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'new_Posit_8_2_t'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    sw::unum::posit< 8,2 >::posit()\n"
+    "    sw::unum::posit< 8,2 >::posit(sw::unum::posit< 8,2 > const &)\n"
+    "    sw::unum::posit< 8,2 >::posit(signed char const)\n"
+    "    sw::unum::posit< 8,2 >::posit(char const)\n"
+    "    sw::unum::posit< 8,2 >::posit(short const)\n"
+    "    sw::unum::posit< 8,2 >::posit(int const)\n"
+    "    sw::unum::posit< 8,2 >::posit(float const)\n"
+    "    sw::unum::posit< 8,2 >::posit(double const)\n"
+    "    sw::unum::posit< 8,2 >::posit(long double const)\n"
+    "    sw::unum::posit< 8,2 >::posit(unsigned int const)\n"
+    "    sw::unum::posit< 8,2 >::posit(unsigned long long const)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_2_t_to_int(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = (sw::unum::posit< 8,2 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_2_t_to_int",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_2_t_to_int" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  result = (int)((sw::unum::posit< 8,2 > const *)arg1)->operator int();
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_2_t_to_long(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = (sw::unum::posit< 8,2 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  long result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_2_t_to_long",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_2_t_to_long" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  result = (long)((sw::unum::posit< 8,2 > const *)arg1)->operator long();
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_2_t_to_long_long(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = (sw::unum::posit< 8,2 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  long long result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_2_t_to_long_long",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_2_t_to_long_long" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  result = (long long)((sw::unum::posit< 8,2 > const *)arg1)->operator long long();
+  resultobj = SWIG_From_long_SS_long(static_cast< long long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_2_t_to_float(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = (sw::unum::posit< 8,2 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_2_t_to_float",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_2_t_to_float" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  result = (float)((sw::unum::posit< 8,2 > const *)arg1)->operator float();
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_2_t_to_double(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = (sw::unum::posit< 8,2 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  double result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_2_t_to_double",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_2_t_to_double" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  result = (double)((sw::unum::posit< 8,2 > const *)arg1)->operator double();
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_2_t_to_long_double(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = (sw::unum::posit< 8,2 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  long double result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_2_t_to_long_double",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_2_t_to_long_double" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  result = (long double)((sw::unum::posit< 8,2 > const *)arg1)->operator long double();
+  resultobj = SWIG_NewPointerObj((new long double(static_cast< const long double& >(result))), SWIGTYPE_p_long_double, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_2_t_assign__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = (sw::unum::posit< 8,2 > *) 0 ;
+  signed char arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 8,2 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Posit_8_2_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_2_t_assign" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Posit_8_2_t_assign" "', argument " "2"" of type '" "signed char""'");
+  } 
+  arg2 = static_cast< signed char >(val2);
+  result = (sw::unum::posit< 8,2 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_2_t_assign__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = (sw::unum::posit< 8,2 > *) 0 ;
+  char arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  char val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 8,2 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Posit_8_2_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_2_t_assign" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  ecode2 = SWIG_AsVal_char(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Posit_8_2_t_assign" "', argument " "2"" of type '" "char""'");
+  } 
+  arg2 = static_cast< char >(val2);
+  result = (sw::unum::posit< 8,2 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_2_t_assign__SWIG_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = (sw::unum::posit< 8,2 > *) 0 ;
+  short arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 8,2 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Posit_8_2_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_2_t_assign" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  ecode2 = SWIG_AsVal_short(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Posit_8_2_t_assign" "', argument " "2"" of type '" "short""'");
+  } 
+  arg2 = static_cast< short >(val2);
+  result = (sw::unum::posit< 8,2 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_2_t_assign__SWIG_3(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = (sw::unum::posit< 8,2 > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 8,2 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Posit_8_2_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_2_t_assign" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Posit_8_2_t_assign" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  result = (sw::unum::posit< 8,2 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_2_t_assign__SWIG_4(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = (sw::unum::posit< 8,2 > *) 0 ;
+  long long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 8,2 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Posit_8_2_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_2_t_assign" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  ecode2 = SWIG_AsVal_long_SS_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Posit_8_2_t_assign" "', argument " "2"" of type '" "long long""'");
+  } 
+  arg2 = static_cast< long long >(val2);
+  result = (sw::unum::posit< 8,2 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_2_t_assign__SWIG_5(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = (sw::unum::posit< 8,2 > *) 0 ;
+  float arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  float val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 8,2 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Posit_8_2_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_2_t_assign" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  ecode2 = SWIG_AsVal_float(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Posit_8_2_t_assign" "', argument " "2"" of type '" "float""'");
+  } 
+  arg2 = static_cast< float >(val2);
+  result = (sw::unum::posit< 8,2 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_2_t_assign__SWIG_6(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = (sw::unum::posit< 8,2 > *) 0 ;
+  double arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  double val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 8,2 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Posit_8_2_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_2_t_assign" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  ecode2 = SWIG_AsVal_double(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Posit_8_2_t_assign" "', argument " "2"" of type '" "double""'");
+  } 
+  arg2 = static_cast< double >(val2);
+  result = (sw::unum::posit< 8,2 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_2_t_assign__SWIG_7(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = (sw::unum::posit< 8,2 > *) 0 ;
+  long double arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 8,2 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Posit_8_2_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_2_t_assign" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_long_double,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Posit_8_2_t_assign" "', argument " "2"" of type '" "long double const""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Posit_8_2_t_assign" "', argument " "2"" of type '" "long double const""'");
+    } else {
+      long double * temp = reinterpret_cast< long double * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  result = (sw::unum::posit< 8,2 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_2_t_assign(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__positT_8_2_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_long_double, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_Posit_8_2_t_assign__SWIG_7(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__positT_8_2_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_signed_SS_char(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Posit_8_2_t_assign__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__positT_8_2_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_short(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Posit_8_2_t_assign__SWIG_2(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__positT_8_2_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Posit_8_2_t_assign__SWIG_3(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__positT_8_2_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long_SS_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Posit_8_2_t_assign__SWIG_4(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__positT_8_2_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_float(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Posit_8_2_t_assign__SWIG_5(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__positT_8_2_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_double(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Posit_8_2_t_assign__SWIG_6(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__positT_8_2_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_char(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Posit_8_2_t_assign__SWIG_1(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'Posit_8_2_t_assign'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    sw::unum::posit< 8,2 >::operator =(signed char const)\n"
+    "    sw::unum::posit< 8,2 >::operator =(char const)\n"
+    "    sw::unum::posit< 8,2 >::operator =(short const)\n"
+    "    sw::unum::posit< 8,2 >::operator =(int const)\n"
+    "    sw::unum::posit< 8,2 >::operator =(long long const)\n"
+    "    sw::unum::posit< 8,2 >::operator =(float const)\n"
+    "    sw::unum::posit< 8,2 >::operator =(double const)\n"
+    "    sw::unum::posit< 8,2 >::operator =(long double const)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_2_t___neg__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = (sw::unum::posit< 8,2 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 8,2 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_2_t___neg__",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_2_t___neg__" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  result = ((sw::unum::posit< 8,2 > const *)arg1)->operator -();
+  resultobj = SWIG_NewPointerObj((new sw::unum::posit< 8,2 >(static_cast< const sw::unum::posit< 8,2 >& >(result))), SWIGTYPE_p_sw__unum__positT_8_2_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_2_t___pos__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = (sw::unum::posit< 8,2 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 8,2 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_2_t___pos__",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_2_t___pos__" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  result = ((sw::unum::posit< 8,2 > const *)arg1)->operator +();
+  resultobj = SWIG_NewPointerObj((new sw::unum::posit< 8,2 >(static_cast< const sw::unum::posit< 8,2 >& >(result))), SWIGTYPE_p_sw__unum__positT_8_2_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_2_t___iadd__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = (sw::unum::posit< 8,2 > *) 0 ;
+  sw::unum::posit< 8,2 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 8,2 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Posit_8_2_t___iadd__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_2_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_2_t___iadd__" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_2_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Posit_8_2_t___iadd__" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Posit_8_2_t___iadd__" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp2);
+  result = (sw::unum::posit< 8,2 > *) &(arg1)->operator +=((sw::unum::posit< 8,2 > const &)*arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_2_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_2_t___isub__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = (sw::unum::posit< 8,2 > *) 0 ;
+  sw::unum::posit< 8,2 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 8,2 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Posit_8_2_t___isub__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_2_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_2_t___isub__" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_2_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Posit_8_2_t___isub__" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Posit_8_2_t___isub__" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp2);
+  result = (sw::unum::posit< 8,2 > *) &(arg1)->operator -=((sw::unum::posit< 8,2 > const &)*arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_2_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_2_t___imul__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = (sw::unum::posit< 8,2 > *) 0 ;
+  sw::unum::posit< 8,2 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 8,2 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Posit_8_2_t___imul__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_2_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_2_t___imul__" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_2_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Posit_8_2_t___imul__" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Posit_8_2_t___imul__" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp2);
+  result = (sw::unum::posit< 8,2 > *) &(arg1)->operator *=((sw::unum::posit< 8,2 > const &)*arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_2_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_2_t___itruediv__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = (sw::unum::posit< 8,2 > *) 0 ;
+  sw::unum::posit< 8,2 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 8,2 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Posit_8_2_t___itruediv__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_2_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_2_t___itruediv__" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_2_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Posit_8_2_t___itruediv__" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Posit_8_2_t___itruediv__" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp2);
+  result = (sw::unum::posit< 8,2 > *) &(arg1)->operator /=((sw::unum::posit< 8,2 > const &)*arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_2_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_2_t_increment(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = (sw::unum::posit< 8,2 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 8,2 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_2_t_increment",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_2_t_increment" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  result = (sw::unum::posit< 8,2 > *) &(arg1)->operator ++();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_2_t_decrement(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = (sw::unum::posit< 8,2 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 8,2 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_2_t_decrement",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_2_t_decrement" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  result = (sw::unum::posit< 8,2 > *) &(arg1)->operator --();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_2_t_reciprocate(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = (sw::unum::posit< 8,2 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 8,2 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_2_t_reciprocate",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_2_t_reciprocate" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  result = ((sw::unum::posit< 8,2 > const *)arg1)->reciprocate();
+  resultobj = SWIG_NewPointerObj((new sw::unum::posit< 8,2 >(static_cast< const sw::unum::posit< 8,2 >& >(result))), SWIGTYPE_p_sw__unum__positT_8_2_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_2_t_set_raw_bits(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = (sw::unum::posit< 8,2 > *) 0 ;
+  uint64_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned long long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 8,2 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Posit_8_2_t_set_raw_bits",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_2_t_set_raw_bits" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_long_SS_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Posit_8_2_t_set_raw_bits" "', argument " "2"" of type '" "uint64_t""'");
+  } 
+  arg2 = static_cast< uint64_t >(val2);
+  result = (sw::unum::posit< 8,2 > *) &(arg1)->set_raw_bits(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_2_t_abs(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = (sw::unum::posit< 8,2 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 8,2 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_2_t_abs",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_2_t_abs" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  result = ((sw::unum::posit< 8,2 > const *)arg1)->abs();
+  resultobj = SWIG_NewPointerObj((new sw::unum::posit< 8,2 >(static_cast< const sw::unum::posit< 8,2 >& >(result))), SWIGTYPE_p_sw__unum__positT_8_2_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_2_t_isnar(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = (sw::unum::posit< 8,2 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_2_t_isnar",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_2_t_isnar" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  result = (bool)((sw::unum::posit< 8,2 > const *)arg1)->isnar();
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_2_t_iszero(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = (sw::unum::posit< 8,2 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_2_t_iszero",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_2_t_iszero" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  result = (bool)((sw::unum::posit< 8,2 > const *)arg1)->iszero();
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_2_t_isone(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = (sw::unum::posit< 8,2 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_2_t_isone",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_2_t_isone" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  result = (bool)((sw::unum::posit< 8,2 > const *)arg1)->isone();
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_2_t_isminusone(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = (sw::unum::posit< 8,2 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_2_t_isminusone",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_2_t_isminusone" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  result = (bool)((sw::unum::posit< 8,2 > const *)arg1)->isminusone();
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_2_t_isneg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = (sw::unum::posit< 8,2 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_2_t_isneg",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_2_t_isneg" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  result = (bool)((sw::unum::posit< 8,2 > const *)arg1)->isneg();
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_2_t_ispos(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = (sw::unum::posit< 8,2 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_2_t_ispos",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_2_t_ispos" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  result = (bool)((sw::unum::posit< 8,2 > const *)arg1)->ispos();
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_2_t_ispowerof2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = (sw::unum::posit< 8,2 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_2_t_ispowerof2",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_2_t_ispowerof2" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  result = (bool)((sw::unum::posit< 8,2 > const *)arg1)->ispowerof2();
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_2_t_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = (sw::unum::posit< 8,2 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::bitblock< 8 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_2_t_get",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_2_t_get" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  result = ((sw::unum::posit< 8,2 > const *)arg1)->get();
+  resultobj = SWIG_NewPointerObj((new sw::unum::bitblock< 8 >(static_cast< const sw::unum::bitblock< 8 >& >(result))), SWIGTYPE_p_sw__unum__bitblockT_8_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_8_2_t_cfg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = (sw::unum::posit< 8,2 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_8_2_t_cfg",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_8_2_t_cfg" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  result = (arg1)->cfg();
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_Posit_8_2_t(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = (sw::unum::posit< 8,2 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:delete_Posit_8_2_t",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_8_2_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_Posit_8_2_t" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *Posit_8_2_t_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_ParseTuple(args,(char *)"O:swigregister", &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_sw__unum__positT_8_2_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_posit_to_binary_8_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:posit_to_binary_8_2",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_8_2_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "posit_to_binary_8_2" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "posit_to_binary_8_2" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR to_binary< sw::unum::posit< 8,2 > >((sw::unum::posit< 8,2 > const &)*arg1);
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___eq____SWIG_9(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = 0 ;
+  sw::unum::posit< 8,2 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__eq__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_8_2_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__eq__" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__eq__" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_2_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__eq__" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__eq__" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator ==< 8,2 >((sw::unum::posit< 8,2 > const &)*arg1,(sw::unum::posit< 8,2 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___ne____SWIG_6(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = 0 ;
+  sw::unum::posit< 8,2 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__ne__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_8_2_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__ne__" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__ne__" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_2_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__ne__" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__ne__" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator !=< 8,2 >((sw::unum::posit< 8,2 > const &)*arg1,(sw::unum::posit< 8,2 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___lt____SWIG_9(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = 0 ;
+  sw::unum::posit< 8,2 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__lt__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_8_2_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__lt__" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__lt__" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_2_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__lt__" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__lt__" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator < < 8,2 >((sw::unum::posit< 8,2 > const &)*arg1,(sw::unum::posit< 8,2 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___gt____SWIG_9(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = 0 ;
+  sw::unum::posit< 8,2 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__gt__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_8_2_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__gt__" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__gt__" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_2_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__gt__" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__gt__" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator >< 8,2 >((sw::unum::posit< 8,2 > const &)*arg1,(sw::unum::posit< 8,2 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___le____SWIG_6(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = 0 ;
+  sw::unum::posit< 8,2 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__le__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_8_2_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__le__" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__le__" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_2_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__le__" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__le__" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator <=< 8,2 >((sw::unum::posit< 8,2 > const &)*arg1,(sw::unum::posit< 8,2 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___ge____SWIG_6(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = 0 ;
+  sw::unum::posit< 8,2 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__ge__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_8_2_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__ge__" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__ge__" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_2_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__ge__" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__ge__" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator >=< 8,2 >((sw::unum::posit< 8,2 > const &)*arg1,(sw::unum::posit< 8,2 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___add____SWIG_6(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = 0 ;
+  sw::unum::posit< 8,2 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 8,2 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__add__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_8_2_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__add__" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__add__" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_2_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__add__" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__add__" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp2);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator +< 8,2 >((sw::unum::posit< 8,2 > const &)*arg1,(sw::unum::posit< 8,2 > const &)*arg2);
+  resultobj = SWIG_NewPointerObj((new sw::unum::posit< 8,2 >(static_cast< const sw::unum::posit< 8,2 >& >(result))), SWIGTYPE_p_sw__unum__positT_8_2_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___sub____SWIG_3(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = 0 ;
+  sw::unum::posit< 8,2 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 8,2 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__sub__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_8_2_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__sub__" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__sub__" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_2_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__sub__" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__sub__" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp2);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator -< 8,2 >((sw::unum::posit< 8,2 > const &)*arg1,(sw::unum::posit< 8,2 > const &)*arg2);
+  resultobj = SWIG_NewPointerObj((new sw::unum::posit< 8,2 >(static_cast< const sw::unum::posit< 8,2 >& >(result))), SWIGTYPE_p_sw__unum__positT_8_2_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___mul____SWIG_3(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = 0 ;
+  sw::unum::posit< 8,2 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 8,2 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__mul__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_8_2_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__mul__" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__mul__" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_2_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__mul__" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__mul__" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp2);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator *< 8,2 >((sw::unum::posit< 8,2 > const &)*arg1,(sw::unum::posit< 8,2 > const &)*arg2);
+  resultobj = SWIG_NewPointerObj((new sw::unum::posit< 8,2 >(static_cast< const sw::unum::posit< 8,2 >& >(result))), SWIGTYPE_p_sw__unum__positT_8_2_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___truediv____SWIG_3(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = 0 ;
+  sw::unum::posit< 8,2 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 8,2 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__truediv__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_8_2_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__truediv__" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__truediv__" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_2_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__truediv__" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__truediv__" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp2);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator /< 8,2 >((sw::unum::posit< 8,2 > const &)*arg1,(sw::unum::posit< 8,2 > const &)*arg2);
+  resultobj = SWIG_NewPointerObj((new sw::unum::posit< 8,2 >(static_cast< const sw::unum::posit< 8,2 >& >(result))), SWIGTYPE_p_sw__unum__positT_8_2_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_posit_format_8_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:posit_format_8_2",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_8_2_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "posit_format_8_2" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "posit_format_8_2" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR posit_format< 8,2 >((sw::unum::posit< 8,2 > const &)*arg1);
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_posit_to_string_8_2__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = 0 ;
+  std::streamsize arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  std::string result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:posit_to_string_8_2",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_8_2_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "posit_to_string_8_2" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "posit_to_string_8_2" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_std__streamsize,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "posit_to_string_8_2" "', argument " "2"" of type '" "std::streamsize""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "posit_to_string_8_2" "', argument " "2"" of type '" "std::streamsize""'");
+    } else {
+      std::streamsize * temp = reinterpret_cast< std::streamsize * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR to_string< 8,2 >((sw::unum::posit< 8,2 > const &)*arg1,arg2);
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_posit_to_string_8_2__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:posit_to_string_8_2",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_8_2_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "posit_to_string_8_2" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "posit_to_string_8_2" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR to_string< 8,2 >((sw::unum::posit< 8,2 > const &)*arg1);
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_posit_to_string_8_2(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_2_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_posit_to_string_8_2__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_2_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_std__streamsize, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_posit_to_string_8_2__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'posit_to_string_8_2'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    sw::unum::to_string< 8,2 >(sw::unum::posit< 8,2 > const &,std::streamsize)\n"
+    "    sw::unum::to_string< 8,2 >(sw::unum::posit< 8,2 > const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_posit_to_base2_scientific_8_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:posit_to_base2_scientific_8_2",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_8_2_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "posit_to_base2_scientific_8_2" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "posit_to_base2_scientific_8_2" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR to_base2_scientific< sw::unum::posit< 8,2 > >((sw::unum::posit< 8,2 > const &)*arg1);
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_minpos_8_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)":minpos_8_2")) SWIG_fail;
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR minpos< 8,2 >();
+  resultobj = SWIG_NewPointerObj((new sw::unum::posit< 8,2 >(static_cast< const sw::unum::posit< 8,2 >& >(result))), SWIGTYPE_p_sw__unum__positT_8_2_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_maxpos_8_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)":maxpos_8_2")) SWIG_fail;
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR maxpos< 8,2 >();
+  resultobj = SWIG_NewPointerObj((new sw::unum::posit< 8,2 >(static_cast< const sw::unum::posit< 8,2 >& >(result))), SWIGTYPE_p_sw__unum__positT_8_2_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_fma_8_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = 0 ;
+  sw::unum::posit< 8,2 > *arg2 = 0 ;
+  sw::unum::posit< 8,2 > *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  sw::unum::value< 13 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OOO:fma_8_2",&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_8_2_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fma_8_2" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fma_8_2" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_2_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fma_8_2" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fma_8_2" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp2);
+  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_sw__unum__positT_8_2_t,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "fma_8_2" "', argument " "3"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fma_8_2" "', argument " "3"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  arg3 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp3);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR fma_swig< 8,2,13 >((sw::unum::posit< 8,2 > const &)*arg1,(sw::unum::posit< 8,2 > const &)*arg2,(sw::unum::posit< 8,2 > const &)*arg3);
+  resultobj = SWIG_NewPointerObj((new sw::unum::value< 13 >(static_cast< const sw::unum::value< 13 >& >(result))), SWIGTYPE_p_sw__unum__valueT_13_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_fam_8_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = 0 ;
+  sw::unum::posit< 8,2 > *arg2 = 0 ;
+  sw::unum::posit< 8,2 > *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  sw::unum::value< 18 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OOO:fam_8_2",&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_8_2_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fam_8_2" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fam_8_2" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_2_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fam_8_2" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fam_8_2" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp2);
+  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_sw__unum__positT_8_2_t,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "fam_8_2" "', argument " "3"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fam_8_2" "', argument " "3"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  arg3 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp3);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR fam_swig< 8,2,18 >((sw::unum::posit< 8,2 > const &)*arg1,(sw::unum::posit< 8,2 > const &)*arg2,(sw::unum::posit< 8,2 > const &)*arg3);
+  resultobj = SWIG_NewPointerObj((new sw::unum::value< 18 >(static_cast< const sw::unum::value< 18 >& >(result))), SWIGTYPE_p_sw__unum__valueT_18_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_convert_13_to_8(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 13 > *arg1 = 0 ;
+  sw::unum::posit< 8,2 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 8,2 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:convert_13_to_8",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__valueT_13_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "convert_13_to_8" "', argument " "1"" of type '" "sw::unum::value< 13 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "convert_13_to_8" "', argument " "1"" of type '" "sw::unum::value< 13 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 13 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_2_t,  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "convert_13_to_8" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "convert_13_to_8" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp2);
+  result = (sw::unum::posit< 8,2 > *) &sw::unum::SWIGTEMPLATEDISAMBIGUATOR convert< 8,2,13 >((sw::unum::value< 13 > const &)*arg1,*arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_convert_18_to_8(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 18 > *arg1 = 0 ;
+  sw::unum::posit< 8,2 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 8,2 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:convert_18_to_8",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__valueT_18_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "convert_18_to_8" "', argument " "1"" of type '" "sw::unum::value< 18 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "convert_18_to_8" "', argument " "1"" of type '" "sw::unum::value< 18 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 18 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_2_t,  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "convert_18_to_8" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "convert_18_to_8" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp2);
+  result = (sw::unum::posit< 8,2 > *) &sw::unum::SWIGTEMPLATEDISAMBIGUATOR convert< 8,2,18 >((sw::unum::value< 18 > const &)*arg1,*arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_posit_to_value_8_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::value< 3 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:posit_to_value_8_2",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_8_2_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "posit_to_value_8_2" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "posit_to_value_8_2" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR posit_to_value< 8,2,3 >((sw::unum::posit< 8,2 > const &)*arg1);
+  resultobj = SWIG_NewPointerObj((new sw::unum::value< 3 >(static_cast< const sw::unum::value< 3 >& >(result))), SWIGTYPE_p_sw__unum__valueT_3_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Bitblock_127_t_to_ulong(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::bitblock< 127 > *arg1 = (sw::unum::bitblock< 127 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  unsigned long result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Bitblock_127_t_to_ulong",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__bitblockT_127_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Bitblock_127_t_to_ulong" "', argument " "1"" of type '" "sw::unum::bitblock< 127 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::bitblock< 127 > * >(argp1);
+  result = (unsigned long)((sw::unum::bitblock< 127 > const *)arg1)->to_ulong();
+  resultobj = SWIG_From_unsigned_SS_long(static_cast< unsigned long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Bitblock_127_t_to_ullong(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::bitblock< 127 > *arg1 = (sw::unum::bitblock< 127 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  unsigned long long result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Bitblock_127_t_to_ullong",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__bitblockT_127_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Bitblock_127_t_to_ullong" "', argument " "1"" of type '" "sw::unum::bitblock< 127 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::bitblock< 127 > * >(argp1);
+  result = (unsigned long long)((sw::unum::bitblock< 127 > const *)arg1)->to_ullong();
+  resultobj = SWIG_From_unsigned_SS_long_SS_long(static_cast< unsigned long long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Bitblock_127_t(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::bitblock< 127 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)":new_Bitblock_127_t")) SWIG_fail;
+  result = (sw::unum::bitblock< 127 > *)new sw::unum::bitblock< 127 >();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__bitblockT_127_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_Bitblock_127_t(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::bitblock< 127 > *arg1 = (sw::unum::bitblock< 127 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:delete_Bitblock_127_t",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__bitblockT_127_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_Bitblock_127_t" "', argument " "1"" of type '" "sw::unum::bitblock< 127 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::bitblock< 127 > * >(argp1);
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *Bitblock_127_t_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_ParseTuple(args,(char *)"O:swigregister", &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_sw__unum__bitblockT_127_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_bitblock_127_tobitstring__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::bitblock< 127 > arg1 ;
+  bool arg2 ;
+  void *argp1 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  std::string result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:bitblock_127_tobitstring",&obj0,&obj1)) SWIG_fail;
+  {
+    res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__bitblockT_127_t,  0  | 0);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "bitblock_127_tobitstring" "', argument " "1"" of type '" "sw::unum::bitblock< 127 >""'"); 
+    }  
+    if (!argp1) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "bitblock_127_tobitstring" "', argument " "1"" of type '" "sw::unum::bitblock< 127 >""'");
+    } else {
+      sw::unum::bitblock< 127 > * temp = reinterpret_cast< sw::unum::bitblock< 127 > * >(argp1);
+      arg1 = *temp;
+      if (SWIG_IsNewObj(res1)) delete temp;
+    }
+  }
+  ecode2 = SWIG_AsVal_bool(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "bitblock_127_tobitstring" "', argument " "2"" of type '" "bool""'");
+  } 
+  arg2 = static_cast< bool >(val2);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR to_bit_string< 127 >(arg1,arg2);
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_bitblock_127_tobitstring__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::bitblock< 127 > arg1 ;
+  void *argp1 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:bitblock_127_tobitstring",&obj0)) SWIG_fail;
+  {
+    res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__bitblockT_127_t,  0  | 0);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "bitblock_127_tobitstring" "', argument " "1"" of type '" "sw::unum::bitblock< 127 >""'"); 
+    }  
+    if (!argp1) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "bitblock_127_tobitstring" "', argument " "1"" of type '" "sw::unum::bitblock< 127 >""'");
+    } else {
+      sw::unum::bitblock< 127 > * temp = reinterpret_cast< sw::unum::bitblock< 127 > * >(argp1);
+      arg1 = *temp;
+      if (SWIG_IsNewObj(res1)) delete temp;
+    }
+  }
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR to_bit_string< 127 >(arg1);
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_bitblock_127_tobitstring(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__bitblockT_127_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_bitblock_127_tobitstring__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__bitblockT_127_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_bool(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_bitblock_127_tobitstring__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'bitblock_127_tobitstring'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    sw::unum::to_bit_string< 127 >(sw::unum::bitblock< 127 >,bool)\n"
+    "    sw::unum::to_bit_string< 127 >(sw::unum::bitblock< 127 >)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_bitblock_127_tohexstring(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::bitblock< 127 > arg1 ;
+  void *argp1 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:bitblock_127_tohexstring",&obj0)) SWIG_fail;
+  {
+    res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__bitblockT_127_t,  0  | 0);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "bitblock_127_tohexstring" "', argument " "1"" of type '" "sw::unum::bitblock< 127 >""'"); 
+    }  
+    if (!argp1) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "bitblock_127_tohexstring" "', argument " "1"" of type '" "sw::unum::bitblock< 127 >""'");
+    } else {
+      sw::unum::bitblock< 127 > * temp = reinterpret_cast< sw::unum::bitblock< 127 > * >(argp1);
+      arg1 = *temp;
+      if (SWIG_IsNewObj(res1)) delete temp;
+    }
+  }
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR to_hex< 127 >(arg1);
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Value_126_t_to_long_double(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 126 > *arg1 = (sw::unum::value< 126 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  long double result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Value_126_t_to_long_double",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_126_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Value_126_t_to_long_double" "', argument " "1"" of type '" "sw::unum::value< 126 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 126 > * >(argp1);
+  result = (long double)((sw::unum::value< 126 > const *)arg1)->to_long_double();
+  resultobj = SWIG_NewPointerObj((new long double(static_cast< const long double& >(result))), SWIGTYPE_p_long_double, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Value_126_t_to_double(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 126 > *arg1 = (sw::unum::value< 126 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  double result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Value_126_t_to_double",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_126_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Value_126_t_to_double" "', argument " "1"" of type '" "sw::unum::value< 126 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 126 > * >(argp1);
+  result = (double)((sw::unum::value< 126 > const *)arg1)->to_double();
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Value_126_t_to_float(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 126 > *arg1 = (sw::unum::value< 126 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Value_126_t_to_float",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_126_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Value_126_t_to_float" "', argument " "1"" of type '" "sw::unum::value< 126 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 126 > * >(argp1);
+  result = (float)((sw::unum::value< 126 > const *)arg1)->to_float();
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Value_126_t(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 126 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)":new_Value_126_t")) SWIG_fail;
+  result = (sw::unum::value< 126 > *)new sw::unum::value< 126 >();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__valueT_126_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_Value_126_t(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 126 > *arg1 = (sw::unum::value< 126 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:delete_Value_126_t",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_126_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_Value_126_t" "', argument " "1"" of type '" "sw::unum::value< 126 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 126 > * >(argp1);
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *Value_126_t_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_ParseTuple(args,(char *)"O:swigregister", &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_sw__unum__valueT_126_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_value_126_show(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 126 > *arg1 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:value_126_show",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__valueT_126_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "value_126_show" "', argument " "1"" of type '" "sw::unum::value< 126 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "value_126_show" "', argument " "1"" of type '" "sw::unum::value< 126 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 126 > * >(argp1);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR components< 126 >((sw::unum::value< 126 > const &)*arg1);
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Quire_8_2_30_t__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,2,30 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)":new_Quire_8_2_30_t")) SWIG_fail;
+  result = (sw::unum::quire< 8,2,30 > *)new sw::unum::quire< 8,2,30 >();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_8_2_30_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Quire_8_2_30_t__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  int8_t arg1 ;
+  signed char val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::quire< 8,2,30 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Quire_8_2_30_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_signed_SS_char(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Quire_8_2_30_t" "', argument " "1"" of type '" "int8_t""'");
+  } 
+  arg1 = static_cast< int8_t >(val1);
+  result = (sw::unum::quire< 8,2,30 > *)new sw::unum::quire< 8,2,30 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_8_2_30_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Quire_8_2_30_t__SWIG_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  int16_t arg1 ;
+  short val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::quire< 8,2,30 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Quire_8_2_30_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_short(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Quire_8_2_30_t" "', argument " "1"" of type '" "int16_t""'");
+  } 
+  arg1 = static_cast< int16_t >(val1);
+  result = (sw::unum::quire< 8,2,30 > *)new sw::unum::quire< 8,2,30 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_8_2_30_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Quire_8_2_30_t__SWIG_3(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  int32_t arg1 ;
+  int val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::quire< 8,2,30 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Quire_8_2_30_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_int(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Quire_8_2_30_t" "', argument " "1"" of type '" "int32_t""'");
+  } 
+  arg1 = static_cast< int32_t >(val1);
+  result = (sw::unum::quire< 8,2,30 > *)new sw::unum::quire< 8,2,30 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_8_2_30_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Quire_8_2_30_t__SWIG_4(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  int64_t arg1 ;
+  long long val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::quire< 8,2,30 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Quire_8_2_30_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_long_SS_long(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Quire_8_2_30_t" "', argument " "1"" of type '" "int64_t""'");
+  } 
+  arg1 = static_cast< int64_t >(val1);
+  result = (sw::unum::quire< 8,2,30 > *)new sw::unum::quire< 8,2,30 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_8_2_30_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Quire_8_2_30_t__SWIG_5(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  float arg1 ;
+  float val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::quire< 8,2,30 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Quire_8_2_30_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_float(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Quire_8_2_30_t" "', argument " "1"" of type '" "float""'");
+  } 
+  arg1 = static_cast< float >(val1);
+  result = (sw::unum::quire< 8,2,30 > *)new sw::unum::quire< 8,2,30 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_8_2_30_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Quire_8_2_30_t__SWIG_6(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  double arg1 ;
+  double val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::quire< 8,2,30 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Quire_8_2_30_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_double(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Quire_8_2_30_t" "', argument " "1"" of type '" "double""'");
+  } 
+  arg1 = static_cast< double >(val1);
+  result = (sw::unum::quire< 8,2,30 > *)new sw::unum::quire< 8,2,30 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_8_2_30_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Quire_8_2_30_t__SWIG_7(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 8,2 > *arg1 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::quire< 8,2,30 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Quire_8_2_30_t",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_8_2_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_Quire_8_2_30_t" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_Quire_8_2_30_t" "', argument " "1"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp1);
+  result = (sw::unum::quire< 8,2,30 > *)new sw::unum::quire< 8,2,30 >((sw::unum::posit< 8,2 > const &)*arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_8_2_30_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Quire_8_2_30_t(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[2] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 1) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 0) {
+    return _wrap_new_Quire_8_2_30_t__SWIG_0(self, args);
+  }
+  if (argc == 1) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_2_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_Quire_8_2_30_t__SWIG_7(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_signed_SS_char(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Quire_8_2_30_t__SWIG_1(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_short(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Quire_8_2_30_t__SWIG_2(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_int(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Quire_8_2_30_t__SWIG_3(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_long_SS_long(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Quire_8_2_30_t__SWIG_4(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_float(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Quire_8_2_30_t__SWIG_5(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_double(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Quire_8_2_30_t__SWIG_6(self, args);
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'new_Quire_8_2_30_t'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    sw::unum::quire< 8,2,30 >::quire()\n"
+    "    sw::unum::quire< 8,2,30 >::quire(int8_t)\n"
+    "    sw::unum::quire< 8,2,30 >::quire(int16_t)\n"
+    "    sw::unum::quire< 8,2,30 >::quire(int32_t)\n"
+    "    sw::unum::quire< 8,2,30 >::quire(int64_t)\n"
+    "    sw::unum::quire< 8,2,30 >::quire(float)\n"
+    "    sw::unum::quire< 8,2,30 >::quire(double)\n"
+    "    sw::unum::quire< 8,2,30 >::quire(sw::unum::posit< 8,2 > const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_2_30_t_assign__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,2,30 > *arg1 = (sw::unum::quire< 8,2,30 > *) 0 ;
+  int8_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::quire< 8,2,30 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_8_2_30_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_8_2_30_t_assign" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Quire_8_2_30_t_assign" "', argument " "2"" of type '" "int8_t""'");
+  } 
+  arg2 = static_cast< int8_t >(val2);
+  result = (sw::unum::quire< 8,2,30 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_2_30_t_assign__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,2,30 > *arg1 = (sw::unum::quire< 8,2,30 > *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::quire< 8,2,30 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_8_2_30_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_8_2_30_t_assign" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp1);
+  ecode2 = SWIG_AsVal_short(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Quire_8_2_30_t_assign" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  result = (sw::unum::quire< 8,2,30 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_2_30_t_assign__SWIG_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,2,30 > *arg1 = (sw::unum::quire< 8,2,30 > *) 0 ;
+  int32_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::quire< 8,2,30 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_8_2_30_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_8_2_30_t_assign" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Quire_8_2_30_t_assign" "', argument " "2"" of type '" "int32_t""'");
+  } 
+  arg2 = static_cast< int32_t >(val2);
+  result = (sw::unum::quire< 8,2,30 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_2_30_t_assign__SWIG_3(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,2,30 > *arg1 = (sw::unum::quire< 8,2,30 > *) 0 ;
+  int64_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::quire< 8,2,30 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_8_2_30_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_8_2_30_t_assign" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp1);
+  ecode2 = SWIG_AsVal_long_SS_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Quire_8_2_30_t_assign" "', argument " "2"" of type '" "int64_t""'");
+  } 
+  arg2 = static_cast< int64_t >(val2);
+  result = (sw::unum::quire< 8,2,30 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_2_30_t_assign__SWIG_4(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,2,30 > *arg1 = (sw::unum::quire< 8,2,30 > *) 0 ;
+  unsigned long long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned long long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::quire< 8,2,30 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_8_2_30_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_8_2_30_t_assign" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_long_SS_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Quire_8_2_30_t_assign" "', argument " "2"" of type '" "unsigned long long""'");
+  } 
+  arg2 = static_cast< unsigned long long >(val2);
+  result = (sw::unum::quire< 8,2,30 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_2_30_t_assign__SWIG_5(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,2,30 > *arg1 = (sw::unum::quire< 8,2,30 > *) 0 ;
+  float arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  float val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::quire< 8,2,30 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_8_2_30_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_8_2_30_t_assign" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp1);
+  ecode2 = SWIG_AsVal_float(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Quire_8_2_30_t_assign" "', argument " "2"" of type '" "float""'");
+  } 
+  arg2 = static_cast< float >(val2);
+  result = (sw::unum::quire< 8,2,30 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_2_30_t_assign__SWIG_6(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,2,30 > *arg1 = (sw::unum::quire< 8,2,30 > *) 0 ;
+  double arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  double val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::quire< 8,2,30 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_8_2_30_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_8_2_30_t_assign" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp1);
+  ecode2 = SWIG_AsVal_double(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Quire_8_2_30_t_assign" "', argument " "2"" of type '" "double""'");
+  } 
+  arg2 = static_cast< double >(val2);
+  result = (sw::unum::quire< 8,2,30 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_2_30_t_assign__SWIG_7(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,2,30 > *arg1 = (sw::unum::quire< 8,2,30 > *) 0 ;
+  long double arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::quire< 8,2,30 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_8_2_30_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_8_2_30_t_assign" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_long_double,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Quire_8_2_30_t_assign" "', argument " "2"" of type '" "long double""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Quire_8_2_30_t_assign" "', argument " "2"" of type '" "long double""'");
+    } else {
+      long double * temp = reinterpret_cast< long double * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  result = (sw::unum::quire< 8,2,30 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_2_30_t_assign(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_long_double, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_Quire_8_2_30_t_assign__SWIG_7(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_signed_SS_char(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Quire_8_2_30_t_assign__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_short(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Quire_8_2_30_t_assign__SWIG_1(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Quire_8_2_30_t_assign__SWIG_2(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_unsigned_SS_long_SS_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Quire_8_2_30_t_assign__SWIG_4(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long_SS_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Quire_8_2_30_t_assign__SWIG_3(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_float(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Quire_8_2_30_t_assign__SWIG_5(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_double(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Quire_8_2_30_t_assign__SWIG_6(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'Quire_8_2_30_t_assign'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    sw::unum::quire< 8,2,30 >::operator =(int8_t)\n"
+    "    sw::unum::quire< 8,2,30 >::operator =(int16_t)\n"
+    "    sw::unum::quire< 8,2,30 >::operator =(int32_t)\n"
+    "    sw::unum::quire< 8,2,30 >::operator =(int64_t)\n"
+    "    sw::unum::quire< 8,2,30 >::operator =(unsigned long long)\n"
+    "    sw::unum::quire< 8,2,30 >::operator =(float)\n"
+    "    sw::unum::quire< 8,2,30 >::operator =(double)\n"
+    "    sw::unum::quire< 8,2,30 >::operator =(long double)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_2_30_t___iadd____SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,2,30 > *arg1 = (sw::unum::quire< 8,2,30 > *) 0 ;
+  sw::unum::posit< 8,2 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::quire< 8,2,30 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_8_2_30_t___iadd__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_8_2_30_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_8_2_30_t___iadd__" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_2_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Quire_8_2_30_t___iadd__" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Quire_8_2_30_t___iadd__" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp2);
+  result = (sw::unum::quire< 8,2,30 > *) &(arg1)->operator +=((sw::unum::posit< 8,2 > const &)*arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_8_2_30_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_2_30_t___isub____SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,2,30 > *arg1 = (sw::unum::quire< 8,2,30 > *) 0 ;
+  sw::unum::posit< 8,2 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::quire< 8,2,30 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_8_2_30_t___isub__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_8_2_30_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_8_2_30_t___isub__" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_2_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Quire_8_2_30_t___isub__" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Quire_8_2_30_t___isub__" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp2);
+  result = (sw::unum::quire< 8,2,30 > *) &(arg1)->operator -=((sw::unum::posit< 8,2 > const &)*arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_8_2_30_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_2_30_t___iadd____SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,2,30 > *arg1 = (sw::unum::quire< 8,2,30 > *) 0 ;
+  sw::unum::quire< 8,2,30 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::quire< 8,2,30 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_8_2_30_t___iadd__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_8_2_30_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_8_2_30_t___iadd__" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__quireT_8_2_30_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Quire_8_2_30_t___iadd__" "', argument " "2"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Quire_8_2_30_t___iadd__" "', argument " "2"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp2);
+  result = (sw::unum::quire< 8,2,30 > *) &(arg1)->operator +=((sw::unum::quire< 8,2,30 > const &)*arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_8_2_30_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_2_30_t___iadd__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_8_2_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_Quire_8_2_30_t___iadd____SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_Quire_8_2_30_t___iadd____SWIG_1(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'Quire_8_2_30_t___iadd__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    sw::unum::quire< 8,2,30 >::operator +=(sw::unum::posit< 8,2 > const &)\n"
+    "    sw::unum::quire< 8,2,30 >::operator +=(sw::unum::quire< 8,2,30 > const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_2_30_t___isub____SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,2,30 > *arg1 = (sw::unum::quire< 8,2,30 > *) 0 ;
+  sw::unum::quire< 8,2,30 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::quire< 8,2,30 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_8_2_30_t___isub__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_8_2_30_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_8_2_30_t___isub__" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__quireT_8_2_30_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Quire_8_2_30_t___isub__" "', argument " "2"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Quire_8_2_30_t___isub__" "', argument " "2"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp2);
+  result = (sw::unum::quire< 8,2,30 > *) &(arg1)->operator -=((sw::unum::quire< 8,2,30 > const &)*arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_8_2_30_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_2_30_t___isub__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_8_2_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_Quire_8_2_30_t___isub____SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_Quire_8_2_30_t___isub____SWIG_1(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'Quire_8_2_30_t___isub__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    sw::unum::quire< 8,2,30 >::operator -=(sw::unum::posit< 8,2 > const &)\n"
+    "    sw::unum::quire< 8,2,30 >::operator -=(sw::unum::quire< 8,2,30 > const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_2_30_t_reset(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,2,30 > *arg1 = (sw::unum::quire< 8,2,30 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Quire_8_2_30_t_reset",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_8_2_30_t_reset" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp1);
+  (arg1)->reset();
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_2_30_t_set_sign(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,2,30 > *arg1 = (sw::unum::quire< 8,2,30 > *) 0 ;
+  bool arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_8_2_30_t_set_sign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_8_2_30_t_set_sign" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp1);
+  ecode2 = SWIG_AsVal_bool(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Quire_8_2_30_t_set_sign" "', argument " "2"" of type '" "bool""'");
+  } 
+  arg2 = static_cast< bool >(val2);
+  (arg1)->set_sign(arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_2_30_t_sign(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,2,30 > *arg1 = (sw::unum::quire< 8,2,30 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Quire_8_2_30_t_sign",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_8_2_30_t_sign" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp1);
+  result = (bool)((sw::unum::quire< 8,2,30 > const *)arg1)->sign();
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_2_30_t_load_bits(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,2,30 > *arg1 = (sw::unum::quire< 8,2,30 > *) 0 ;
+  std::string *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_8_2_30_t_load_bits",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_8_2_30_t_load_bits" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(obj1, &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Quire_8_2_30_t_load_bits" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Quire_8_2_30_t_load_bits" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  result = (bool)(arg1)->load_bits((std::string const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_2_30_t_isneg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,2,30 > *arg1 = (sw::unum::quire< 8,2,30 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Quire_8_2_30_t_isneg",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_8_2_30_t_isneg" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp1);
+  result = (bool)((sw::unum::quire< 8,2,30 > const *)arg1)->isneg();
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_2_30_t_ispos(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,2,30 > *arg1 = (sw::unum::quire< 8,2,30 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Quire_8_2_30_t_ispos",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_8_2_30_t_ispos" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp1);
+  result = (bool)((sw::unum::quire< 8,2,30 > const *)arg1)->ispos();
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_8_2_30_t_iszero(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,2,30 > *arg1 = (sw::unum::quire< 8,2,30 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Quire_8_2_30_t_iszero",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_8_2_30_t_iszero" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp1);
+  result = (bool)((sw::unum::quire< 8,2,30 > const *)arg1)->iszero();
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_Quire_8_2_30_t(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,2,30 > *arg1 = (sw::unum::quire< 8,2,30 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:delete_Quire_8_2_30_t",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_8_2_30_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_Quire_8_2_30_t" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp1);
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *Quire_8_2_30_t_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_ParseTuple(args,(char *)"O:swigregister", &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_sw__unum__quireT_8_2_30_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap___eq____SWIG_10(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,2,30 > *arg1 = 0 ;
+  sw::unum::quire< 8,2,30 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__eq__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_8_2_30_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__eq__" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__eq__" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__quireT_8_2_30_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__eq__" "', argument " "2"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__eq__" "', argument " "2"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator ==< 8,2,30 >((sw::unum::quire< 8,2,30 > const &)*arg1,(sw::unum::quire< 8,2,30 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___ne____SWIG_7(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,2,30 > *arg1 = 0 ;
+  sw::unum::quire< 8,2,30 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__ne__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_8_2_30_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__ne__" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__ne__" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__quireT_8_2_30_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__ne__" "', argument " "2"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__ne__" "', argument " "2"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator !=< 8,2,30 >((sw::unum::quire< 8,2,30 > const &)*arg1,(sw::unum::quire< 8,2,30 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___lt____SWIG_10(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,2,30 > *arg1 = 0 ;
+  sw::unum::quire< 8,2,30 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__lt__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_8_2_30_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__lt__" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__lt__" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__quireT_8_2_30_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__lt__" "', argument " "2"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__lt__" "', argument " "2"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator < < 8,2,30 >((sw::unum::quire< 8,2,30 > const &)*arg1,(sw::unum::quire< 8,2,30 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___gt____SWIG_10(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,2,30 > *arg1 = 0 ;
+  sw::unum::quire< 8,2,30 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__gt__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_8_2_30_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__gt__" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__gt__" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__quireT_8_2_30_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__gt__" "', argument " "2"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__gt__" "', argument " "2"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator >< 8,2,30 >((sw::unum::quire< 8,2,30 > const &)*arg1,(sw::unum::quire< 8,2,30 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___le____SWIG_7(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,2,30 > *arg1 = 0 ;
+  sw::unum::quire< 8,2,30 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__le__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_8_2_30_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__le__" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__le__" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__quireT_8_2_30_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__le__" "', argument " "2"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__le__" "', argument " "2"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator <=< 8,2,30 >((sw::unum::quire< 8,2,30 > const &)*arg1,(sw::unum::quire< 8,2,30 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___ge____SWIG_7(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,2,30 > *arg1 = 0 ;
+  sw::unum::quire< 8,2,30 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__ge__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_8_2_30_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__ge__" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__ge__" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__quireT_8_2_30_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__ge__" "', argument " "2"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__ge__" "', argument " "2"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator >=< 8,2,30 >((sw::unum::quire< 8,2,30 > const &)*arg1,(sw::unum::quire< 8,2,30 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___eq____SWIG_11(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,2,30 > *arg1 = 0 ;
+  sw::unum::value< 3 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__eq__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_8_2_30_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__eq__" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__eq__" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__valueT_3_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__eq__" "', argument " "2"" of type '" "sw::unum::value< 3 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__eq__" "', argument " "2"" of type '" "sw::unum::value< 3 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::value< 3 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator ==< 8,2,30,3 >((sw::unum::quire< 8,2,30 > const &)*arg1,(sw::unum::value< 3 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___lt____SWIG_11(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,2,30 > *arg1 = 0 ;
+  sw::unum::value< 3 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__lt__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_8_2_30_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__lt__" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__lt__" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__valueT_3_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__lt__" "', argument " "2"" of type '" "sw::unum::value< 3 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__lt__" "', argument " "2"" of type '" "sw::unum::value< 3 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::value< 3 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator < < 8,2,30,3 >((sw::unum::quire< 8,2,30 > const &)*arg1,(sw::unum::value< 3 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___gt____SWIG_11(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,2,30 > *arg1 = 0 ;
+  sw::unum::value< 3 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__gt__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_8_2_30_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__gt__" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__gt__" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__valueT_3_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__gt__" "', argument " "2"" of type '" "sw::unum::value< 3 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__gt__" "', argument " "2"" of type '" "sw::unum::value< 3 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::value< 3 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator >< 8,2,30,3 >((sw::unum::quire< 8,2,30 > const &)*arg1,(sw::unum::value< 3 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_quire_abs_8_2_30(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,2,30 > *arg1 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::quire< 8,2,30 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:quire_abs_8_2_30",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_8_2_30_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "quire_abs_8_2_30" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "quire_abs_8_2_30" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp1);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR abs< 8,2,30 >((sw::unum::quire< 8,2,30 > const &)*arg1);
+  resultobj = SWIG_NewPointerObj((new sw::unum::quire< 8,2,30 >(static_cast< const sw::unum::quire< 8,2,30 >& >(result))), SWIGTYPE_p_sw__unum__quireT_8_2_30_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_quire_to_value_8_2_30(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,2,30 > *arg1 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::value< 126 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:quire_to_value_8_2_30",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_8_2_30_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "quire_to_value_8_2_30" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "quire_to_value_8_2_30" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp1);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR quire_to_value< 8,2,30,126 >((sw::unum::quire< 8,2,30 > const &)*arg1);
+  resultobj = SWIG_NewPointerObj((new sw::unum::value< 126 >(static_cast< const sw::unum::value< 126 >& >(result))), SWIGTYPE_p_sw__unum__valueT_126_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_quire_from_value_8_2_30(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,2,30 > *arg1 = 0 ;
+  sw::unum::value< 126 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:quire_from_value_8_2_30",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_8_2_30_t,  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "quire_from_value_8_2_30" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "quire_from_value_8_2_30" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__valueT_126_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "quire_from_value_8_2_30" "', argument " "2"" of type '" "sw::unum::value< 126 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "quire_from_value_8_2_30" "', argument " "2"" of type '" "sw::unum::value< 126 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::value< 126 > * >(argp2);
+  sw::unum::SWIGTEMPLATEDISAMBIGUATOR quire_from_value< 8,2,30,126 >(*arg1,(sw::unum::value< 126 > const &)*arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_convert_q82_to_p82(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 126 > *arg1 = 0 ;
+  sw::unum::posit< 8,2 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 8,2 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:convert_q82_to_p82",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__valueT_126_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "convert_q82_to_p82" "', argument " "1"" of type '" "sw::unum::value< 126 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "convert_q82_to_p82" "', argument " "1"" of type '" "sw::unum::value< 126 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 126 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_8_2_t,  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "convert_q82_to_p82" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "convert_q82_to_p82" "', argument " "2"" of type '" "sw::unum::posit< 8,2 > &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 8,2 > * >(argp2);
+  result = (sw::unum::posit< 8,2 > *) &sw::unum::SWIGTEMPLATEDISAMBIGUATOR convert< 8,2,126 >((sw::unum::value< 126 > const &)*arg1,*arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_8_2_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_quire_tobits_8_2_30(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,2,30 > *arg1 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::bitblock< 127 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:quire_tobits_8_2_30",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_8_2_30_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "quire_tobits_8_2_30" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "quire_tobits_8_2_30" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp1);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR quire_to_bitblock< 8,2,30,127 >((sw::unum::quire< 8,2,30 > const &)*arg1);
+  resultobj = SWIG_NewPointerObj((new sw::unum::bitblock< 127 >(static_cast< const sw::unum::bitblock< 127 >& >(result))), SWIGTYPE_p_sw__unum__bitblockT_127_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___add____SWIG_7(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 8,2,30 > *arg1 = 0 ;
+  sw::unum::quire< 8,2,30 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::quire< 8,2,30 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__add__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_8_2_30_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__add__" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__add__" "', argument " "1"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__quireT_8_2_30_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__add__" "', argument " "2"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__add__" "', argument " "2"" of type '" "sw::unum::quire< 8,2,30 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::quire< 8,2,30 > * >(argp2);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator +< 8,2,30 >((sw::unum::quire< 8,2,30 > const &)*arg1,(sw::unum::quire< 8,2,30 > const &)*arg2);
+  resultobj = SWIG_NewPointerObj((new sw::unum::quire< 8,2,30 >(static_cast< const sw::unum::quire< 8,2,30 >& >(result))), SWIGTYPE_p_sw__unum__quireT_8_2_30_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Bitblock_4_t_to_ulong(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::bitblock< 4 > *arg1 = (sw::unum::bitblock< 4 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  unsigned long result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Bitblock_4_t_to_ulong",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__bitblockT_4_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Bitblock_4_t_to_ulong" "', argument " "1"" of type '" "sw::unum::bitblock< 4 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::bitblock< 4 > * >(argp1);
+  result = (unsigned long)((sw::unum::bitblock< 4 > const *)arg1)->to_ulong();
+  resultobj = SWIG_From_unsigned_SS_long(static_cast< unsigned long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Bitblock_4_t_to_ullong(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::bitblock< 4 > *arg1 = (sw::unum::bitblock< 4 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  unsigned long long result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Bitblock_4_t_to_ullong",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__bitblockT_4_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Bitblock_4_t_to_ullong" "', argument " "1"" of type '" "sw::unum::bitblock< 4 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::bitblock< 4 > * >(argp1);
+  result = (unsigned long long)((sw::unum::bitblock< 4 > const *)arg1)->to_ullong();
+  resultobj = SWIG_From_unsigned_SS_long_SS_long(static_cast< unsigned long long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Bitblock_4_t(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::bitblock< 4 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)":new_Bitblock_4_t")) SWIG_fail;
+  result = (sw::unum::bitblock< 4 > *)new sw::unum::bitblock< 4 >();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__bitblockT_4_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_Bitblock_4_t(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::bitblock< 4 > *arg1 = (sw::unum::bitblock< 4 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:delete_Bitblock_4_t",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__bitblockT_4_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_Bitblock_4_t" "', argument " "1"" of type '" "sw::unum::bitblock< 4 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::bitblock< 4 > * >(argp1);
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *Bitblock_4_t_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_ParseTuple(args,(char *)"O:swigregister", &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_sw__unum__bitblockT_4_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_bitblock_4_tobitstring__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::bitblock< 4 > arg1 ;
+  bool arg2 ;
+  void *argp1 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  std::string result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:bitblock_4_tobitstring",&obj0,&obj1)) SWIG_fail;
+  {
+    res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__bitblockT_4_t,  0  | 0);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "bitblock_4_tobitstring" "', argument " "1"" of type '" "sw::unum::bitblock< 4 >""'"); 
+    }  
+    if (!argp1) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "bitblock_4_tobitstring" "', argument " "1"" of type '" "sw::unum::bitblock< 4 >""'");
+    } else {
+      sw::unum::bitblock< 4 > * temp = reinterpret_cast< sw::unum::bitblock< 4 > * >(argp1);
+      arg1 = *temp;
+      if (SWIG_IsNewObj(res1)) delete temp;
+    }
+  }
+  ecode2 = SWIG_AsVal_bool(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "bitblock_4_tobitstring" "', argument " "2"" of type '" "bool""'");
+  } 
+  arg2 = static_cast< bool >(val2);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR to_bit_string< 4 >(arg1,arg2);
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_bitblock_4_tobitstring__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::bitblock< 4 > arg1 ;
+  void *argp1 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:bitblock_4_tobitstring",&obj0)) SWIG_fail;
+  {
+    res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__bitblockT_4_t,  0  | 0);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "bitblock_4_tobitstring" "', argument " "1"" of type '" "sw::unum::bitblock< 4 >""'"); 
+    }  
+    if (!argp1) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "bitblock_4_tobitstring" "', argument " "1"" of type '" "sw::unum::bitblock< 4 >""'");
+    } else {
+      sw::unum::bitblock< 4 > * temp = reinterpret_cast< sw::unum::bitblock< 4 > * >(argp1);
+      arg1 = *temp;
+      if (SWIG_IsNewObj(res1)) delete temp;
+    }
+  }
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR to_bit_string< 4 >(arg1);
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_bitblock_4_tobitstring(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__bitblockT_4_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_bitblock_4_tobitstring__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__bitblockT_4_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_bool(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_bitblock_4_tobitstring__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'bitblock_4_tobitstring'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    sw::unum::to_bit_string< 4 >(sw::unum::bitblock< 4 >,bool)\n"
+    "    sw::unum::to_bit_string< 4 >(sw::unum::bitblock< 4 >)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_bitblock_4_tohexstring(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::bitblock< 4 > arg1 ;
+  void *argp1 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:bitblock_4_tohexstring",&obj0)) SWIG_fail;
+  {
+    res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__bitblockT_4_t,  0  | 0);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "bitblock_4_tohexstring" "', argument " "1"" of type '" "sw::unum::bitblock< 4 >""'"); 
+    }  
+    if (!argp1) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "bitblock_4_tohexstring" "', argument " "1"" of type '" "sw::unum::bitblock< 4 >""'");
+    } else {
+      sw::unum::bitblock< 4 > * temp = reinterpret_cast< sw::unum::bitblock< 4 > * >(argp1);
+      arg1 = *temp;
+      if (SWIG_IsNewObj(res1)) delete temp;
+    }
+  }
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR to_hex< 4 >(arg1);
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Value_1_t_to_long_double(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 1 > *arg1 = (sw::unum::value< 1 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  long double result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Value_1_t_to_long_double",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_1_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Value_1_t_to_long_double" "', argument " "1"" of type '" "sw::unum::value< 1 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 1 > * >(argp1);
+  result = (long double)((sw::unum::value< 1 > const *)arg1)->to_long_double();
+  resultobj = SWIG_NewPointerObj((new long double(static_cast< const long double& >(result))), SWIGTYPE_p_long_double, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Value_1_t_to_double(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 1 > *arg1 = (sw::unum::value< 1 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  double result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Value_1_t_to_double",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_1_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Value_1_t_to_double" "', argument " "1"" of type '" "sw::unum::value< 1 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 1 > * >(argp1);
+  result = (double)((sw::unum::value< 1 > const *)arg1)->to_double();
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Value_1_t_to_float(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 1 > *arg1 = (sw::unum::value< 1 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Value_1_t_to_float",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_1_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Value_1_t_to_float" "', argument " "1"" of type '" "sw::unum::value< 1 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 1 > * >(argp1);
+  result = (float)((sw::unum::value< 1 > const *)arg1)->to_float();
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Value_1_t(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 1 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)":new_Value_1_t")) SWIG_fail;
+  result = (sw::unum::value< 1 > *)new sw::unum::value< 1 >();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__valueT_1_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_Value_1_t(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 1 > *arg1 = (sw::unum::value< 1 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:delete_Value_1_t",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_1_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_Value_1_t" "', argument " "1"" of type '" "sw::unum::value< 1 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 1 > * >(argp1);
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *Value_1_t_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_ParseTuple(args,(char *)"O:swigregister", &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_sw__unum__valueT_1_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_Value_9_t_to_long_double(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 9 > *arg1 = (sw::unum::value< 9 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  long double result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Value_9_t_to_long_double",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_9_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Value_9_t_to_long_double" "', argument " "1"" of type '" "sw::unum::value< 9 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 9 > * >(argp1);
+  result = (long double)((sw::unum::value< 9 > const *)arg1)->to_long_double();
+  resultobj = SWIG_NewPointerObj((new long double(static_cast< const long double& >(result))), SWIGTYPE_p_long_double, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Value_9_t_to_double(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 9 > *arg1 = (sw::unum::value< 9 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  double result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Value_9_t_to_double",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_9_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Value_9_t_to_double" "', argument " "1"" of type '" "sw::unum::value< 9 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 9 > * >(argp1);
+  result = (double)((sw::unum::value< 9 > const *)arg1)->to_double();
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Value_9_t_to_float(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 9 > *arg1 = (sw::unum::value< 9 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Value_9_t_to_float",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_9_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Value_9_t_to_float" "', argument " "1"" of type '" "sw::unum::value< 9 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 9 > * >(argp1);
+  result = (float)((sw::unum::value< 9 > const *)arg1)->to_float();
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Value_9_t(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 9 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)":new_Value_9_t")) SWIG_fail;
+  result = (sw::unum::value< 9 > *)new sw::unum::value< 9 >();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__valueT_9_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_Value_9_t(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 9 > *arg1 = (sw::unum::value< 9 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:delete_Value_9_t",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_9_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_Value_9_t" "', argument " "1"" of type '" "sw::unum::value< 9 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 9 > * >(argp1);
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *Value_9_t_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_ParseTuple(args,(char *)"O:swigregister", &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_sw__unum__valueT_9_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_Value_14_t_to_long_double(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 14 > *arg1 = (sw::unum::value< 14 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  long double result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Value_14_t_to_long_double",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_14_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Value_14_t_to_long_double" "', argument " "1"" of type '" "sw::unum::value< 14 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 14 > * >(argp1);
+  result = (long double)((sw::unum::value< 14 > const *)arg1)->to_long_double();
+  resultobj = SWIG_NewPointerObj((new long double(static_cast< const long double& >(result))), SWIGTYPE_p_long_double, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Value_14_t_to_double(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 14 > *arg1 = (sw::unum::value< 14 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  double result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Value_14_t_to_double",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_14_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Value_14_t_to_double" "', argument " "1"" of type '" "sw::unum::value< 14 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 14 > * >(argp1);
+  result = (double)((sw::unum::value< 14 > const *)arg1)->to_double();
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Value_14_t_to_float(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 14 > *arg1 = (sw::unum::value< 14 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Value_14_t_to_float",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_14_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Value_14_t_to_float" "', argument " "1"" of type '" "sw::unum::value< 14 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 14 > * >(argp1);
+  result = (float)((sw::unum::value< 14 > const *)arg1)->to_float();
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Value_14_t(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 14 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)":new_Value_14_t")) SWIG_fail;
+  result = (sw::unum::value< 14 > *)new sw::unum::value< 14 >();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__valueT_14_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_Value_14_t(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 14 > *arg1 = (sw::unum::value< 14 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:delete_Value_14_t",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__valueT_14_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_Value_14_t" "', argument " "1"" of type '" "sw::unum::value< 14 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 14 > * >(argp1);
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *Value_14_t_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_ParseTuple(args,(char *)"O:swigregister", &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_sw__unum__valueT_14_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_new_Posit_4_0_t__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)":new_Posit_4_0_t")) SWIG_fail;
+  result = (sw::unum::posit< 4,0 > *)new sw::unum::posit< 4,0 >();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_4_0_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Posit_4_0_t__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 4,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Posit_4_0_t",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_4_0_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_Posit_4_0_t" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_Posit_4_0_t" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  result = (sw::unum::posit< 4,0 > *)new sw::unum::posit< 4,0 >((sw::unum::posit< 4,0 > const &)*arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_4_0_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Posit_4_0_t__SWIG_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  signed char arg1 ;
+  signed char val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 4,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Posit_4_0_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_signed_SS_char(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Posit_4_0_t" "', argument " "1"" of type '" "signed char""'");
+  } 
+  arg1 = static_cast< signed char >(val1);
+  result = (sw::unum::posit< 4,0 > *)new sw::unum::posit< 4,0 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_4_0_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Posit_4_0_t__SWIG_3(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  char arg1 ;
+  char val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 4,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Posit_4_0_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_char(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Posit_4_0_t" "', argument " "1"" of type '" "char""'");
+  } 
+  arg1 = static_cast< char >(val1);
+  result = (sw::unum::posit< 4,0 > *)new sw::unum::posit< 4,0 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_4_0_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Posit_4_0_t__SWIG_4(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  short arg1 ;
+  short val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 4,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Posit_4_0_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_short(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Posit_4_0_t" "', argument " "1"" of type '" "short""'");
+  } 
+  arg1 = static_cast< short >(val1);
+  result = (sw::unum::posit< 4,0 > *)new sw::unum::posit< 4,0 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_4_0_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Posit_4_0_t__SWIG_5(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  int arg1 ;
+  int val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 4,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Posit_4_0_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_int(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Posit_4_0_t" "', argument " "1"" of type '" "int""'");
+  } 
+  arg1 = static_cast< int >(val1);
+  result = (sw::unum::posit< 4,0 > *)new sw::unum::posit< 4,0 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_4_0_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Posit_4_0_t__SWIG_6(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  float arg1 ;
+  float val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 4,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Posit_4_0_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_float(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Posit_4_0_t" "', argument " "1"" of type '" "float""'");
+  } 
+  arg1 = static_cast< float >(val1);
+  result = (sw::unum::posit< 4,0 > *)new sw::unum::posit< 4,0 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_4_0_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Posit_4_0_t__SWIG_7(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  double arg1 ;
+  double val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 4,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Posit_4_0_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_double(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Posit_4_0_t" "', argument " "1"" of type '" "double""'");
+  } 
+  arg1 = static_cast< double >(val1);
+  result = (sw::unum::posit< 4,0 > *)new sw::unum::posit< 4,0 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_4_0_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Posit_4_0_t__SWIG_8(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  long double arg1 ;
+  void *argp1 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 4,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Posit_4_0_t",&obj0)) SWIG_fail;
+  {
+    res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_long_double,  0  | 0);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_Posit_4_0_t" "', argument " "1"" of type '" "long double const""'"); 
+    }  
+    if (!argp1) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_Posit_4_0_t" "', argument " "1"" of type '" "long double const""'");
+    } else {
+      long double * temp = reinterpret_cast< long double * >(argp1);
+      arg1 = *temp;
+      if (SWIG_IsNewObj(res1)) delete temp;
+    }
+  }
+  result = (sw::unum::posit< 4,0 > *)new sw::unum::posit< 4,0 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_4_0_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Posit_4_0_t__SWIG_9(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  unsigned int arg1 ;
+  unsigned int val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 4,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Posit_4_0_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_unsigned_SS_int(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Posit_4_0_t" "', argument " "1"" of type '" "unsigned int""'");
+  } 
+  arg1 = static_cast< unsigned int >(val1);
+  result = (sw::unum::posit< 4,0 > *)new sw::unum::posit< 4,0 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_4_0_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Posit_4_0_t__SWIG_10(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  unsigned long long arg1 ;
+  unsigned long long val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 4,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Posit_4_0_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_unsigned_SS_long_SS_long(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Posit_4_0_t" "', argument " "1"" of type '" "unsigned long long""'");
+  } 
+  arg1 = static_cast< unsigned long long >(val1);
+  result = (sw::unum::posit< 4,0 > *)new sw::unum::posit< 4,0 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_4_0_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Posit_4_0_t(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[2] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 1) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 0) {
+    return _wrap_new_Posit_4_0_t__SWIG_0(self, args);
+  }
+  if (argc == 1) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_4_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_Posit_4_0_t__SWIG_1(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_long_double, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_Posit_4_0_t__SWIG_8(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_signed_SS_char(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Posit_4_0_t__SWIG_2(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_short(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Posit_4_0_t__SWIG_4(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_unsigned_SS_int(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Posit_4_0_t__SWIG_9(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_int(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Posit_4_0_t__SWIG_5(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_unsigned_SS_long_SS_long(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Posit_4_0_t__SWIG_10(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_float(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Posit_4_0_t__SWIG_6(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_double(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Posit_4_0_t__SWIG_7(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_char(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Posit_4_0_t__SWIG_3(self, args);
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'new_Posit_4_0_t'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    sw::unum::posit< 4,0 >::posit()\n"
+    "    sw::unum::posit< 4,0 >::posit(sw::unum::posit< 4,0 > const &)\n"
+    "    sw::unum::posit< 4,0 >::posit(signed char const)\n"
+    "    sw::unum::posit< 4,0 >::posit(char const)\n"
+    "    sw::unum::posit< 4,0 >::posit(short const)\n"
+    "    sw::unum::posit< 4,0 >::posit(int const)\n"
+    "    sw::unum::posit< 4,0 >::posit(float const)\n"
+    "    sw::unum::posit< 4,0 >::posit(double const)\n"
+    "    sw::unum::posit< 4,0 >::posit(long double const)\n"
+    "    sw::unum::posit< 4,0 >::posit(unsigned int const)\n"
+    "    sw::unum::posit< 4,0 >::posit(unsigned long long const)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_4_0_t_to_int(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = (sw::unum::posit< 4,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_4_0_t_to_int",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_4_0_t_to_int" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  result = (int)((sw::unum::posit< 4,0 > const *)arg1)->operator int();
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_4_0_t_to_long(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = (sw::unum::posit< 4,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  long result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_4_0_t_to_long",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_4_0_t_to_long" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  result = (long)((sw::unum::posit< 4,0 > const *)arg1)->operator long();
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_4_0_t_to_long_long(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = (sw::unum::posit< 4,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  long long result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_4_0_t_to_long_long",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_4_0_t_to_long_long" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  result = (long long)((sw::unum::posit< 4,0 > const *)arg1)->operator long long();
+  resultobj = SWIG_From_long_SS_long(static_cast< long long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_4_0_t_to_float(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = (sw::unum::posit< 4,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_4_0_t_to_float",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_4_0_t_to_float" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  result = (float)((sw::unum::posit< 4,0 > const *)arg1)->operator float();
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_4_0_t_to_double(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = (sw::unum::posit< 4,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  double result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_4_0_t_to_double",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_4_0_t_to_double" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  result = (double)((sw::unum::posit< 4,0 > const *)arg1)->operator double();
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_4_0_t_to_long_double(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = (sw::unum::posit< 4,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  long double result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_4_0_t_to_long_double",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_4_0_t_to_long_double" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  result = (long double)((sw::unum::posit< 4,0 > const *)arg1)->operator long double();
+  resultobj = SWIG_NewPointerObj((new long double(static_cast< const long double& >(result))), SWIGTYPE_p_long_double, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_4_0_t_assign__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = (sw::unum::posit< 4,0 > *) 0 ;
+  signed char arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 4,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Posit_4_0_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_4_0_t_assign" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Posit_4_0_t_assign" "', argument " "2"" of type '" "signed char""'");
+  } 
+  arg2 = static_cast< signed char >(val2);
+  result = (sw::unum::posit< 4,0 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_4_0_t_assign__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = (sw::unum::posit< 4,0 > *) 0 ;
+  char arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  char val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 4,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Posit_4_0_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_4_0_t_assign" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  ecode2 = SWIG_AsVal_char(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Posit_4_0_t_assign" "', argument " "2"" of type '" "char""'");
+  } 
+  arg2 = static_cast< char >(val2);
+  result = (sw::unum::posit< 4,0 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_4_0_t_assign__SWIG_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = (sw::unum::posit< 4,0 > *) 0 ;
+  short arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 4,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Posit_4_0_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_4_0_t_assign" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  ecode2 = SWIG_AsVal_short(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Posit_4_0_t_assign" "', argument " "2"" of type '" "short""'");
+  } 
+  arg2 = static_cast< short >(val2);
+  result = (sw::unum::posit< 4,0 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_4_0_t_assign__SWIG_3(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = (sw::unum::posit< 4,0 > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 4,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Posit_4_0_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_4_0_t_assign" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Posit_4_0_t_assign" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  result = (sw::unum::posit< 4,0 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_4_0_t_assign__SWIG_4(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = (sw::unum::posit< 4,0 > *) 0 ;
+  long long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 4,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Posit_4_0_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_4_0_t_assign" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  ecode2 = SWIG_AsVal_long_SS_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Posit_4_0_t_assign" "', argument " "2"" of type '" "long long""'");
+  } 
+  arg2 = static_cast< long long >(val2);
+  result = (sw::unum::posit< 4,0 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_4_0_t_assign__SWIG_5(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = (sw::unum::posit< 4,0 > *) 0 ;
+  float arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  float val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 4,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Posit_4_0_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_4_0_t_assign" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  ecode2 = SWIG_AsVal_float(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Posit_4_0_t_assign" "', argument " "2"" of type '" "float""'");
+  } 
+  arg2 = static_cast< float >(val2);
+  result = (sw::unum::posit< 4,0 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_4_0_t_assign__SWIG_6(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = (sw::unum::posit< 4,0 > *) 0 ;
+  double arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  double val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 4,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Posit_4_0_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_4_0_t_assign" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  ecode2 = SWIG_AsVal_double(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Posit_4_0_t_assign" "', argument " "2"" of type '" "double""'");
+  } 
+  arg2 = static_cast< double >(val2);
+  result = (sw::unum::posit< 4,0 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_4_0_t_assign__SWIG_7(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = (sw::unum::posit< 4,0 > *) 0 ;
+  long double arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 4,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Posit_4_0_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_4_0_t_assign" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_long_double,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Posit_4_0_t_assign" "', argument " "2"" of type '" "long double const""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Posit_4_0_t_assign" "', argument " "2"" of type '" "long double const""'");
+    } else {
+      long double * temp = reinterpret_cast< long double * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  result = (sw::unum::posit< 4,0 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_4_0_t_assign(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__positT_4_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_long_double, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_Posit_4_0_t_assign__SWIG_7(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__positT_4_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_signed_SS_char(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Posit_4_0_t_assign__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__positT_4_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_short(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Posit_4_0_t_assign__SWIG_2(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__positT_4_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Posit_4_0_t_assign__SWIG_3(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__positT_4_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long_SS_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Posit_4_0_t_assign__SWIG_4(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__positT_4_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_float(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Posit_4_0_t_assign__SWIG_5(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__positT_4_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_double(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Posit_4_0_t_assign__SWIG_6(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__positT_4_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_char(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Posit_4_0_t_assign__SWIG_1(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'Posit_4_0_t_assign'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    sw::unum::posit< 4,0 >::operator =(signed char const)\n"
+    "    sw::unum::posit< 4,0 >::operator =(char const)\n"
+    "    sw::unum::posit< 4,0 >::operator =(short const)\n"
+    "    sw::unum::posit< 4,0 >::operator =(int const)\n"
+    "    sw::unum::posit< 4,0 >::operator =(long long const)\n"
+    "    sw::unum::posit< 4,0 >::operator =(float const)\n"
+    "    sw::unum::posit< 4,0 >::operator =(double const)\n"
+    "    sw::unum::posit< 4,0 >::operator =(long double const)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_4_0_t___neg__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = (sw::unum::posit< 4,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 4,0 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_4_0_t___neg__",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_4_0_t___neg__" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  result = ((sw::unum::posit< 4,0 > const *)arg1)->operator -();
+  resultobj = SWIG_NewPointerObj((new sw::unum::posit< 4,0 >(static_cast< const sw::unum::posit< 4,0 >& >(result))), SWIGTYPE_p_sw__unum__positT_4_0_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_4_0_t___pos__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = (sw::unum::posit< 4,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 4,0 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_4_0_t___pos__",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_4_0_t___pos__" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  result = ((sw::unum::posit< 4,0 > const *)arg1)->operator +();
+  resultobj = SWIG_NewPointerObj((new sw::unum::posit< 4,0 >(static_cast< const sw::unum::posit< 4,0 >& >(result))), SWIGTYPE_p_sw__unum__positT_4_0_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_4_0_t___iadd__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = (sw::unum::posit< 4,0 > *) 0 ;
+  sw::unum::posit< 4,0 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 4,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Posit_4_0_t___iadd__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_4_0_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_4_0_t___iadd__" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_4_0_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Posit_4_0_t___iadd__" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Posit_4_0_t___iadd__" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp2);
+  result = (sw::unum::posit< 4,0 > *) &(arg1)->operator +=((sw::unum::posit< 4,0 > const &)*arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_4_0_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_4_0_t___isub__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = (sw::unum::posit< 4,0 > *) 0 ;
+  sw::unum::posit< 4,0 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 4,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Posit_4_0_t___isub__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_4_0_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_4_0_t___isub__" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_4_0_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Posit_4_0_t___isub__" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Posit_4_0_t___isub__" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp2);
+  result = (sw::unum::posit< 4,0 > *) &(arg1)->operator -=((sw::unum::posit< 4,0 > const &)*arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_4_0_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_4_0_t___imul__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = (sw::unum::posit< 4,0 > *) 0 ;
+  sw::unum::posit< 4,0 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 4,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Posit_4_0_t___imul__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_4_0_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_4_0_t___imul__" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_4_0_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Posit_4_0_t___imul__" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Posit_4_0_t___imul__" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp2);
+  result = (sw::unum::posit< 4,0 > *) &(arg1)->operator *=((sw::unum::posit< 4,0 > const &)*arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_4_0_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_4_0_t___itruediv__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = (sw::unum::posit< 4,0 > *) 0 ;
+  sw::unum::posit< 4,0 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 4,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Posit_4_0_t___itruediv__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_4_0_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_4_0_t___itruediv__" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_4_0_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Posit_4_0_t___itruediv__" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Posit_4_0_t___itruediv__" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp2);
+  result = (sw::unum::posit< 4,0 > *) &(arg1)->operator /=((sw::unum::posit< 4,0 > const &)*arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_4_0_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_4_0_t_increment(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = (sw::unum::posit< 4,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 4,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_4_0_t_increment",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_4_0_t_increment" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  result = (sw::unum::posit< 4,0 > *) &(arg1)->operator ++();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_4_0_t_decrement(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = (sw::unum::posit< 4,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 4,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_4_0_t_decrement",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_4_0_t_decrement" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  result = (sw::unum::posit< 4,0 > *) &(arg1)->operator --();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_4_0_t_reciprocate(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = (sw::unum::posit< 4,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 4,0 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_4_0_t_reciprocate",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_4_0_t_reciprocate" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  result = ((sw::unum::posit< 4,0 > const *)arg1)->reciprocate();
+  resultobj = SWIG_NewPointerObj((new sw::unum::posit< 4,0 >(static_cast< const sw::unum::posit< 4,0 >& >(result))), SWIGTYPE_p_sw__unum__positT_4_0_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_4_0_t_set_raw_bits(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = (sw::unum::posit< 4,0 > *) 0 ;
+  uint64_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned long long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 4,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Posit_4_0_t_set_raw_bits",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_4_0_t_set_raw_bits" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_long_SS_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Posit_4_0_t_set_raw_bits" "', argument " "2"" of type '" "uint64_t""'");
+  } 
+  arg2 = static_cast< uint64_t >(val2);
+  result = (sw::unum::posit< 4,0 > *) &(arg1)->set_raw_bits(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_4_0_t_abs(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = (sw::unum::posit< 4,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::posit< 4,0 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_4_0_t_abs",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_4_0_t_abs" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  result = ((sw::unum::posit< 4,0 > const *)arg1)->abs();
+  resultobj = SWIG_NewPointerObj((new sw::unum::posit< 4,0 >(static_cast< const sw::unum::posit< 4,0 >& >(result))), SWIGTYPE_p_sw__unum__positT_4_0_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_4_0_t_isnar(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = (sw::unum::posit< 4,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_4_0_t_isnar",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_4_0_t_isnar" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  result = (bool)((sw::unum::posit< 4,0 > const *)arg1)->isnar();
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_4_0_t_iszero(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = (sw::unum::posit< 4,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_4_0_t_iszero",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_4_0_t_iszero" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  result = (bool)((sw::unum::posit< 4,0 > const *)arg1)->iszero();
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_4_0_t_isone(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = (sw::unum::posit< 4,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_4_0_t_isone",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_4_0_t_isone" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  result = (bool)((sw::unum::posit< 4,0 > const *)arg1)->isone();
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_4_0_t_isminusone(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = (sw::unum::posit< 4,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_4_0_t_isminusone",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_4_0_t_isminusone" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  result = (bool)((sw::unum::posit< 4,0 > const *)arg1)->isminusone();
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_4_0_t_isneg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = (sw::unum::posit< 4,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_4_0_t_isneg",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_4_0_t_isneg" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  result = (bool)((sw::unum::posit< 4,0 > const *)arg1)->isneg();
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_4_0_t_ispos(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = (sw::unum::posit< 4,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_4_0_t_ispos",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_4_0_t_ispos" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  result = (bool)((sw::unum::posit< 4,0 > const *)arg1)->ispos();
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_4_0_t_ispowerof2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = (sw::unum::posit< 4,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_4_0_t_ispowerof2",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_4_0_t_ispowerof2" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  result = (bool)((sw::unum::posit< 4,0 > const *)arg1)->ispowerof2();
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_4_0_t_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = (sw::unum::posit< 4,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::bitblock< 4 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_4_0_t_get",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_4_0_t_get" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  result = ((sw::unum::posit< 4,0 > const *)arg1)->get();
+  resultobj = SWIG_NewPointerObj((new sw::unum::bitblock< 4 >(static_cast< const sw::unum::bitblock< 4 >& >(result))), SWIGTYPE_p_sw__unum__bitblockT_4_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Posit_4_0_t_cfg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = (sw::unum::posit< 4,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Posit_4_0_t_cfg",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Posit_4_0_t_cfg" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  result = (arg1)->cfg();
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_Posit_4_0_t(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = (sw::unum::posit< 4,0 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:delete_Posit_4_0_t",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__positT_4_0_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_Posit_4_0_t" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *Posit_4_0_t_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_ParseTuple(args,(char *)"O:swigregister", &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_sw__unum__positT_4_0_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_posit_to_binary_4_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:posit_to_binary_4_0",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_4_0_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "posit_to_binary_4_0" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "posit_to_binary_4_0" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR to_binary< sw::unum::posit< 4,0 > >((sw::unum::posit< 4,0 > const &)*arg1);
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___eq____SWIG_12(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = 0 ;
+  sw::unum::posit< 4,0 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__eq__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_4_0_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__eq__" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__eq__" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_4_0_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__eq__" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__eq__" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator ==< 4,0 >((sw::unum::posit< 4,0 > const &)*arg1,(sw::unum::posit< 4,0 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___ne____SWIG_8(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = 0 ;
+  sw::unum::posit< 4,0 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__ne__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_4_0_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__ne__" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__ne__" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_4_0_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__ne__" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__ne__" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator !=< 4,0 >((sw::unum::posit< 4,0 > const &)*arg1,(sw::unum::posit< 4,0 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___lt____SWIG_12(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = 0 ;
+  sw::unum::posit< 4,0 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__lt__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_4_0_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__lt__" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__lt__" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_4_0_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__lt__" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__lt__" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator < < 4,0 >((sw::unum::posit< 4,0 > const &)*arg1,(sw::unum::posit< 4,0 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___gt____SWIG_12(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = 0 ;
+  sw::unum::posit< 4,0 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__gt__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_4_0_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__gt__" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__gt__" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_4_0_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__gt__" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__gt__" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator >< 4,0 >((sw::unum::posit< 4,0 > const &)*arg1,(sw::unum::posit< 4,0 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___le____SWIG_8(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = 0 ;
+  sw::unum::posit< 4,0 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__le__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_4_0_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__le__" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__le__" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_4_0_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__le__" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__le__" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator <=< 4,0 >((sw::unum::posit< 4,0 > const &)*arg1,(sw::unum::posit< 4,0 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___ge____SWIG_8(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = 0 ;
+  sw::unum::posit< 4,0 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__ge__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_4_0_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__ge__" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__ge__" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_4_0_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__ge__" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__ge__" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator >=< 4,0 >((sw::unum::posit< 4,0 > const &)*arg1,(sw::unum::posit< 4,0 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___add____SWIG_8(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = 0 ;
+  sw::unum::posit< 4,0 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 4,0 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__add__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_4_0_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__add__" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__add__" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_4_0_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__add__" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__add__" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp2);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator +< 4,0 >((sw::unum::posit< 4,0 > const &)*arg1,(sw::unum::posit< 4,0 > const &)*arg2);
+  resultobj = SWIG_NewPointerObj((new sw::unum::posit< 4,0 >(static_cast< const sw::unum::posit< 4,0 >& >(result))), SWIGTYPE_p_sw__unum__positT_4_0_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___sub____SWIG_4(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = 0 ;
+  sw::unum::posit< 4,0 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 4,0 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__sub__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_4_0_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__sub__" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__sub__" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_4_0_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__sub__" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__sub__" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp2);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator -< 4,0 >((sw::unum::posit< 4,0 > const &)*arg1,(sw::unum::posit< 4,0 > const &)*arg2);
+  resultobj = SWIG_NewPointerObj((new sw::unum::posit< 4,0 >(static_cast< const sw::unum::posit< 4,0 >& >(result))), SWIGTYPE_p_sw__unum__positT_4_0_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___sub__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_8_0_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___sub____SWIG_1(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_1_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_8_1_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___sub____SWIG_2(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_2_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_8_2_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___sub____SWIG_3(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_4_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_4_0_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___sub____SWIG_4(self, args);
+      }
+    }
+  }
+  
+fail:
+  Py_INCREF(Py_NotImplemented);
+  return Py_NotImplemented;
+}
+
+
+SWIGINTERN PyObject *_wrap___mul____SWIG_4(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = 0 ;
+  sw::unum::posit< 4,0 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 4,0 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__mul__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_4_0_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__mul__" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__mul__" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_4_0_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__mul__" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__mul__" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp2);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator *< 4,0 >((sw::unum::posit< 4,0 > const &)*arg1,(sw::unum::posit< 4,0 > const &)*arg2);
+  resultobj = SWIG_NewPointerObj((new sw::unum::posit< 4,0 >(static_cast< const sw::unum::posit< 4,0 >& >(result))), SWIGTYPE_p_sw__unum__positT_4_0_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___mul__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_8_0_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___mul____SWIG_1(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_1_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_8_1_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___mul____SWIG_2(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_2_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_8_2_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___mul____SWIG_3(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_4_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_4_0_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___mul____SWIG_4(self, args);
+      }
+    }
+  }
+  
+fail:
+  Py_INCREF(Py_NotImplemented);
+  return Py_NotImplemented;
+}
+
+
+SWIGINTERN PyObject *_wrap___truediv____SWIG_4(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = 0 ;
+  sw::unum::posit< 4,0 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 4,0 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__truediv__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_4_0_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__truediv__" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__truediv__" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_4_0_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__truediv__" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__truediv__" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp2);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator /< 4,0 >((sw::unum::posit< 4,0 > const &)*arg1,(sw::unum::posit< 4,0 > const &)*arg2);
+  resultobj = SWIG_NewPointerObj((new sw::unum::posit< 4,0 >(static_cast< const sw::unum::posit< 4,0 >& >(result))), SWIGTYPE_p_sw__unum__positT_4_0_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___truediv__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_8_0_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___truediv____SWIG_1(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_1_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_8_1_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___truediv____SWIG_2(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_2_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_8_2_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___truediv____SWIG_3(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_4_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_4_0_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___truediv____SWIG_4(self, args);
+      }
+    }
+  }
+  
+fail:
+  Py_INCREF(Py_NotImplemented);
+  return Py_NotImplemented;
+}
+
+
+SWIGINTERN PyObject *_wrap_posit_format_4_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:posit_format_4_0",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_4_0_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "posit_format_4_0" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "posit_format_4_0" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR posit_format< 4,0 >((sw::unum::posit< 4,0 > const &)*arg1);
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_posit_to_string_4_0__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = 0 ;
+  std::streamsize arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  std::string result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:posit_to_string_4_0",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_4_0_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "posit_to_string_4_0" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "posit_to_string_4_0" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_std__streamsize,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "posit_to_string_4_0" "', argument " "2"" of type '" "std::streamsize""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "posit_to_string_4_0" "', argument " "2"" of type '" "std::streamsize""'");
+    } else {
+      std::streamsize * temp = reinterpret_cast< std::streamsize * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR to_string< 4,0 >((sw::unum::posit< 4,0 > const &)*arg1,arg2);
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_posit_to_string_4_0__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:posit_to_string_4_0",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_4_0_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "posit_to_string_4_0" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "posit_to_string_4_0" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR to_string< 4,0 >((sw::unum::posit< 4,0 > const &)*arg1);
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_posit_to_string_4_0(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_4_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_posit_to_string_4_0__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_4_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_std__streamsize, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_posit_to_string_4_0__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'posit_to_string_4_0'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    sw::unum::to_string< 4,0 >(sw::unum::posit< 4,0 > const &,std::streamsize)\n"
+    "    sw::unum::to_string< 4,0 >(sw::unum::posit< 4,0 > const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_posit_to_base2_scientific_4_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:posit_to_base2_scientific_4_0",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_4_0_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "posit_to_base2_scientific_4_0" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "posit_to_base2_scientific_4_0" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR to_base2_scientific< sw::unum::posit< 4,0 > >((sw::unum::posit< 4,0 > const &)*arg1);
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_minpos_4_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)":minpos_4_0")) SWIG_fail;
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR minpos< 4,0 >();
+  resultobj = SWIG_NewPointerObj((new sw::unum::posit< 4,0 >(static_cast< const sw::unum::posit< 4,0 >& >(result))), SWIGTYPE_p_sw__unum__positT_4_0_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_maxpos_4_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)":maxpos_4_0")) SWIG_fail;
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR maxpos< 4,0 >();
+  resultobj = SWIG_NewPointerObj((new sw::unum::posit< 4,0 >(static_cast< const sw::unum::posit< 4,0 >& >(result))), SWIGTYPE_p_sw__unum__positT_4_0_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_fma_4_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = 0 ;
+  sw::unum::posit< 4,0 > *arg2 = 0 ;
+  sw::unum::posit< 4,0 > *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  sw::unum::value< 9 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OOO:fma_4_0",&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_4_0_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fma_4_0" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fma_4_0" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_4_0_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fma_4_0" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fma_4_0" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp2);
+  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_sw__unum__positT_4_0_t,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "fma_4_0" "', argument " "3"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fma_4_0" "', argument " "3"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  arg3 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp3);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR fma_swig< 4,0,9 >((sw::unum::posit< 4,0 > const &)*arg1,(sw::unum::posit< 4,0 > const &)*arg2,(sw::unum::posit< 4,0 > const &)*arg3);
+  resultobj = SWIG_NewPointerObj((new sw::unum::value< 9 >(static_cast< const sw::unum::value< 9 >& >(result))), SWIGTYPE_p_sw__unum__valueT_9_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_fam_4_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = 0 ;
+  sw::unum::posit< 4,0 > *arg2 = 0 ;
+  sw::unum::posit< 4,0 > *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  sw::unum::value< 14 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OOO:fam_4_0",&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_4_0_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fam_4_0" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fam_4_0" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_4_0_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fam_4_0" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fam_4_0" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp2);
+  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_sw__unum__positT_4_0_t,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "fam_4_0" "', argument " "3"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fam_4_0" "', argument " "3"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  arg3 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp3);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR fam_swig< 4,0,14 >((sw::unum::posit< 4,0 > const &)*arg1,(sw::unum::posit< 4,0 > const &)*arg2,(sw::unum::posit< 4,0 > const &)*arg3);
+  resultobj = SWIG_NewPointerObj((new sw::unum::value< 14 >(static_cast< const sw::unum::value< 14 >& >(result))), SWIGTYPE_p_sw__unum__valueT_14_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_convert_9_to_4(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 9 > *arg1 = 0 ;
+  sw::unum::posit< 4,0 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 4,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:convert_9_to_4",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__valueT_9_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "convert_9_to_4" "', argument " "1"" of type '" "sw::unum::value< 9 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "convert_9_to_4" "', argument " "1"" of type '" "sw::unum::value< 9 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 9 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_4_0_t,  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "convert_9_to_4" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "convert_9_to_4" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp2);
+  result = (sw::unum::posit< 4,0 > *) &sw::unum::SWIGTEMPLATEDISAMBIGUATOR convert< 4,0,9 >((sw::unum::value< 9 > const &)*arg1,*arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_convert_14_to_4(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 14 > *arg1 = 0 ;
+  sw::unum::posit< 4,0 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 4,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:convert_14_to_4",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__valueT_14_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "convert_14_to_4" "', argument " "1"" of type '" "sw::unum::value< 14 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "convert_14_to_4" "', argument " "1"" of type '" "sw::unum::value< 14 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 14 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_4_0_t,  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "convert_14_to_4" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "convert_14_to_4" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp2);
+  result = (sw::unum::posit< 4,0 > *) &sw::unum::SWIGTEMPLATEDISAMBIGUATOR convert< 4,0,14 >((sw::unum::value< 14 > const &)*arg1,*arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_posit_to_value_4_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::value< 1 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:posit_to_value_4_0",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_4_0_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "posit_to_value_4_0" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "posit_to_value_4_0" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR posit_to_value< 4,0,1 >((sw::unum::posit< 4,0 > const &)*arg1);
+  resultobj = SWIG_NewPointerObj((new sw::unum::value< 1 >(static_cast< const sw::unum::value< 1 >& >(result))), SWIGTYPE_p_sw__unum__valueT_1_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Bitblock_15_t_to_ulong(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::bitblock< 15 > *arg1 = (sw::unum::bitblock< 15 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  unsigned long result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Bitblock_15_t_to_ulong",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__bitblockT_15_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Bitblock_15_t_to_ulong" "', argument " "1"" of type '" "sw::unum::bitblock< 15 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::bitblock< 15 > * >(argp1);
+  result = (unsigned long)((sw::unum::bitblock< 15 > const *)arg1)->to_ulong();
+  resultobj = SWIG_From_unsigned_SS_long(static_cast< unsigned long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Bitblock_15_t_to_ullong(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::bitblock< 15 > *arg1 = (sw::unum::bitblock< 15 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  unsigned long long result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Bitblock_15_t_to_ullong",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__bitblockT_15_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Bitblock_15_t_to_ullong" "', argument " "1"" of type '" "sw::unum::bitblock< 15 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::bitblock< 15 > * >(argp1);
+  result = (unsigned long long)((sw::unum::bitblock< 15 > const *)arg1)->to_ullong();
+  resultobj = SWIG_From_unsigned_SS_long_SS_long(static_cast< unsigned long long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Bitblock_15_t(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::bitblock< 15 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)":new_Bitblock_15_t")) SWIG_fail;
+  result = (sw::unum::bitblock< 15 > *)new sw::unum::bitblock< 15 >();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__bitblockT_15_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_Bitblock_15_t(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::bitblock< 15 > *arg1 = (sw::unum::bitblock< 15 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:delete_Bitblock_15_t",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__bitblockT_15_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_Bitblock_15_t" "', argument " "1"" of type '" "sw::unum::bitblock< 15 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::bitblock< 15 > * >(argp1);
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *Bitblock_15_t_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_ParseTuple(args,(char *)"O:swigregister", &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_sw__unum__bitblockT_15_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_bitblock_15_tobitstring__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::bitblock< 15 > arg1 ;
+  bool arg2 ;
+  void *argp1 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  std::string result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:bitblock_15_tobitstring",&obj0,&obj1)) SWIG_fail;
+  {
+    res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__bitblockT_15_t,  0  | 0);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "bitblock_15_tobitstring" "', argument " "1"" of type '" "sw::unum::bitblock< 15 >""'"); 
+    }  
+    if (!argp1) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "bitblock_15_tobitstring" "', argument " "1"" of type '" "sw::unum::bitblock< 15 >""'");
+    } else {
+      sw::unum::bitblock< 15 > * temp = reinterpret_cast< sw::unum::bitblock< 15 > * >(argp1);
+      arg1 = *temp;
+      if (SWIG_IsNewObj(res1)) delete temp;
+    }
+  }
+  ecode2 = SWIG_AsVal_bool(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "bitblock_15_tobitstring" "', argument " "2"" of type '" "bool""'");
+  } 
+  arg2 = static_cast< bool >(val2);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR to_bit_string< 15 >(arg1,arg2);
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_bitblock_15_tobitstring__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::bitblock< 15 > arg1 ;
+  void *argp1 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:bitblock_15_tobitstring",&obj0)) SWIG_fail;
+  {
+    res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__bitblockT_15_t,  0  | 0);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "bitblock_15_tobitstring" "', argument " "1"" of type '" "sw::unum::bitblock< 15 >""'"); 
+    }  
+    if (!argp1) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "bitblock_15_tobitstring" "', argument " "1"" of type '" "sw::unum::bitblock< 15 >""'");
+    } else {
+      sw::unum::bitblock< 15 > * temp = reinterpret_cast< sw::unum::bitblock< 15 > * >(argp1);
+      arg1 = *temp;
+      if (SWIG_IsNewObj(res1)) delete temp;
+    }
+  }
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR to_bit_string< 15 >(arg1);
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_bitblock_15_tobitstring(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__bitblockT_15_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_bitblock_15_tobitstring__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__bitblockT_15_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_bool(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_bitblock_15_tobitstring__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'bitblock_15_tobitstring'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    sw::unum::to_bit_string< 15 >(sw::unum::bitblock< 15 >,bool)\n"
+    "    sw::unum::to_bit_string< 15 >(sw::unum::bitblock< 15 >)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_bitblock_15_tohexstring(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::bitblock< 15 > arg1 ;
+  void *argp1 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:bitblock_15_tohexstring",&obj0)) SWIG_fail;
+  {
+    res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__bitblockT_15_t,  0  | 0);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "bitblock_15_tohexstring" "', argument " "1"" of type '" "sw::unum::bitblock< 15 >""'"); 
+    }  
+    if (!argp1) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "bitblock_15_tohexstring" "', argument " "1"" of type '" "sw::unum::bitblock< 15 >""'");
+    } else {
+      sw::unum::bitblock< 15 > * temp = reinterpret_cast< sw::unum::bitblock< 15 > * >(argp1);
+      arg1 = *temp;
+      if (SWIG_IsNewObj(res1)) delete temp;
+    }
+  }
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR to_hex< 15 >(arg1);
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_value_14_show(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 14 > *arg1 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:value_14_show",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__valueT_14_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "value_14_show" "', argument " "1"" of type '" "sw::unum::value< 14 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "value_14_show" "', argument " "1"" of type '" "sw::unum::value< 14 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 14 > * >(argp1);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR components< 14 >((sw::unum::value< 14 > const &)*arg1);
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Quire_4_0_6_t__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 4,0,6 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)":new_Quire_4_0_6_t")) SWIG_fail;
+  result = (sw::unum::quire< 4,0,6 > *)new sw::unum::quire< 4,0,6 >();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_4_0_6_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Quire_4_0_6_t__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  int8_t arg1 ;
+  signed char val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::quire< 4,0,6 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Quire_4_0_6_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_signed_SS_char(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Quire_4_0_6_t" "', argument " "1"" of type '" "int8_t""'");
+  } 
+  arg1 = static_cast< int8_t >(val1);
+  result = (sw::unum::quire< 4,0,6 > *)new sw::unum::quire< 4,0,6 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_4_0_6_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Quire_4_0_6_t__SWIG_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  int16_t arg1 ;
+  short val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::quire< 4,0,6 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Quire_4_0_6_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_short(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Quire_4_0_6_t" "', argument " "1"" of type '" "int16_t""'");
+  } 
+  arg1 = static_cast< int16_t >(val1);
+  result = (sw::unum::quire< 4,0,6 > *)new sw::unum::quire< 4,0,6 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_4_0_6_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Quire_4_0_6_t__SWIG_3(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  int32_t arg1 ;
+  int val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::quire< 4,0,6 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Quire_4_0_6_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_int(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Quire_4_0_6_t" "', argument " "1"" of type '" "int32_t""'");
+  } 
+  arg1 = static_cast< int32_t >(val1);
+  result = (sw::unum::quire< 4,0,6 > *)new sw::unum::quire< 4,0,6 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_4_0_6_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Quire_4_0_6_t__SWIG_4(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  int64_t arg1 ;
+  long long val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::quire< 4,0,6 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Quire_4_0_6_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_long_SS_long(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Quire_4_0_6_t" "', argument " "1"" of type '" "int64_t""'");
+  } 
+  arg1 = static_cast< int64_t >(val1);
+  result = (sw::unum::quire< 4,0,6 > *)new sw::unum::quire< 4,0,6 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_4_0_6_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Quire_4_0_6_t__SWIG_5(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  float arg1 ;
+  float val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::quire< 4,0,6 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Quire_4_0_6_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_float(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Quire_4_0_6_t" "', argument " "1"" of type '" "float""'");
+  } 
+  arg1 = static_cast< float >(val1);
+  result = (sw::unum::quire< 4,0,6 > *)new sw::unum::quire< 4,0,6 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_4_0_6_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Quire_4_0_6_t__SWIG_6(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  double arg1 ;
+  double val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::quire< 4,0,6 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Quire_4_0_6_t",&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_double(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Quire_4_0_6_t" "', argument " "1"" of type '" "double""'");
+  } 
+  arg1 = static_cast< double >(val1);
+  result = (sw::unum::quire< 4,0,6 > *)new sw::unum::quire< 4,0,6 >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_4_0_6_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Quire_4_0_6_t__SWIG_7(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::posit< 4,0 > *arg1 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::quire< 4,0,6 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_Quire_4_0_6_t",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__positT_4_0_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_Quire_4_0_6_t" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_Quire_4_0_6_t" "', argument " "1"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp1);
+  result = (sw::unum::quire< 4,0,6 > *)new sw::unum::quire< 4,0,6 >((sw::unum::posit< 4,0 > const &)*arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_4_0_6_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Quire_4_0_6_t(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[2] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 1) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 0) {
+    return _wrap_new_Quire_4_0_6_t__SWIG_0(self, args);
+  }
+  if (argc == 1) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_4_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_Quire_4_0_6_t__SWIG_7(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_signed_SS_char(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Quire_4_0_6_t__SWIG_1(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_short(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Quire_4_0_6_t__SWIG_2(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_int(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Quire_4_0_6_t__SWIG_3(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_long_SS_long(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Quire_4_0_6_t__SWIG_4(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_float(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Quire_4_0_6_t__SWIG_5(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_double(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_Quire_4_0_6_t__SWIG_6(self, args);
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'new_Quire_4_0_6_t'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    sw::unum::quire< 4,0,6 >::quire()\n"
+    "    sw::unum::quire< 4,0,6 >::quire(int8_t)\n"
+    "    sw::unum::quire< 4,0,6 >::quire(int16_t)\n"
+    "    sw::unum::quire< 4,0,6 >::quire(int32_t)\n"
+    "    sw::unum::quire< 4,0,6 >::quire(int64_t)\n"
+    "    sw::unum::quire< 4,0,6 >::quire(float)\n"
+    "    sw::unum::quire< 4,0,6 >::quire(double)\n"
+    "    sw::unum::quire< 4,0,6 >::quire(sw::unum::posit< 4,0 > const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_4_0_6_t_assign__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 4,0,6 > *arg1 = (sw::unum::quire< 4,0,6 > *) 0 ;
+  int8_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::quire< 4,0,6 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_4_0_6_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_4_0_6_t_assign" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Quire_4_0_6_t_assign" "', argument " "2"" of type '" "int8_t""'");
+  } 
+  arg2 = static_cast< int8_t >(val2);
+  result = (sw::unum::quire< 4,0,6 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_4_0_6_t_assign__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 4,0,6 > *arg1 = (sw::unum::quire< 4,0,6 > *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::quire< 4,0,6 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_4_0_6_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_4_0_6_t_assign" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp1);
+  ecode2 = SWIG_AsVal_short(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Quire_4_0_6_t_assign" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  result = (sw::unum::quire< 4,0,6 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_4_0_6_t_assign__SWIG_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 4,0,6 > *arg1 = (sw::unum::quire< 4,0,6 > *) 0 ;
+  int32_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::quire< 4,0,6 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_4_0_6_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_4_0_6_t_assign" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Quire_4_0_6_t_assign" "', argument " "2"" of type '" "int32_t""'");
+  } 
+  arg2 = static_cast< int32_t >(val2);
+  result = (sw::unum::quire< 4,0,6 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_4_0_6_t_assign__SWIG_3(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 4,0,6 > *arg1 = (sw::unum::quire< 4,0,6 > *) 0 ;
+  int64_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::quire< 4,0,6 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_4_0_6_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_4_0_6_t_assign" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp1);
+  ecode2 = SWIG_AsVal_long_SS_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Quire_4_0_6_t_assign" "', argument " "2"" of type '" "int64_t""'");
+  } 
+  arg2 = static_cast< int64_t >(val2);
+  result = (sw::unum::quire< 4,0,6 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_4_0_6_t_assign__SWIG_4(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 4,0,6 > *arg1 = (sw::unum::quire< 4,0,6 > *) 0 ;
+  unsigned long long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned long long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::quire< 4,0,6 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_4_0_6_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_4_0_6_t_assign" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_long_SS_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Quire_4_0_6_t_assign" "', argument " "2"" of type '" "unsigned long long""'");
+  } 
+  arg2 = static_cast< unsigned long long >(val2);
+  result = (sw::unum::quire< 4,0,6 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_4_0_6_t_assign__SWIG_5(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 4,0,6 > *arg1 = (sw::unum::quire< 4,0,6 > *) 0 ;
+  float arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  float val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::quire< 4,0,6 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_4_0_6_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_4_0_6_t_assign" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp1);
+  ecode2 = SWIG_AsVal_float(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Quire_4_0_6_t_assign" "', argument " "2"" of type '" "float""'");
+  } 
+  arg2 = static_cast< float >(val2);
+  result = (sw::unum::quire< 4,0,6 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_4_0_6_t_assign__SWIG_6(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 4,0,6 > *arg1 = (sw::unum::quire< 4,0,6 > *) 0 ;
+  double arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  double val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::quire< 4,0,6 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_4_0_6_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_4_0_6_t_assign" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp1);
+  ecode2 = SWIG_AsVal_double(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Quire_4_0_6_t_assign" "', argument " "2"" of type '" "double""'");
+  } 
+  arg2 = static_cast< double >(val2);
+  result = (sw::unum::quire< 4,0,6 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_4_0_6_t_assign__SWIG_7(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 4,0,6 > *arg1 = (sw::unum::quire< 4,0,6 > *) 0 ;
+  long double arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::quire< 4,0,6 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_4_0_6_t_assign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_4_0_6_t_assign" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_long_double,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Quire_4_0_6_t_assign" "', argument " "2"" of type '" "long double""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Quire_4_0_6_t_assign" "', argument " "2"" of type '" "long double""'");
+    } else {
+      long double * temp = reinterpret_cast< long double * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  result = (sw::unum::quire< 4,0,6 > *) &(arg1)->operator =(arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_4_0_6_t_assign(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_long_double, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_Quire_4_0_6_t_assign__SWIG_7(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_signed_SS_char(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Quire_4_0_6_t_assign__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_short(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Quire_4_0_6_t_assign__SWIG_1(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Quire_4_0_6_t_assign__SWIG_2(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_unsigned_SS_long_SS_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Quire_4_0_6_t_assign__SWIG_4(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long_SS_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Quire_4_0_6_t_assign__SWIG_3(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_float(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Quire_4_0_6_t_assign__SWIG_5(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_double(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_Quire_4_0_6_t_assign__SWIG_6(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'Quire_4_0_6_t_assign'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    sw::unum::quire< 4,0,6 >::operator =(int8_t)\n"
+    "    sw::unum::quire< 4,0,6 >::operator =(int16_t)\n"
+    "    sw::unum::quire< 4,0,6 >::operator =(int32_t)\n"
+    "    sw::unum::quire< 4,0,6 >::operator =(int64_t)\n"
+    "    sw::unum::quire< 4,0,6 >::operator =(unsigned long long)\n"
+    "    sw::unum::quire< 4,0,6 >::operator =(float)\n"
+    "    sw::unum::quire< 4,0,6 >::operator =(double)\n"
+    "    sw::unum::quire< 4,0,6 >::operator =(long double)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_4_0_6_t___iadd____SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 4,0,6 > *arg1 = (sw::unum::quire< 4,0,6 > *) 0 ;
+  sw::unum::posit< 4,0 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::quire< 4,0,6 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_4_0_6_t___iadd__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_4_0_6_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_4_0_6_t___iadd__" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_4_0_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Quire_4_0_6_t___iadd__" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Quire_4_0_6_t___iadd__" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp2);
+  result = (sw::unum::quire< 4,0,6 > *) &(arg1)->operator +=((sw::unum::posit< 4,0 > const &)*arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_4_0_6_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_4_0_6_t___isub____SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 4,0,6 > *arg1 = (sw::unum::quire< 4,0,6 > *) 0 ;
+  sw::unum::posit< 4,0 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::quire< 4,0,6 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_4_0_6_t___isub__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_4_0_6_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_4_0_6_t___isub__" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_4_0_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Quire_4_0_6_t___isub__" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Quire_4_0_6_t___isub__" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp2);
+  result = (sw::unum::quire< 4,0,6 > *) &(arg1)->operator -=((sw::unum::posit< 4,0 > const &)*arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_4_0_6_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_4_0_6_t___iadd____SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 4,0,6 > *arg1 = (sw::unum::quire< 4,0,6 > *) 0 ;
+  sw::unum::quire< 4,0,6 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::quire< 4,0,6 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_4_0_6_t___iadd__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_4_0_6_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_4_0_6_t___iadd__" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__quireT_4_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Quire_4_0_6_t___iadd__" "', argument " "2"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Quire_4_0_6_t___iadd__" "', argument " "2"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp2);
+  result = (sw::unum::quire< 4,0,6 > *) &(arg1)->operator +=((sw::unum::quire< 4,0,6 > const &)*arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_4_0_6_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_4_0_6_t___iadd__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_4_0_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_Quire_4_0_6_t___iadd____SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_Quire_4_0_6_t___iadd____SWIG_1(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'Quire_4_0_6_t___iadd__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    sw::unum::quire< 4,0,6 >::operator +=(sw::unum::posit< 4,0 > const &)\n"
+    "    sw::unum::quire< 4,0,6 >::operator +=(sw::unum::quire< 4,0,6 > const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_4_0_6_t___isub____SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 4,0,6 > *arg1 = (sw::unum::quire< 4,0,6 > *) 0 ;
+  sw::unum::quire< 4,0,6 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::quire< 4,0,6 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_4_0_6_t___isub__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_4_0_6_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_4_0_6_t___isub__" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__quireT_4_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Quire_4_0_6_t___isub__" "', argument " "2"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Quire_4_0_6_t___isub__" "', argument " "2"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp2);
+  result = (sw::unum::quire< 4,0,6 > *) &(arg1)->operator -=((sw::unum::quire< 4,0,6 > const &)*arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__quireT_4_0_6_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_4_0_6_t___isub__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_4_0_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_Quire_4_0_6_t___isub____SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_Quire_4_0_6_t___isub____SWIG_1(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'Quire_4_0_6_t___isub__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    sw::unum::quire< 4,0,6 >::operator -=(sw::unum::posit< 4,0 > const &)\n"
+    "    sw::unum::quire< 4,0,6 >::operator -=(sw::unum::quire< 4,0,6 > const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_4_0_6_t_reset(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 4,0,6 > *arg1 = (sw::unum::quire< 4,0,6 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Quire_4_0_6_t_reset",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_4_0_6_t_reset" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp1);
+  (arg1)->reset();
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_4_0_6_t_set_sign(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 4,0,6 > *arg1 = (sw::unum::quire< 4,0,6 > *) 0 ;
+  bool arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_4_0_6_t_set_sign",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_4_0_6_t_set_sign" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp1);
+  ecode2 = SWIG_AsVal_bool(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Quire_4_0_6_t_set_sign" "', argument " "2"" of type '" "bool""'");
+  } 
+  arg2 = static_cast< bool >(val2);
+  (arg1)->set_sign(arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_4_0_6_t_sign(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 4,0,6 > *arg1 = (sw::unum::quire< 4,0,6 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Quire_4_0_6_t_sign",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_4_0_6_t_sign" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp1);
+  result = (bool)((sw::unum::quire< 4,0,6 > const *)arg1)->sign();
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_4_0_6_t_load_bits(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 4,0,6 > *arg1 = (sw::unum::quire< 4,0,6 > *) 0 ;
+  std::string *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:Quire_4_0_6_t_load_bits",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_4_0_6_t_load_bits" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(obj1, &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Quire_4_0_6_t_load_bits" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Quire_4_0_6_t_load_bits" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  result = (bool)(arg1)->load_bits((std::string const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_4_0_6_t_isneg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 4,0,6 > *arg1 = (sw::unum::quire< 4,0,6 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Quire_4_0_6_t_isneg",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_4_0_6_t_isneg" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp1);
+  result = (bool)((sw::unum::quire< 4,0,6 > const *)arg1)->isneg();
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_4_0_6_t_ispos(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 4,0,6 > *arg1 = (sw::unum::quire< 4,0,6 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Quire_4_0_6_t_ispos",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_4_0_6_t_ispos" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp1);
+  result = (bool)((sw::unum::quire< 4,0,6 > const *)arg1)->ispos();
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Quire_4_0_6_t_iszero(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 4,0,6 > *arg1 = (sw::unum::quire< 4,0,6 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:Quire_4_0_6_t_iszero",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Quire_4_0_6_t_iszero" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp1);
+  result = (bool)((sw::unum::quire< 4,0,6 > const *)arg1)->iszero();
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_Quire_4_0_6_t(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 4,0,6 > *arg1 = (sw::unum::quire< 4,0,6 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:delete_Quire_4_0_6_t",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_sw__unum__quireT_4_0_6_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_Quire_4_0_6_t" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > *""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp1);
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *Quire_4_0_6_t_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_ParseTuple(args,(char *)"O:swigregister", &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_sw__unum__quireT_4_0_6_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap___eq____SWIG_13(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 4,0,6 > *arg1 = 0 ;
+  sw::unum::quire< 4,0,6 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__eq__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_4_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__eq__" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__eq__" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__quireT_4_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__eq__" "', argument " "2"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__eq__" "', argument " "2"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator ==< 4,0,6 >((sw::unum::quire< 4,0,6 > const &)*arg1,(sw::unum::quire< 4,0,6 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___ne____SWIG_9(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 4,0,6 > *arg1 = 0 ;
+  sw::unum::quire< 4,0,6 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__ne__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_4_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__ne__" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__ne__" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__quireT_4_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__ne__" "', argument " "2"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__ne__" "', argument " "2"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator !=< 4,0,6 >((sw::unum::quire< 4,0,6 > const &)*arg1,(sw::unum::quire< 4,0,6 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___ne__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_8_0_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___ne____SWIG_2(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___ne____SWIG_3(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_1_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_8_1_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___ne____SWIG_4(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_8_1_14_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__quireT_8_1_14_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___ne____SWIG_5(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_2_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_8_2_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___ne____SWIG_6(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___ne____SWIG_7(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_4_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_4_0_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___ne____SWIG_8(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___ne____SWIG_9(self, args);
+      }
+    }
+  }
+  
+fail:
+  Py_INCREF(Py_NotImplemented);
+  return Py_NotImplemented;
+}
+
+
+SWIGINTERN PyObject *_wrap___lt____SWIG_13(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 4,0,6 > *arg1 = 0 ;
+  sw::unum::quire< 4,0,6 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__lt__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_4_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__lt__" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__lt__" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__quireT_4_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__lt__" "', argument " "2"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__lt__" "', argument " "2"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator < < 4,0,6 >((sw::unum::quire< 4,0,6 > const &)*arg1,(sw::unum::quire< 4,0,6 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___gt____SWIG_13(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 4,0,6 > *arg1 = 0 ;
+  sw::unum::quire< 4,0,6 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__gt__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_4_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__gt__" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__gt__" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__quireT_4_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__gt__" "', argument " "2"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__gt__" "', argument " "2"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator >< 4,0,6 >((sw::unum::quire< 4,0,6 > const &)*arg1,(sw::unum::quire< 4,0,6 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___le____SWIG_9(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 4,0,6 > *arg1 = 0 ;
+  sw::unum::quire< 4,0,6 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__le__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_4_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__le__" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__le__" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__quireT_4_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__le__" "', argument " "2"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__le__" "', argument " "2"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator <=< 4,0,6 >((sw::unum::quire< 4,0,6 > const &)*arg1,(sw::unum::quire< 4,0,6 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___le__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_8_0_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___le____SWIG_2(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___le____SWIG_3(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_1_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_8_1_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___le____SWIG_4(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_8_1_14_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__quireT_8_1_14_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___le____SWIG_5(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_2_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_8_2_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___le____SWIG_6(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___le____SWIG_7(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_4_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_4_0_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___le____SWIG_8(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___le____SWIG_9(self, args);
+      }
+    }
+  }
+  
+fail:
+  Py_INCREF(Py_NotImplemented);
+  return Py_NotImplemented;
+}
+
+
+SWIGINTERN PyObject *_wrap___ge____SWIG_9(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 4,0,6 > *arg1 = 0 ;
+  sw::unum::quire< 4,0,6 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__ge__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_4_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__ge__" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__ge__" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__quireT_4_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__ge__" "', argument " "2"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__ge__" "', argument " "2"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator >=< 4,0,6 >((sw::unum::quire< 4,0,6 > const &)*arg1,(sw::unum::quire< 4,0,6 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___ge__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_8_0_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___ge____SWIG_2(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___ge____SWIG_3(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_1_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_8_1_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___ge____SWIG_4(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_8_1_14_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__quireT_8_1_14_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___ge____SWIG_5(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_2_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_8_2_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___ge____SWIG_6(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___ge____SWIG_7(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_4_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_4_0_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___ge____SWIG_8(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___ge____SWIG_9(self, args);
+      }
+    }
+  }
+  
+fail:
+  Py_INCREF(Py_NotImplemented);
+  return Py_NotImplemented;
+}
+
+
+SWIGINTERN PyObject *_wrap___eq____SWIG_14(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 4,0,6 > *arg1 = 0 ;
+  sw::unum::value< 1 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__eq__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_4_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__eq__" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__eq__" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__valueT_1_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__eq__" "', argument " "2"" of type '" "sw::unum::value< 1 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__eq__" "', argument " "2"" of type '" "sw::unum::value< 1 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::value< 1 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator ==< 4,0,6,1 >((sw::unum::quire< 4,0,6 > const &)*arg1,(sw::unum::value< 1 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___eq__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_8_0_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___eq____SWIG_3(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___eq____SWIG_4(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__valueT_5_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___eq____SWIG_5(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_1_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_8_1_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___eq____SWIG_6(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_8_1_14_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__quireT_8_1_14_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___eq____SWIG_7(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_8_1_14_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__valueT_4_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___eq____SWIG_8(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_2_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_8_2_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___eq____SWIG_9(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___eq____SWIG_10(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__valueT_3_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___eq____SWIG_11(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_4_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_4_0_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___eq____SWIG_12(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___eq____SWIG_13(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__valueT_1_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___eq____SWIG_14(self, args);
+      }
+    }
+  }
+  
+fail:
+  Py_INCREF(Py_NotImplemented);
+  return Py_NotImplemented;
+}
+
+
+SWIGINTERN PyObject *_wrap___lt____SWIG_14(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 4,0,6 > *arg1 = 0 ;
+  sw::unum::value< 1 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__lt__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_4_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__lt__" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__lt__" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__valueT_1_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__lt__" "', argument " "2"" of type '" "sw::unum::value< 1 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__lt__" "', argument " "2"" of type '" "sw::unum::value< 1 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::value< 1 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator < < 4,0,6,1 >((sw::unum::quire< 4,0,6 > const &)*arg1,(sw::unum::value< 1 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___lt__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_8_0_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___lt____SWIG_3(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___lt____SWIG_4(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__valueT_5_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___lt____SWIG_5(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_1_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_8_1_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___lt____SWIG_6(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_8_1_14_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__quireT_8_1_14_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___lt____SWIG_7(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_8_1_14_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__valueT_4_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___lt____SWIG_8(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_2_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_8_2_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___lt____SWIG_9(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___lt____SWIG_10(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__valueT_3_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___lt____SWIG_11(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_4_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_4_0_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___lt____SWIG_12(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___lt____SWIG_13(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__valueT_1_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___lt____SWIG_14(self, args);
+      }
+    }
+  }
+  
+fail:
+  Py_INCREF(Py_NotImplemented);
+  return Py_NotImplemented;
+}
+
+
+SWIGINTERN PyObject *_wrap___gt____SWIG_14(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 4,0,6 > *arg1 = 0 ;
+  sw::unum::value< 1 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__gt__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_4_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__gt__" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__gt__" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__valueT_1_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__gt__" "', argument " "2"" of type '" "sw::unum::value< 1 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__gt__" "', argument " "2"" of type '" "sw::unum::value< 1 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::value< 1 > * >(argp2);
+  result = (bool)sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator >< 4,0,6,1 >((sw::unum::quire< 4,0,6 > const &)*arg1,(sw::unum::value< 1 > const &)*arg2);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___gt__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_8_0_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___gt____SWIG_3(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___gt____SWIG_4(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__valueT_5_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___gt____SWIG_5(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_1_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_8_1_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___gt____SWIG_6(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_8_1_14_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__quireT_8_1_14_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___gt____SWIG_7(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_8_1_14_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__valueT_4_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___gt____SWIG_8(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_2_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_8_2_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___gt____SWIG_9(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___gt____SWIG_10(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__valueT_3_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___gt____SWIG_11(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_4_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_4_0_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___gt____SWIG_12(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___gt____SWIG_13(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__valueT_1_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___gt____SWIG_14(self, args);
+      }
+    }
+  }
+  
+fail:
+  Py_INCREF(Py_NotImplemented);
+  return Py_NotImplemented;
+}
+
+
+SWIGINTERN PyObject *_wrap_quire_abs_4_0_6(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 4,0,6 > *arg1 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::quire< 4,0,6 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:quire_abs_4_0_6",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_4_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "quire_abs_4_0_6" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "quire_abs_4_0_6" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp1);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR abs< 4,0,6 >((sw::unum::quire< 4,0,6 > const &)*arg1);
+  resultobj = SWIG_NewPointerObj((new sw::unum::quire< 4,0,6 >(static_cast< const sw::unum::quire< 4,0,6 >& >(result))), SWIGTYPE_p_sw__unum__quireT_4_0_6_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_quire_to_value_4_0_6(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 4,0,6 > *arg1 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::value< 14 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:quire_to_value_4_0_6",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_4_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "quire_to_value_4_0_6" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "quire_to_value_4_0_6" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp1);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR quire_to_value< 4,0,6,14 >((sw::unum::quire< 4,0,6 > const &)*arg1);
+  resultobj = SWIG_NewPointerObj((new sw::unum::value< 14 >(static_cast< const sw::unum::value< 14 >& >(result))), SWIGTYPE_p_sw__unum__valueT_14_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_quire_from_value_4_0_6(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 4,0,6 > *arg1 = 0 ;
+  sw::unum::value< 14 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:quire_from_value_4_0_6",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_4_0_6_t,  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "quire_from_value_4_0_6" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "quire_from_value_4_0_6" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__valueT_14_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "quire_from_value_4_0_6" "', argument " "2"" of type '" "sw::unum::value< 14 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "quire_from_value_4_0_6" "', argument " "2"" of type '" "sw::unum::value< 14 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::value< 14 > * >(argp2);
+  sw::unum::SWIGTEMPLATEDISAMBIGUATOR quire_from_value< 4,0,6,14 >(*arg1,(sw::unum::value< 14 > const &)*arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_convert_q40_to_p40(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::value< 14 > *arg1 = 0 ;
+  sw::unum::posit< 4,0 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::posit< 4,0 > *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:convert_q40_to_p40",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__valueT_14_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "convert_q40_to_p40" "', argument " "1"" of type '" "sw::unum::value< 14 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "convert_q40_to_p40" "', argument " "1"" of type '" "sw::unum::value< 14 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::value< 14 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__positT_4_0_t,  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "convert_q40_to_p40" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "convert_q40_to_p40" "', argument " "2"" of type '" "sw::unum::posit< 4,0 > &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::posit< 4,0 > * >(argp2);
+  result = (sw::unum::posit< 4,0 > *) &sw::unum::SWIGTEMPLATEDISAMBIGUATOR convert< 4,0,14 >((sw::unum::value< 14 > const &)*arg1,*arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_sw__unum__positT_4_0_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_quire_tobits_4_0_6(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 4,0,6 > *arg1 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  sw::unum::bitblock< 15 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:quire_tobits_4_0_6",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_4_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "quire_tobits_4_0_6" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "quire_tobits_4_0_6" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp1);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR quire_to_bitblock< 4,0,6,15 >((sw::unum::quire< 4,0,6 > const &)*arg1);
+  resultobj = SWIG_NewPointerObj((new sw::unum::bitblock< 15 >(static_cast< const sw::unum::bitblock< 15 >& >(result))), SWIGTYPE_p_sw__unum__bitblockT_15_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap___add____SWIG_9(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  sw::unum::quire< 4,0,6 > *arg1 = 0 ;
+  sw::unum::quire< 4,0,6 > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  sw::unum::quire< 4,0,6 > result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:__add__",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_sw__unum__quireT_4_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "__add__" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__add__" "', argument " "1"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  arg1 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_sw__unum__quireT_4_0_6_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "__add__" "', argument " "2"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "__add__" "', argument " "2"" of type '" "sw::unum::quire< 4,0,6 > const &""'"); 
+  }
+  arg2 = reinterpret_cast< sw::unum::quire< 4,0,6 > * >(argp2);
+  result = sw::unum::SWIGTEMPLATEDISAMBIGUATOR operator +< 4,0,6 >((sw::unum::quire< 4,0,6 > const &)*arg1,(sw::unum::quire< 4,0,6 > const &)*arg2);
+  resultobj = SWIG_NewPointerObj((new sw::unum::quire< 4,0,6 >(static_cast< const sw::unum::quire< 4,0,6 >& >(result))), SWIGTYPE_p_sw__unum__quireT_4_0_6_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap___add__(PyObject *self, PyObject *args) {
   Py_ssize_t argc;
   PyObject *argv[3] = {
@@ -8889,13 +23323,37 @@ SWIGINTERN PyObject *_wrap___add__(PyObject *self, PyObject *args) {
   }
   if (argc == 2) {
     int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_8_0_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___add____SWIG_2(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__quireT_8_0_6_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___add____SWIG_3(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
     int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_1_t, 0);
     _v = SWIG_CheckState(res);
     if (_v) {
       int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_8_1_t, 0);
       _v = SWIG_CheckState(res);
       if (_v) {
-        return _wrap___add____SWIG_2(self, args);
+        return _wrap___add____SWIG_4(self, args);
       }
     }
   }
@@ -8907,7 +23365,55 @@ SWIGINTERN PyObject *_wrap___add__(PyObject *self, PyObject *args) {
       int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__quireT_8_1_14_t, 0);
       _v = SWIG_CheckState(res);
       if (_v) {
-        return _wrap___add____SWIG_3(self, args);
+        return _wrap___add____SWIG_5(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_8_2_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_8_2_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___add____SWIG_6(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__quireT_8_2_30_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___add____SWIG_7(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__positT_4_0_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__positT_4_0_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___add____SWIG_8(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_sw__unum__quireT_4_0_6_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap___add____SWIG_9(self, args);
       }
     }
   }
@@ -8927,6 +23433,97 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"Bitblock_8_t_swigregister", Bitblock_8_t_swigregister, METH_VARARGS, NULL},
 	 { (char *)"bitblock_8_tobitstring", _wrap_bitblock_8_tobitstring, METH_VARARGS, NULL},
 	 { (char *)"bitblock_8_tohexstring", _wrap_bitblock_8_tohexstring, METH_VARARGS, NULL},
+	 { (char *)"Value_5_t_to_long_double", _wrap_Value_5_t_to_long_double, METH_VARARGS, NULL},
+	 { (char *)"Value_5_t_to_double", _wrap_Value_5_t_to_double, METH_VARARGS, NULL},
+	 { (char *)"Value_5_t_to_float", _wrap_Value_5_t_to_float, METH_VARARGS, NULL},
+	 { (char *)"new_Value_5_t", _wrap_new_Value_5_t, METH_VARARGS, NULL},
+	 { (char *)"delete_Value_5_t", _wrap_delete_Value_5_t, METH_VARARGS, NULL},
+	 { (char *)"Value_5_t_swigregister", Value_5_t_swigregister, METH_VARARGS, NULL},
+	 { (char *)"Value_17_t_to_long_double", _wrap_Value_17_t_to_long_double, METH_VARARGS, NULL},
+	 { (char *)"Value_17_t_to_double", _wrap_Value_17_t_to_double, METH_VARARGS, NULL},
+	 { (char *)"Value_17_t_to_float", _wrap_Value_17_t_to_float, METH_VARARGS, NULL},
+	 { (char *)"new_Value_17_t", _wrap_new_Value_17_t, METH_VARARGS, NULL},
+	 { (char *)"delete_Value_17_t", _wrap_delete_Value_17_t, METH_VARARGS, NULL},
+	 { (char *)"Value_17_t_swigregister", Value_17_t_swigregister, METH_VARARGS, NULL},
+	 { (char *)"Value_22_t_to_long_double", _wrap_Value_22_t_to_long_double, METH_VARARGS, NULL},
+	 { (char *)"Value_22_t_to_double", _wrap_Value_22_t_to_double, METH_VARARGS, NULL},
+	 { (char *)"Value_22_t_to_float", _wrap_Value_22_t_to_float, METH_VARARGS, NULL},
+	 { (char *)"new_Value_22_t", _wrap_new_Value_22_t, METH_VARARGS, NULL},
+	 { (char *)"delete_Value_22_t", _wrap_delete_Value_22_t, METH_VARARGS, NULL},
+	 { (char *)"Value_22_t_swigregister", Value_22_t_swigregister, METH_VARARGS, NULL},
+	 { (char *)"new_Posit_8_0_t", _wrap_new_Posit_8_0_t, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_0_t_to_int", _wrap_Posit_8_0_t_to_int, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_0_t_to_long", _wrap_Posit_8_0_t_to_long, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_0_t_to_long_long", _wrap_Posit_8_0_t_to_long_long, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_0_t_to_float", _wrap_Posit_8_0_t_to_float, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_0_t_to_double", _wrap_Posit_8_0_t_to_double, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_0_t_to_long_double", _wrap_Posit_8_0_t_to_long_double, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_0_t_assign", _wrap_Posit_8_0_t_assign, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_0_t___neg__", _wrap_Posit_8_0_t___neg__, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_0_t___pos__", _wrap_Posit_8_0_t___pos__, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_0_t___iadd__", _wrap_Posit_8_0_t___iadd__, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_0_t___isub__", _wrap_Posit_8_0_t___isub__, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_0_t___imul__", _wrap_Posit_8_0_t___imul__, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_0_t___itruediv__", _wrap_Posit_8_0_t___itruediv__, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_0_t_increment", _wrap_Posit_8_0_t_increment, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_0_t_decrement", _wrap_Posit_8_0_t_decrement, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_0_t_reciprocate", _wrap_Posit_8_0_t_reciprocate, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_0_t_set_raw_bits", _wrap_Posit_8_0_t_set_raw_bits, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_0_t_abs", _wrap_Posit_8_0_t_abs, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_0_t_isnar", _wrap_Posit_8_0_t_isnar, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_0_t_iszero", _wrap_Posit_8_0_t_iszero, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_0_t_isone", _wrap_Posit_8_0_t_isone, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_0_t_isminusone", _wrap_Posit_8_0_t_isminusone, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_0_t_isneg", _wrap_Posit_8_0_t_isneg, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_0_t_ispos", _wrap_Posit_8_0_t_ispos, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_0_t_ispowerof2", _wrap_Posit_8_0_t_ispowerof2, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_0_t_get", _wrap_Posit_8_0_t_get, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_0_t_cfg", _wrap_Posit_8_0_t_cfg, METH_VARARGS, NULL},
+	 { (char *)"delete_Posit_8_0_t", _wrap_delete_Posit_8_0_t, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_0_t_swigregister", Posit_8_0_t_swigregister, METH_VARARGS, NULL},
+	 { (char *)"posit_to_binary_8_0", _wrap_posit_to_binary_8_0, METH_VARARGS, NULL},
+	 { (char *)"posit_format_8_0", _wrap_posit_format_8_0, METH_VARARGS, NULL},
+	 { (char *)"posit_to_string_8_0", _wrap_posit_to_string_8_0, METH_VARARGS, NULL},
+	 { (char *)"posit_to_base2_scientific_8_0", _wrap_posit_to_base2_scientific_8_0, METH_VARARGS, NULL},
+	 { (char *)"minpos_8_0", _wrap_minpos_8_0, METH_VARARGS, NULL},
+	 { (char *)"maxpos_8_0", _wrap_maxpos_8_0, METH_VARARGS, NULL},
+	 { (char *)"fma_8_0", _wrap_fma_8_0, METH_VARARGS, NULL},
+	 { (char *)"fam_8_0", _wrap_fam_8_0, METH_VARARGS, NULL},
+	 { (char *)"convert_17_to_8", _wrap_convert_17_to_8, METH_VARARGS, NULL},
+	 { (char *)"convert_22_to_8", _wrap_convert_22_to_8, METH_VARARGS, NULL},
+	 { (char *)"posit_to_value_8_0", _wrap_posit_to_value_8_0, METH_VARARGS, NULL},
+	 { (char *)"Bitblock_31_t_to_ulong", _wrap_Bitblock_31_t_to_ulong, METH_VARARGS, NULL},
+	 { (char *)"Bitblock_31_t_to_ullong", _wrap_Bitblock_31_t_to_ullong, METH_VARARGS, NULL},
+	 { (char *)"new_Bitblock_31_t", _wrap_new_Bitblock_31_t, METH_VARARGS, NULL},
+	 { (char *)"delete_Bitblock_31_t", _wrap_delete_Bitblock_31_t, METH_VARARGS, NULL},
+	 { (char *)"Bitblock_31_t_swigregister", Bitblock_31_t_swigregister, METH_VARARGS, NULL},
+	 { (char *)"bitblock_31_tobitstring", _wrap_bitblock_31_tobitstring, METH_VARARGS, NULL},
+	 { (char *)"bitblock_31_tohexstring", _wrap_bitblock_31_tohexstring, METH_VARARGS, NULL},
+	 { (char *)"Value_30_t_to_long_double", _wrap_Value_30_t_to_long_double, METH_VARARGS, NULL},
+	 { (char *)"Value_30_t_to_double", _wrap_Value_30_t_to_double, METH_VARARGS, NULL},
+	 { (char *)"Value_30_t_to_float", _wrap_Value_30_t_to_float, METH_VARARGS, NULL},
+	 { (char *)"new_Value_30_t", _wrap_new_Value_30_t, METH_VARARGS, NULL},
+	 { (char *)"delete_Value_30_t", _wrap_delete_Value_30_t, METH_VARARGS, NULL},
+	 { (char *)"Value_30_t_swigregister", Value_30_t_swigregister, METH_VARARGS, NULL},
+	 { (char *)"value_30_show", _wrap_value_30_show, METH_VARARGS, NULL},
+	 { (char *)"new_Quire_8_0_6_t", _wrap_new_Quire_8_0_6_t, METH_VARARGS, NULL},
+	 { (char *)"Quire_8_0_6_t_assign", _wrap_Quire_8_0_6_t_assign, METH_VARARGS, NULL},
+	 { (char *)"Quire_8_0_6_t___iadd__", _wrap_Quire_8_0_6_t___iadd__, METH_VARARGS, NULL},
+	 { (char *)"Quire_8_0_6_t___isub__", _wrap_Quire_8_0_6_t___isub__, METH_VARARGS, NULL},
+	 { (char *)"Quire_8_0_6_t_reset", _wrap_Quire_8_0_6_t_reset, METH_VARARGS, NULL},
+	 { (char *)"Quire_8_0_6_t_set_sign", _wrap_Quire_8_0_6_t_set_sign, METH_VARARGS, NULL},
+	 { (char *)"Quire_8_0_6_t_sign", _wrap_Quire_8_0_6_t_sign, METH_VARARGS, NULL},
+	 { (char *)"Quire_8_0_6_t_load_bits", _wrap_Quire_8_0_6_t_load_bits, METH_VARARGS, NULL},
+	 { (char *)"Quire_8_0_6_t_isneg", _wrap_Quire_8_0_6_t_isneg, METH_VARARGS, NULL},
+	 { (char *)"Quire_8_0_6_t_ispos", _wrap_Quire_8_0_6_t_ispos, METH_VARARGS, NULL},
+	 { (char *)"Quire_8_0_6_t_iszero", _wrap_Quire_8_0_6_t_iszero, METH_VARARGS, NULL},
+	 { (char *)"delete_Quire_8_0_6_t", _wrap_delete_Quire_8_0_6_t, METH_VARARGS, NULL},
+	 { (char *)"Quire_8_0_6_t_swigregister", Quire_8_0_6_t_swigregister, METH_VARARGS, NULL},
+	 { (char *)"quire_abs_8_0_6", _wrap_quire_abs_8_0_6, METH_VARARGS, NULL},
+	 { (char *)"quire_to_value_8_0_6", _wrap_quire_to_value_8_0_6, METH_VARARGS, NULL},
+	 { (char *)"quire_from_value_8_0_6", _wrap_quire_from_value_8_0_6, METH_VARARGS, NULL},
+	 { (char *)"convert_q80_to_p80", _wrap_convert_q80_to_p80, METH_VARARGS, NULL},
+	 { (char *)"quire_tobits_8_0_6", _wrap_quire_tobits_8_0_6, METH_VARARGS, NULL},
 	 { (char *)"Value_4_t_to_long_double", _wrap_Value_4_t_to_long_double, METH_VARARGS, NULL},
 	 { (char *)"Value_4_t_to_double", _wrap_Value_4_t_to_double, METH_VARARGS, NULL},
 	 { (char *)"Value_4_t_to_float", _wrap_Value_4_t_to_float, METH_VARARGS, NULL},
@@ -8975,10 +23572,7 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"Posit_8_1_t_cfg", _wrap_Posit_8_1_t_cfg, METH_VARARGS, NULL},
 	 { (char *)"delete_Posit_8_1_t", _wrap_delete_Posit_8_1_t, METH_VARARGS, NULL},
 	 { (char *)"Posit_8_1_t_swigregister", Posit_8_1_t_swigregister, METH_VARARGS, NULL},
-	 { (char *)"to_binary_8_1", _wrap_to_binary_8_1, METH_VARARGS, NULL},
-	 { (char *)"__sub__", _wrap___sub__, METH_VARARGS, NULL},
-	 { (char *)"__mul__", _wrap___mul__, METH_VARARGS, NULL},
-	 { (char *)"__truediv__", _wrap___truediv__, METH_VARARGS, NULL},
+	 { (char *)"posit_to_binary_8_1", _wrap_posit_to_binary_8_1, METH_VARARGS, NULL},
 	 { (char *)"posit_format_8_1", _wrap_posit_format_8_1, METH_VARARGS, NULL},
 	 { (char *)"posit_to_string_8_1", _wrap_posit_to_string_8_1, METH_VARARGS, NULL},
 	 { (char *)"posit_to_base2_scientific_8_1", _wrap_posit_to_base2_scientific_8_1, METH_VARARGS, NULL},
@@ -9016,17 +23610,203 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"Quire_8_1_14_t_iszero", _wrap_Quire_8_1_14_t_iszero, METH_VARARGS, NULL},
 	 { (char *)"delete_Quire_8_1_14_t", _wrap_delete_Quire_8_1_14_t, METH_VARARGS, NULL},
 	 { (char *)"Quire_8_1_14_t_swigregister", Quire_8_1_14_t_swigregister, METH_VARARGS, NULL},
+	 { (char *)"quire_abs_8_1_14", _wrap_quire_abs_8_1_14, METH_VARARGS, NULL},
+	 { (char *)"quire_to_value_8_1_14", _wrap_quire_to_value_8_1_14, METH_VARARGS, NULL},
+	 { (char *)"quire_from_value_8_1_14", _wrap_quire_from_value_8_1_14, METH_VARARGS, NULL},
+	 { (char *)"convert_q81_to_p81", _wrap_convert_q81_to_p81, METH_VARARGS, NULL},
+	 { (char *)"quire_tobits_8_1_14", _wrap_quire_tobits_8_1_14, METH_VARARGS, NULL},
+	 { (char *)"Value_3_t_to_long_double", _wrap_Value_3_t_to_long_double, METH_VARARGS, NULL},
+	 { (char *)"Value_3_t_to_double", _wrap_Value_3_t_to_double, METH_VARARGS, NULL},
+	 { (char *)"Value_3_t_to_float", _wrap_Value_3_t_to_float, METH_VARARGS, NULL},
+	 { (char *)"new_Value_3_t", _wrap_new_Value_3_t, METH_VARARGS, NULL},
+	 { (char *)"delete_Value_3_t", _wrap_delete_Value_3_t, METH_VARARGS, NULL},
+	 { (char *)"Value_3_t_swigregister", Value_3_t_swigregister, METH_VARARGS, NULL},
+	 { (char *)"Value_13_t_to_long_double", _wrap_Value_13_t_to_long_double, METH_VARARGS, NULL},
+	 { (char *)"Value_13_t_to_double", _wrap_Value_13_t_to_double, METH_VARARGS, NULL},
+	 { (char *)"Value_13_t_to_float", _wrap_Value_13_t_to_float, METH_VARARGS, NULL},
+	 { (char *)"new_Value_13_t", _wrap_new_Value_13_t, METH_VARARGS, NULL},
+	 { (char *)"delete_Value_13_t", _wrap_delete_Value_13_t, METH_VARARGS, NULL},
+	 { (char *)"Value_13_t_swigregister", Value_13_t_swigregister, METH_VARARGS, NULL},
+	 { (char *)"Value_18_t_to_long_double", _wrap_Value_18_t_to_long_double, METH_VARARGS, NULL},
+	 { (char *)"Value_18_t_to_double", _wrap_Value_18_t_to_double, METH_VARARGS, NULL},
+	 { (char *)"Value_18_t_to_float", _wrap_Value_18_t_to_float, METH_VARARGS, NULL},
+	 { (char *)"new_Value_18_t", _wrap_new_Value_18_t, METH_VARARGS, NULL},
+	 { (char *)"delete_Value_18_t", _wrap_delete_Value_18_t, METH_VARARGS, NULL},
+	 { (char *)"Value_18_t_swigregister", Value_18_t_swigregister, METH_VARARGS, NULL},
+	 { (char *)"new_Posit_8_2_t", _wrap_new_Posit_8_2_t, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_2_t_to_int", _wrap_Posit_8_2_t_to_int, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_2_t_to_long", _wrap_Posit_8_2_t_to_long, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_2_t_to_long_long", _wrap_Posit_8_2_t_to_long_long, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_2_t_to_float", _wrap_Posit_8_2_t_to_float, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_2_t_to_double", _wrap_Posit_8_2_t_to_double, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_2_t_to_long_double", _wrap_Posit_8_2_t_to_long_double, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_2_t_assign", _wrap_Posit_8_2_t_assign, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_2_t___neg__", _wrap_Posit_8_2_t___neg__, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_2_t___pos__", _wrap_Posit_8_2_t___pos__, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_2_t___iadd__", _wrap_Posit_8_2_t___iadd__, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_2_t___isub__", _wrap_Posit_8_2_t___isub__, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_2_t___imul__", _wrap_Posit_8_2_t___imul__, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_2_t___itruediv__", _wrap_Posit_8_2_t___itruediv__, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_2_t_increment", _wrap_Posit_8_2_t_increment, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_2_t_decrement", _wrap_Posit_8_2_t_decrement, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_2_t_reciprocate", _wrap_Posit_8_2_t_reciprocate, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_2_t_set_raw_bits", _wrap_Posit_8_2_t_set_raw_bits, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_2_t_abs", _wrap_Posit_8_2_t_abs, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_2_t_isnar", _wrap_Posit_8_2_t_isnar, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_2_t_iszero", _wrap_Posit_8_2_t_iszero, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_2_t_isone", _wrap_Posit_8_2_t_isone, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_2_t_isminusone", _wrap_Posit_8_2_t_isminusone, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_2_t_isneg", _wrap_Posit_8_2_t_isneg, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_2_t_ispos", _wrap_Posit_8_2_t_ispos, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_2_t_ispowerof2", _wrap_Posit_8_2_t_ispowerof2, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_2_t_get", _wrap_Posit_8_2_t_get, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_2_t_cfg", _wrap_Posit_8_2_t_cfg, METH_VARARGS, NULL},
+	 { (char *)"delete_Posit_8_2_t", _wrap_delete_Posit_8_2_t, METH_VARARGS, NULL},
+	 { (char *)"Posit_8_2_t_swigregister", Posit_8_2_t_swigregister, METH_VARARGS, NULL},
+	 { (char *)"posit_to_binary_8_2", _wrap_posit_to_binary_8_2, METH_VARARGS, NULL},
+	 { (char *)"posit_format_8_2", _wrap_posit_format_8_2, METH_VARARGS, NULL},
+	 { (char *)"posit_to_string_8_2", _wrap_posit_to_string_8_2, METH_VARARGS, NULL},
+	 { (char *)"posit_to_base2_scientific_8_2", _wrap_posit_to_base2_scientific_8_2, METH_VARARGS, NULL},
+	 { (char *)"minpos_8_2", _wrap_minpos_8_2, METH_VARARGS, NULL},
+	 { (char *)"maxpos_8_2", _wrap_maxpos_8_2, METH_VARARGS, NULL},
+	 { (char *)"fma_8_2", _wrap_fma_8_2, METH_VARARGS, NULL},
+	 { (char *)"fam_8_2", _wrap_fam_8_2, METH_VARARGS, NULL},
+	 { (char *)"convert_13_to_8", _wrap_convert_13_to_8, METH_VARARGS, NULL},
+	 { (char *)"convert_18_to_8", _wrap_convert_18_to_8, METH_VARARGS, NULL},
+	 { (char *)"posit_to_value_8_2", _wrap_posit_to_value_8_2, METH_VARARGS, NULL},
+	 { (char *)"Bitblock_127_t_to_ulong", _wrap_Bitblock_127_t_to_ulong, METH_VARARGS, NULL},
+	 { (char *)"Bitblock_127_t_to_ullong", _wrap_Bitblock_127_t_to_ullong, METH_VARARGS, NULL},
+	 { (char *)"new_Bitblock_127_t", _wrap_new_Bitblock_127_t, METH_VARARGS, NULL},
+	 { (char *)"delete_Bitblock_127_t", _wrap_delete_Bitblock_127_t, METH_VARARGS, NULL},
+	 { (char *)"Bitblock_127_t_swigregister", Bitblock_127_t_swigregister, METH_VARARGS, NULL},
+	 { (char *)"bitblock_127_tobitstring", _wrap_bitblock_127_tobitstring, METH_VARARGS, NULL},
+	 { (char *)"bitblock_127_tohexstring", _wrap_bitblock_127_tohexstring, METH_VARARGS, NULL},
+	 { (char *)"Value_126_t_to_long_double", _wrap_Value_126_t_to_long_double, METH_VARARGS, NULL},
+	 { (char *)"Value_126_t_to_double", _wrap_Value_126_t_to_double, METH_VARARGS, NULL},
+	 { (char *)"Value_126_t_to_float", _wrap_Value_126_t_to_float, METH_VARARGS, NULL},
+	 { (char *)"new_Value_126_t", _wrap_new_Value_126_t, METH_VARARGS, NULL},
+	 { (char *)"delete_Value_126_t", _wrap_delete_Value_126_t, METH_VARARGS, NULL},
+	 { (char *)"Value_126_t_swigregister", Value_126_t_swigregister, METH_VARARGS, NULL},
+	 { (char *)"value_126_show", _wrap_value_126_show, METH_VARARGS, NULL},
+	 { (char *)"new_Quire_8_2_30_t", _wrap_new_Quire_8_2_30_t, METH_VARARGS, NULL},
+	 { (char *)"Quire_8_2_30_t_assign", _wrap_Quire_8_2_30_t_assign, METH_VARARGS, NULL},
+	 { (char *)"Quire_8_2_30_t___iadd__", _wrap_Quire_8_2_30_t___iadd__, METH_VARARGS, NULL},
+	 { (char *)"Quire_8_2_30_t___isub__", _wrap_Quire_8_2_30_t___isub__, METH_VARARGS, NULL},
+	 { (char *)"Quire_8_2_30_t_reset", _wrap_Quire_8_2_30_t_reset, METH_VARARGS, NULL},
+	 { (char *)"Quire_8_2_30_t_set_sign", _wrap_Quire_8_2_30_t_set_sign, METH_VARARGS, NULL},
+	 { (char *)"Quire_8_2_30_t_sign", _wrap_Quire_8_2_30_t_sign, METH_VARARGS, NULL},
+	 { (char *)"Quire_8_2_30_t_load_bits", _wrap_Quire_8_2_30_t_load_bits, METH_VARARGS, NULL},
+	 { (char *)"Quire_8_2_30_t_isneg", _wrap_Quire_8_2_30_t_isneg, METH_VARARGS, NULL},
+	 { (char *)"Quire_8_2_30_t_ispos", _wrap_Quire_8_2_30_t_ispos, METH_VARARGS, NULL},
+	 { (char *)"Quire_8_2_30_t_iszero", _wrap_Quire_8_2_30_t_iszero, METH_VARARGS, NULL},
+	 { (char *)"delete_Quire_8_2_30_t", _wrap_delete_Quire_8_2_30_t, METH_VARARGS, NULL},
+	 { (char *)"Quire_8_2_30_t_swigregister", Quire_8_2_30_t_swigregister, METH_VARARGS, NULL},
+	 { (char *)"quire_abs_8_2_30", _wrap_quire_abs_8_2_30, METH_VARARGS, NULL},
+	 { (char *)"quire_to_value_8_2_30", _wrap_quire_to_value_8_2_30, METH_VARARGS, NULL},
+	 { (char *)"quire_from_value_8_2_30", _wrap_quire_from_value_8_2_30, METH_VARARGS, NULL},
+	 { (char *)"convert_q82_to_p82", _wrap_convert_q82_to_p82, METH_VARARGS, NULL},
+	 { (char *)"quire_tobits_8_2_30", _wrap_quire_tobits_8_2_30, METH_VARARGS, NULL},
+	 { (char *)"Bitblock_4_t_to_ulong", _wrap_Bitblock_4_t_to_ulong, METH_VARARGS, NULL},
+	 { (char *)"Bitblock_4_t_to_ullong", _wrap_Bitblock_4_t_to_ullong, METH_VARARGS, NULL},
+	 { (char *)"new_Bitblock_4_t", _wrap_new_Bitblock_4_t, METH_VARARGS, NULL},
+	 { (char *)"delete_Bitblock_4_t", _wrap_delete_Bitblock_4_t, METH_VARARGS, NULL},
+	 { (char *)"Bitblock_4_t_swigregister", Bitblock_4_t_swigregister, METH_VARARGS, NULL},
+	 { (char *)"bitblock_4_tobitstring", _wrap_bitblock_4_tobitstring, METH_VARARGS, NULL},
+	 { (char *)"bitblock_4_tohexstring", _wrap_bitblock_4_tohexstring, METH_VARARGS, NULL},
+	 { (char *)"Value_1_t_to_long_double", _wrap_Value_1_t_to_long_double, METH_VARARGS, NULL},
+	 { (char *)"Value_1_t_to_double", _wrap_Value_1_t_to_double, METH_VARARGS, NULL},
+	 { (char *)"Value_1_t_to_float", _wrap_Value_1_t_to_float, METH_VARARGS, NULL},
+	 { (char *)"new_Value_1_t", _wrap_new_Value_1_t, METH_VARARGS, NULL},
+	 { (char *)"delete_Value_1_t", _wrap_delete_Value_1_t, METH_VARARGS, NULL},
+	 { (char *)"Value_1_t_swigregister", Value_1_t_swigregister, METH_VARARGS, NULL},
+	 { (char *)"Value_9_t_to_long_double", _wrap_Value_9_t_to_long_double, METH_VARARGS, NULL},
+	 { (char *)"Value_9_t_to_double", _wrap_Value_9_t_to_double, METH_VARARGS, NULL},
+	 { (char *)"Value_9_t_to_float", _wrap_Value_9_t_to_float, METH_VARARGS, NULL},
+	 { (char *)"new_Value_9_t", _wrap_new_Value_9_t, METH_VARARGS, NULL},
+	 { (char *)"delete_Value_9_t", _wrap_delete_Value_9_t, METH_VARARGS, NULL},
+	 { (char *)"Value_9_t_swigregister", Value_9_t_swigregister, METH_VARARGS, NULL},
+	 { (char *)"Value_14_t_to_long_double", _wrap_Value_14_t_to_long_double, METH_VARARGS, NULL},
+	 { (char *)"Value_14_t_to_double", _wrap_Value_14_t_to_double, METH_VARARGS, NULL},
+	 { (char *)"Value_14_t_to_float", _wrap_Value_14_t_to_float, METH_VARARGS, NULL},
+	 { (char *)"new_Value_14_t", _wrap_new_Value_14_t, METH_VARARGS, NULL},
+	 { (char *)"delete_Value_14_t", _wrap_delete_Value_14_t, METH_VARARGS, NULL},
+	 { (char *)"Value_14_t_swigregister", Value_14_t_swigregister, METH_VARARGS, NULL},
+	 { (char *)"new_Posit_4_0_t", _wrap_new_Posit_4_0_t, METH_VARARGS, NULL},
+	 { (char *)"Posit_4_0_t_to_int", _wrap_Posit_4_0_t_to_int, METH_VARARGS, NULL},
+	 { (char *)"Posit_4_0_t_to_long", _wrap_Posit_4_0_t_to_long, METH_VARARGS, NULL},
+	 { (char *)"Posit_4_0_t_to_long_long", _wrap_Posit_4_0_t_to_long_long, METH_VARARGS, NULL},
+	 { (char *)"Posit_4_0_t_to_float", _wrap_Posit_4_0_t_to_float, METH_VARARGS, NULL},
+	 { (char *)"Posit_4_0_t_to_double", _wrap_Posit_4_0_t_to_double, METH_VARARGS, NULL},
+	 { (char *)"Posit_4_0_t_to_long_double", _wrap_Posit_4_0_t_to_long_double, METH_VARARGS, NULL},
+	 { (char *)"Posit_4_0_t_assign", _wrap_Posit_4_0_t_assign, METH_VARARGS, NULL},
+	 { (char *)"Posit_4_0_t___neg__", _wrap_Posit_4_0_t___neg__, METH_VARARGS, NULL},
+	 { (char *)"Posit_4_0_t___pos__", _wrap_Posit_4_0_t___pos__, METH_VARARGS, NULL},
+	 { (char *)"Posit_4_0_t___iadd__", _wrap_Posit_4_0_t___iadd__, METH_VARARGS, NULL},
+	 { (char *)"Posit_4_0_t___isub__", _wrap_Posit_4_0_t___isub__, METH_VARARGS, NULL},
+	 { (char *)"Posit_4_0_t___imul__", _wrap_Posit_4_0_t___imul__, METH_VARARGS, NULL},
+	 { (char *)"Posit_4_0_t___itruediv__", _wrap_Posit_4_0_t___itruediv__, METH_VARARGS, NULL},
+	 { (char *)"Posit_4_0_t_increment", _wrap_Posit_4_0_t_increment, METH_VARARGS, NULL},
+	 { (char *)"Posit_4_0_t_decrement", _wrap_Posit_4_0_t_decrement, METH_VARARGS, NULL},
+	 { (char *)"Posit_4_0_t_reciprocate", _wrap_Posit_4_0_t_reciprocate, METH_VARARGS, NULL},
+	 { (char *)"Posit_4_0_t_set_raw_bits", _wrap_Posit_4_0_t_set_raw_bits, METH_VARARGS, NULL},
+	 { (char *)"Posit_4_0_t_abs", _wrap_Posit_4_0_t_abs, METH_VARARGS, NULL},
+	 { (char *)"Posit_4_0_t_isnar", _wrap_Posit_4_0_t_isnar, METH_VARARGS, NULL},
+	 { (char *)"Posit_4_0_t_iszero", _wrap_Posit_4_0_t_iszero, METH_VARARGS, NULL},
+	 { (char *)"Posit_4_0_t_isone", _wrap_Posit_4_0_t_isone, METH_VARARGS, NULL},
+	 { (char *)"Posit_4_0_t_isminusone", _wrap_Posit_4_0_t_isminusone, METH_VARARGS, NULL},
+	 { (char *)"Posit_4_0_t_isneg", _wrap_Posit_4_0_t_isneg, METH_VARARGS, NULL},
+	 { (char *)"Posit_4_0_t_ispos", _wrap_Posit_4_0_t_ispos, METH_VARARGS, NULL},
+	 { (char *)"Posit_4_0_t_ispowerof2", _wrap_Posit_4_0_t_ispowerof2, METH_VARARGS, NULL},
+	 { (char *)"Posit_4_0_t_get", _wrap_Posit_4_0_t_get, METH_VARARGS, NULL},
+	 { (char *)"Posit_4_0_t_cfg", _wrap_Posit_4_0_t_cfg, METH_VARARGS, NULL},
+	 { (char *)"delete_Posit_4_0_t", _wrap_delete_Posit_4_0_t, METH_VARARGS, NULL},
+	 { (char *)"Posit_4_0_t_swigregister", Posit_4_0_t_swigregister, METH_VARARGS, NULL},
+	 { (char *)"posit_to_binary_4_0", _wrap_posit_to_binary_4_0, METH_VARARGS, NULL},
+	 { (char *)"__sub__", _wrap___sub__, METH_VARARGS, NULL},
+	 { (char *)"__mul__", _wrap___mul__, METH_VARARGS, NULL},
+	 { (char *)"__truediv__", _wrap___truediv__, METH_VARARGS, NULL},
+	 { (char *)"posit_format_4_0", _wrap_posit_format_4_0, METH_VARARGS, NULL},
+	 { (char *)"posit_to_string_4_0", _wrap_posit_to_string_4_0, METH_VARARGS, NULL},
+	 { (char *)"posit_to_base2_scientific_4_0", _wrap_posit_to_base2_scientific_4_0, METH_VARARGS, NULL},
+	 { (char *)"minpos_4_0", _wrap_minpos_4_0, METH_VARARGS, NULL},
+	 { (char *)"maxpos_4_0", _wrap_maxpos_4_0, METH_VARARGS, NULL},
+	 { (char *)"fma_4_0", _wrap_fma_4_0, METH_VARARGS, NULL},
+	 { (char *)"fam_4_0", _wrap_fam_4_0, METH_VARARGS, NULL},
+	 { (char *)"convert_9_to_4", _wrap_convert_9_to_4, METH_VARARGS, NULL},
+	 { (char *)"convert_14_to_4", _wrap_convert_14_to_4, METH_VARARGS, NULL},
+	 { (char *)"posit_to_value_4_0", _wrap_posit_to_value_4_0, METH_VARARGS, NULL},
+	 { (char *)"Bitblock_15_t_to_ulong", _wrap_Bitblock_15_t_to_ulong, METH_VARARGS, NULL},
+	 { (char *)"Bitblock_15_t_to_ullong", _wrap_Bitblock_15_t_to_ullong, METH_VARARGS, NULL},
+	 { (char *)"new_Bitblock_15_t", _wrap_new_Bitblock_15_t, METH_VARARGS, NULL},
+	 { (char *)"delete_Bitblock_15_t", _wrap_delete_Bitblock_15_t, METH_VARARGS, NULL},
+	 { (char *)"Bitblock_15_t_swigregister", Bitblock_15_t_swigregister, METH_VARARGS, NULL},
+	 { (char *)"bitblock_15_tobitstring", _wrap_bitblock_15_tobitstring, METH_VARARGS, NULL},
+	 { (char *)"bitblock_15_tohexstring", _wrap_bitblock_15_tohexstring, METH_VARARGS, NULL},
+	 { (char *)"value_14_show", _wrap_value_14_show, METH_VARARGS, NULL},
+	 { (char *)"new_Quire_4_0_6_t", _wrap_new_Quire_4_0_6_t, METH_VARARGS, NULL},
+	 { (char *)"Quire_4_0_6_t_assign", _wrap_Quire_4_0_6_t_assign, METH_VARARGS, NULL},
+	 { (char *)"Quire_4_0_6_t___iadd__", _wrap_Quire_4_0_6_t___iadd__, METH_VARARGS, NULL},
+	 { (char *)"Quire_4_0_6_t___isub__", _wrap_Quire_4_0_6_t___isub__, METH_VARARGS, NULL},
+	 { (char *)"Quire_4_0_6_t_reset", _wrap_Quire_4_0_6_t_reset, METH_VARARGS, NULL},
+	 { (char *)"Quire_4_0_6_t_set_sign", _wrap_Quire_4_0_6_t_set_sign, METH_VARARGS, NULL},
+	 { (char *)"Quire_4_0_6_t_sign", _wrap_Quire_4_0_6_t_sign, METH_VARARGS, NULL},
+	 { (char *)"Quire_4_0_6_t_load_bits", _wrap_Quire_4_0_6_t_load_bits, METH_VARARGS, NULL},
+	 { (char *)"Quire_4_0_6_t_isneg", _wrap_Quire_4_0_6_t_isneg, METH_VARARGS, NULL},
+	 { (char *)"Quire_4_0_6_t_ispos", _wrap_Quire_4_0_6_t_ispos, METH_VARARGS, NULL},
+	 { (char *)"Quire_4_0_6_t_iszero", _wrap_Quire_4_0_6_t_iszero, METH_VARARGS, NULL},
+	 { (char *)"delete_Quire_4_0_6_t", _wrap_delete_Quire_4_0_6_t, METH_VARARGS, NULL},
+	 { (char *)"Quire_4_0_6_t_swigregister", Quire_4_0_6_t_swigregister, METH_VARARGS, NULL},
 	 { (char *)"__ne__", _wrap___ne__, METH_VARARGS, NULL},
 	 { (char *)"__le__", _wrap___le__, METH_VARARGS, NULL},
 	 { (char *)"__ge__", _wrap___ge__, METH_VARARGS, NULL},
 	 { (char *)"__eq__", _wrap___eq__, METH_VARARGS, NULL},
 	 { (char *)"__lt__", _wrap___lt__, METH_VARARGS, NULL},
 	 { (char *)"__gt__", _wrap___gt__, METH_VARARGS, NULL},
-	 { (char *)"quire_abs_8_1_14", _wrap_quire_abs_8_1_14, METH_VARARGS, NULL},
-	 { (char *)"quire_to_value_8_1_14", _wrap_quire_to_value_8_1_14, METH_VARARGS, NULL},
-	 { (char *)"quire_from_value_8_1_14", _wrap_quire_from_value_8_1_14, METH_VARARGS, NULL},
-	 { (char *)"convert_q8_to_p8", _wrap_convert_q8_to_p8, METH_VARARGS, NULL},
-	 { (char *)"quire_tobits_8_1_14", _wrap_quire_tobits_8_1_14, METH_VARARGS, NULL},
+	 { (char *)"quire_abs_4_0_6", _wrap_quire_abs_4_0_6, METH_VARARGS, NULL},
+	 { (char *)"quire_to_value_4_0_6", _wrap_quire_to_value_4_0_6, METH_VARARGS, NULL},
+	 { (char *)"quire_from_value_4_0_6", _wrap_quire_from_value_4_0_6, METH_VARARGS, NULL},
+	 { (char *)"convert_q40_to_p40", _wrap_convert_q40_to_p40, METH_VARARGS, NULL},
+	 { (char *)"quire_tobits_4_0_6", _wrap_quire_tobits_4_0_6, METH_VARARGS, NULL},
 	 { (char *)"__add__", _wrap___add__, METH_VARARGS, NULL},
 	 { NULL, NULL, 0, NULL }
 };
@@ -9041,14 +23821,35 @@ static swig_type_info _swigt__p_long_long = {"_p_long_long", "int_least64_t *|in
 static swig_type_info _swigt__p_short = {"_p_short", "short *|int_least16_t *|int16_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_signed_char = {"_p_signed_char", "signed char *|int_least8_t *|int_fast8_t *|int8_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__streamsize = {"_p_std__streamsize", "std::streamsize *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_sw__unum__bitblockT_127_t = {"_p_sw__unum__bitblockT_127_t", "sw::unum::bitblock< 127 > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_sw__unum__bitblockT_15_t = {"_p_sw__unum__bitblockT_15_t", "sw::unum::bitblock< 15 > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_sw__unum__bitblockT_31_t = {"_p_sw__unum__bitblockT_31_t", "sw::unum::bitblock< 31 > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_sw__unum__bitblockT_4_t = {"_p_sw__unum__bitblockT_4_t", "sw::unum::bitblock< 4 > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_sw__unum__bitblockT_63_t = {"_p_sw__unum__bitblockT_63_t", "sw::unum::bitblock< 63 > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_sw__unum__bitblockT_8_t = {"_p_sw__unum__bitblockT_8_t", "sw::unum::bitblock< 8 > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_sw__unum__positT_4_0_t = {"_p_sw__unum__positT_4_0_t", "sw::unum::posit< 4,0 > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_sw__unum__positT_8_0_t = {"_p_sw__unum__positT_8_0_t", "sw::unum::posit< 8,0 > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_sw__unum__positT_8_1_t = {"_p_sw__unum__positT_8_1_t", "sw::unum::posit< 8,1 > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_sw__unum__positT_8_2_t = {"_p_sw__unum__positT_8_2_t", "sw::unum::posit< 8,2 > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_sw__unum__quireT_4_0_6_t = {"_p_sw__unum__quireT_4_0_6_t", "sw::unum::quire< 4,0,6 > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_sw__unum__quireT_8_0_6_t = {"_p_sw__unum__quireT_8_0_6_t", "sw::unum::quire< 8,0,6 > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_sw__unum__quireT_8_1_14_t = {"_p_sw__unum__quireT_8_1_14_t", "sw::unum::quire< 8,1,14 > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_sw__unum__quireT_8_2_30_t = {"_p_sw__unum__quireT_8_2_30_t", "sw::unum::quire< 8,2,30 > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_sw__unum__valueT_126_t = {"_p_sw__unum__valueT_126_t", "sw::unum::value< 126 > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_sw__unum__valueT_13_t = {"_p_sw__unum__valueT_13_t", "sw::unum::value< 13 > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_sw__unum__valueT_14_t = {"_p_sw__unum__valueT_14_t", "sw::unum::value< 14 > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_sw__unum__valueT_15_t = {"_p_sw__unum__valueT_15_t", "sw::unum::value< 15 > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_sw__unum__valueT_17_t = {"_p_sw__unum__valueT_17_t", "sw::unum::value< 17 > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_sw__unum__valueT_18_t = {"_p_sw__unum__valueT_18_t", "sw::unum::value< 18 > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_sw__unum__valueT_1_t = {"_p_sw__unum__valueT_1_t", "sw::unum::value< 1 > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_sw__unum__valueT_20_t = {"_p_sw__unum__valueT_20_t", "sw::unum::value< 20 > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_sw__unum__valueT_22_t = {"_p_sw__unum__valueT_22_t", "sw::unum::value< 22 > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_sw__unum__valueT_30_t = {"_p_sw__unum__valueT_30_t", "sw::unum::value< 30 > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_sw__unum__valueT_3_t = {"_p_sw__unum__valueT_3_t", "sw::unum::value< 3 > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_sw__unum__valueT_4_t = {"_p_sw__unum__valueT_4_t", "sw::unum::value< 4 > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_sw__unum__valueT_5_t = {"_p_sw__unum__valueT_5_t", "sw::unum::value< 5 > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_sw__unum__valueT_62_t = {"_p_sw__unum__valueT_62_t", "sw::unum::value< 62 > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_sw__unum__valueT_9_t = {"_p_sw__unum__valueT_9_t", "sw::unum::value< 9 > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_unsigned_char = {"_p_unsigned_char", "unsigned char *|uint_least8_t *|uint_fast8_t *|uint8_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_unsigned_int = {"_p_unsigned_int", "uintptr_t *|uint_least32_t *|uint_fast32_t *|uint32_t *|unsigned int *|uint_fast16_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_unsigned_long_long = {"_p_unsigned_long_long", "uint_least64_t *|uint_fast64_t *|uint64_t *|unsigned long long *|uintmax_t *", 0, 0, (void*)0, 0};
@@ -9062,14 +23863,35 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_short,
   &_swigt__p_signed_char,
   &_swigt__p_std__streamsize,
+  &_swigt__p_sw__unum__bitblockT_127_t,
+  &_swigt__p_sw__unum__bitblockT_15_t,
+  &_swigt__p_sw__unum__bitblockT_31_t,
+  &_swigt__p_sw__unum__bitblockT_4_t,
   &_swigt__p_sw__unum__bitblockT_63_t,
   &_swigt__p_sw__unum__bitblockT_8_t,
+  &_swigt__p_sw__unum__positT_4_0_t,
+  &_swigt__p_sw__unum__positT_8_0_t,
   &_swigt__p_sw__unum__positT_8_1_t,
+  &_swigt__p_sw__unum__positT_8_2_t,
+  &_swigt__p_sw__unum__quireT_4_0_6_t,
+  &_swigt__p_sw__unum__quireT_8_0_6_t,
   &_swigt__p_sw__unum__quireT_8_1_14_t,
+  &_swigt__p_sw__unum__quireT_8_2_30_t,
+  &_swigt__p_sw__unum__valueT_126_t,
+  &_swigt__p_sw__unum__valueT_13_t,
+  &_swigt__p_sw__unum__valueT_14_t,
   &_swigt__p_sw__unum__valueT_15_t,
+  &_swigt__p_sw__unum__valueT_17_t,
+  &_swigt__p_sw__unum__valueT_18_t,
+  &_swigt__p_sw__unum__valueT_1_t,
   &_swigt__p_sw__unum__valueT_20_t,
+  &_swigt__p_sw__unum__valueT_22_t,
+  &_swigt__p_sw__unum__valueT_30_t,
+  &_swigt__p_sw__unum__valueT_3_t,
   &_swigt__p_sw__unum__valueT_4_t,
+  &_swigt__p_sw__unum__valueT_5_t,
   &_swigt__p_sw__unum__valueT_62_t,
+  &_swigt__p_sw__unum__valueT_9_t,
   &_swigt__p_unsigned_char,
   &_swigt__p_unsigned_int,
   &_swigt__p_unsigned_long_long,
@@ -9083,14 +23905,35 @@ static swig_cast_info _swigc__p_long_long[] = {  {&_swigt__p_long_long, 0, 0, 0}
 static swig_cast_info _swigc__p_short[] = {  {&_swigt__p_short, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_signed_char[] = {  {&_swigt__p_signed_char, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__streamsize[] = {  {&_swigt__p_std__streamsize, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_sw__unum__bitblockT_127_t[] = {  {&_swigt__p_sw__unum__bitblockT_127_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_sw__unum__bitblockT_15_t[] = {  {&_swigt__p_sw__unum__bitblockT_15_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_sw__unum__bitblockT_31_t[] = {  {&_swigt__p_sw__unum__bitblockT_31_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_sw__unum__bitblockT_4_t[] = {  {&_swigt__p_sw__unum__bitblockT_4_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_sw__unum__bitblockT_63_t[] = {  {&_swigt__p_sw__unum__bitblockT_63_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_sw__unum__bitblockT_8_t[] = {  {&_swigt__p_sw__unum__bitblockT_8_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_sw__unum__positT_4_0_t[] = {  {&_swigt__p_sw__unum__positT_4_0_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_sw__unum__positT_8_0_t[] = {  {&_swigt__p_sw__unum__positT_8_0_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_sw__unum__positT_8_1_t[] = {  {&_swigt__p_sw__unum__positT_8_1_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_sw__unum__positT_8_2_t[] = {  {&_swigt__p_sw__unum__positT_8_2_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_sw__unum__quireT_4_0_6_t[] = {  {&_swigt__p_sw__unum__quireT_4_0_6_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_sw__unum__quireT_8_0_6_t[] = {  {&_swigt__p_sw__unum__quireT_8_0_6_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_sw__unum__quireT_8_1_14_t[] = {  {&_swigt__p_sw__unum__quireT_8_1_14_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_sw__unum__quireT_8_2_30_t[] = {  {&_swigt__p_sw__unum__quireT_8_2_30_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_sw__unum__valueT_126_t[] = {  {&_swigt__p_sw__unum__valueT_126_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_sw__unum__valueT_13_t[] = {  {&_swigt__p_sw__unum__valueT_13_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_sw__unum__valueT_14_t[] = {  {&_swigt__p_sw__unum__valueT_14_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_sw__unum__valueT_15_t[] = {  {&_swigt__p_sw__unum__valueT_15_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_sw__unum__valueT_17_t[] = {  {&_swigt__p_sw__unum__valueT_17_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_sw__unum__valueT_18_t[] = {  {&_swigt__p_sw__unum__valueT_18_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_sw__unum__valueT_1_t[] = {  {&_swigt__p_sw__unum__valueT_1_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_sw__unum__valueT_20_t[] = {  {&_swigt__p_sw__unum__valueT_20_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_sw__unum__valueT_22_t[] = {  {&_swigt__p_sw__unum__valueT_22_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_sw__unum__valueT_30_t[] = {  {&_swigt__p_sw__unum__valueT_30_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_sw__unum__valueT_3_t[] = {  {&_swigt__p_sw__unum__valueT_3_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_sw__unum__valueT_4_t[] = {  {&_swigt__p_sw__unum__valueT_4_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_sw__unum__valueT_5_t[] = {  {&_swigt__p_sw__unum__valueT_5_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_sw__unum__valueT_62_t[] = {  {&_swigt__p_sw__unum__valueT_62_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_sw__unum__valueT_9_t[] = {  {&_swigt__p_sw__unum__valueT_9_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_unsigned_char[] = {  {&_swigt__p_unsigned_char, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_unsigned_int[] = {  {&_swigt__p_unsigned_int, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_unsigned_long_long[] = {  {&_swigt__p_unsigned_long_long, 0, 0, 0},{0, 0, 0, 0}};
@@ -9104,14 +23947,35 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_short,
   _swigc__p_signed_char,
   _swigc__p_std__streamsize,
+  _swigc__p_sw__unum__bitblockT_127_t,
+  _swigc__p_sw__unum__bitblockT_15_t,
+  _swigc__p_sw__unum__bitblockT_31_t,
+  _swigc__p_sw__unum__bitblockT_4_t,
   _swigc__p_sw__unum__bitblockT_63_t,
   _swigc__p_sw__unum__bitblockT_8_t,
+  _swigc__p_sw__unum__positT_4_0_t,
+  _swigc__p_sw__unum__positT_8_0_t,
   _swigc__p_sw__unum__positT_8_1_t,
+  _swigc__p_sw__unum__positT_8_2_t,
+  _swigc__p_sw__unum__quireT_4_0_6_t,
+  _swigc__p_sw__unum__quireT_8_0_6_t,
   _swigc__p_sw__unum__quireT_8_1_14_t,
+  _swigc__p_sw__unum__quireT_8_2_30_t,
+  _swigc__p_sw__unum__valueT_126_t,
+  _swigc__p_sw__unum__valueT_13_t,
+  _swigc__p_sw__unum__valueT_14_t,
   _swigc__p_sw__unum__valueT_15_t,
+  _swigc__p_sw__unum__valueT_17_t,
+  _swigc__p_sw__unum__valueT_18_t,
+  _swigc__p_sw__unum__valueT_1_t,
   _swigc__p_sw__unum__valueT_20_t,
+  _swigc__p_sw__unum__valueT_22_t,
+  _swigc__p_sw__unum__valueT_30_t,
+  _swigc__p_sw__unum__valueT_3_t,
   _swigc__p_sw__unum__valueT_4_t,
+  _swigc__p_sw__unum__valueT_5_t,
   _swigc__p_sw__unum__valueT_62_t,
+  _swigc__p_sw__unum__valueT_9_t,
   _swigc__p_unsigned_char,
   _swigc__p_unsigned_int,
   _swigc__p_unsigned_long_long,

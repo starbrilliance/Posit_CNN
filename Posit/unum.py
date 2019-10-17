@@ -127,6 +127,364 @@ bitblock_8_tobitstring = _Posit.bitblock_8_tobitstring
 def bitblock_8_tohexstring(bits):
     return _Posit.bitblock_8_tohexstring(bits)
 bitblock_8_tohexstring = _Posit.bitblock_8_tohexstring
+class Value_5_t(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, Value_5_t, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, Value_5_t, name)
+    __repr__ = _swig_repr
+
+    def to_long_double(self):
+        return _Posit.Value_5_t_to_long_double(self)
+
+    def to_double(self):
+        return _Posit.Value_5_t_to_double(self)
+
+    def to_float(self):
+        return _Posit.Value_5_t_to_float(self)
+
+    def __init__(self):
+        this = _Posit.new_Value_5_t()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _Posit.delete_Value_5_t
+    __del__ = lambda self: None
+Value_5_t_swigregister = _Posit.Value_5_t_swigregister
+Value_5_t_swigregister(Value_5_t)
+
+class Value_17_t(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, Value_17_t, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, Value_17_t, name)
+    __repr__ = _swig_repr
+
+    def to_long_double(self):
+        return _Posit.Value_17_t_to_long_double(self)
+
+    def to_double(self):
+        return _Posit.Value_17_t_to_double(self)
+
+    def to_float(self):
+        return _Posit.Value_17_t_to_float(self)
+
+    def __init__(self):
+        this = _Posit.new_Value_17_t()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _Posit.delete_Value_17_t
+    __del__ = lambda self: None
+Value_17_t_swigregister = _Posit.Value_17_t_swigregister
+Value_17_t_swigregister(Value_17_t)
+
+class Value_22_t(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, Value_22_t, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, Value_22_t, name)
+    __repr__ = _swig_repr
+
+    def to_long_double(self):
+        return _Posit.Value_22_t_to_long_double(self)
+
+    def to_double(self):
+        return _Posit.Value_22_t_to_double(self)
+
+    def to_float(self):
+        return _Posit.Value_22_t_to_float(self)
+
+    def __init__(self):
+        this = _Posit.new_Value_22_t()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _Posit.delete_Value_22_t
+    __del__ = lambda self: None
+Value_22_t_swigregister = _Posit.Value_22_t_swigregister
+Value_22_t_swigregister(Value_22_t)
+
+class Posit_8_0_t(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, Posit_8_0_t, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, Posit_8_0_t, name)
+    __repr__ = _swig_repr
+
+    def __init__(self, *args):
+        this = _Posit.new_Posit_8_0_t(*args)
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+
+    def to_int(self):
+        return _Posit.Posit_8_0_t_to_int(self)
+
+    def to_long(self):
+        return _Posit.Posit_8_0_t_to_long(self)
+
+    def to_long_long(self):
+        return _Posit.Posit_8_0_t_to_long_long(self)
+
+    def to_float(self):
+        return _Posit.Posit_8_0_t_to_float(self)
+
+    def to_double(self):
+        return _Posit.Posit_8_0_t_to_double(self)
+
+    def to_long_double(self):
+        return _Posit.Posit_8_0_t_to_long_double(self)
+
+    def assign(self, *args):
+        return _Posit.Posit_8_0_t_assign(self, *args)
+
+    def __neg__(self):
+        return _Posit.Posit_8_0_t___neg__(self)
+
+    def __pos__(self):
+        return _Posit.Posit_8_0_t___pos__(self)
+
+    def __iadd__(self, rhs):
+        return _Posit.Posit_8_0_t___iadd__(self, rhs)
+
+    def __isub__(self, rhs):
+        return _Posit.Posit_8_0_t___isub__(self, rhs)
+
+    def __imul__(self, rhs):
+        return _Posit.Posit_8_0_t___imul__(self, rhs)
+
+    def __itruediv__(self, *args):
+        return _Posit.Posit_8_0_t___itruediv__(self, *args)
+    __idiv__ = __itruediv__
+
+
+
+    def increment(self):
+        return _Posit.Posit_8_0_t_increment(self)
+
+    def decrement(self):
+        return _Posit.Posit_8_0_t_decrement(self)
+
+    def reciprocate(self):
+        return _Posit.Posit_8_0_t_reciprocate(self)
+
+    def set_raw_bits(self, value):
+        return _Posit.Posit_8_0_t_set_raw_bits(self, value)
+
+    def abs(self):
+        return _Posit.Posit_8_0_t_abs(self)
+
+    def isnar(self):
+        return _Posit.Posit_8_0_t_isnar(self)
+
+    def iszero(self):
+        return _Posit.Posit_8_0_t_iszero(self)
+
+    def isone(self):
+        return _Posit.Posit_8_0_t_isone(self)
+
+    def isminusone(self):
+        return _Posit.Posit_8_0_t_isminusone(self)
+
+    def isneg(self):
+        return _Posit.Posit_8_0_t_isneg(self)
+
+    def ispos(self):
+        return _Posit.Posit_8_0_t_ispos(self)
+
+    def ispowerof2(self):
+        return _Posit.Posit_8_0_t_ispowerof2(self)
+
+    def get(self):
+        return _Posit.Posit_8_0_t_get(self)
+
+    def cfg(self):
+        return _Posit.Posit_8_0_t_cfg(self)
+    __swig_destroy__ = _Posit.delete_Posit_8_0_t
+    __del__ = lambda self: None
+Posit_8_0_t_swigregister = _Posit.Posit_8_0_t_swigregister
+Posit_8_0_t_swigregister(Posit_8_0_t)
+
+
+def posit_to_binary_8_0(number):
+    return _Posit.posit_to_binary_8_0(number)
+posit_to_binary_8_0 = _Posit.posit_to_binary_8_0
+
+def posit_format_8_0(p):
+    return _Posit.posit_format_8_0(p)
+posit_format_8_0 = _Posit.posit_format_8_0
+
+def posit_to_string_8_0(p, precision=17):
+    return _Posit.posit_to_string_8_0(p, precision)
+posit_to_string_8_0 = _Posit.posit_to_string_8_0
+
+def posit_to_base2_scientific_8_0(number):
+    return _Posit.posit_to_base2_scientific_8_0(number)
+posit_to_base2_scientific_8_0 = _Posit.posit_to_base2_scientific_8_0
+
+def minpos_8_0():
+    return _Posit.minpos_8_0()
+minpos_8_0 = _Posit.minpos_8_0
+
+def maxpos_8_0():
+    return _Posit.maxpos_8_0()
+maxpos_8_0 = _Posit.maxpos_8_0
+
+def fma_8_0(a, b, c):
+    return _Posit.fma_8_0(a, b, c)
+fma_8_0 = _Posit.fma_8_0
+
+def fam_8_0(a, b, c):
+    return _Posit.fam_8_0(a, b, c)
+fam_8_0 = _Posit.fam_8_0
+
+def convert_17_to_8(v, p):
+    return _Posit.convert_17_to_8(v, p)
+convert_17_to_8 = _Posit.convert_17_to_8
+
+def convert_22_to_8(v, p):
+    return _Posit.convert_22_to_8(v, p)
+convert_22_to_8 = _Posit.convert_22_to_8
+
+def posit_to_value_8_0(p):
+    return _Posit.posit_to_value_8_0(p)
+posit_to_value_8_0 = _Posit.posit_to_value_8_0
+class Bitblock_31_t(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, Bitblock_31_t, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, Bitblock_31_t, name)
+    __repr__ = _swig_repr
+
+    def to_ulong(self):
+        return _Posit.Bitblock_31_t_to_ulong(self)
+
+    def to_ullong(self):
+        return _Posit.Bitblock_31_t_to_ullong(self)
+
+    def __init__(self):
+        this = _Posit.new_Bitblock_31_t()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _Posit.delete_Bitblock_31_t
+    __del__ = lambda self: None
+Bitblock_31_t_swigregister = _Posit.Bitblock_31_t_swigregister
+Bitblock_31_t_swigregister(Bitblock_31_t)
+
+
+def bitblock_31_tobitstring(bits, separator=True):
+    return _Posit.bitblock_31_tobitstring(bits, separator)
+bitblock_31_tobitstring = _Posit.bitblock_31_tobitstring
+
+def bitblock_31_tohexstring(bits):
+    return _Posit.bitblock_31_tohexstring(bits)
+bitblock_31_tohexstring = _Posit.bitblock_31_tohexstring
+class Value_30_t(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, Value_30_t, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, Value_30_t, name)
+    __repr__ = _swig_repr
+
+    def to_long_double(self):
+        return _Posit.Value_30_t_to_long_double(self)
+
+    def to_double(self):
+        return _Posit.Value_30_t_to_double(self)
+
+    def to_float(self):
+        return _Posit.Value_30_t_to_float(self)
+
+    def __init__(self):
+        this = _Posit.new_Value_30_t()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _Posit.delete_Value_30_t
+    __del__ = lambda self: None
+Value_30_t_swigregister = _Posit.Value_30_t_swigregister
+Value_30_t_swigregister(Value_30_t)
+
+
+def value_30_show(v):
+    return _Posit.value_30_show(v)
+value_30_show = _Posit.value_30_show
+class Quire_8_0_6_t(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, Quire_8_0_6_t, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, Quire_8_0_6_t, name)
+    __repr__ = _swig_repr
+
+    def __init__(self, *args):
+        this = _Posit.new_Quire_8_0_6_t(*args)
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+
+    def assign(self, *args):
+        return _Posit.Quire_8_0_6_t_assign(self, *args)
+
+    def __iadd__(self, *args):
+        return _Posit.Quire_8_0_6_t___iadd__(self, *args)
+
+    def __isub__(self, *args):
+        return _Posit.Quire_8_0_6_t___isub__(self, *args)
+
+    def reset(self):
+        return _Posit.Quire_8_0_6_t_reset(self)
+
+    def set_sign(self, v):
+        return _Posit.Quire_8_0_6_t_set_sign(self, v)
+
+    def sign(self):
+        return _Posit.Quire_8_0_6_t_sign(self)
+
+    def load_bits(self, string_of_bits):
+        return _Posit.Quire_8_0_6_t_load_bits(self, string_of_bits)
+
+    def isneg(self):
+        return _Posit.Quire_8_0_6_t_isneg(self)
+
+    def ispos(self):
+        return _Posit.Quire_8_0_6_t_ispos(self)
+
+    def iszero(self):
+        return _Posit.Quire_8_0_6_t_iszero(self)
+    __swig_destroy__ = _Posit.delete_Quire_8_0_6_t
+    __del__ = lambda self: None
+Quire_8_0_6_t_swigregister = _Posit.Quire_8_0_6_t_swigregister
+Quire_8_0_6_t_swigregister(Quire_8_0_6_t)
+
+
+def quire_abs_8_0_6(q):
+    return _Posit.quire_abs_8_0_6(q)
+quire_abs_8_0_6 = _Posit.quire_abs_8_0_6
+
+def quire_to_value_8_0_6(q):
+    return _Posit.quire_to_value_8_0_6(q)
+quire_to_value_8_0_6 = _Posit.quire_to_value_8_0_6
+
+def quire_from_value_8_0_6(q, v):
+    return _Posit.quire_from_value_8_0_6(q, v)
+quire_from_value_8_0_6 = _Posit.quire_from_value_8_0_6
+
+def convert_q80_to_p80(v, p):
+    return _Posit.convert_q80_to_p80(v, p)
+convert_q80_to_p80 = _Posit.convert_q80_to_p80
+
+def quire_tobits_8_0_6(q):
+    return _Posit.quire_tobits_8_0_6(q)
+quire_tobits_8_0_6 = _Posit.quire_tobits_8_0_6
 class Value_4_t(_object):
     __swig_setmethods__ = {}
     __setattr__ = lambda self, name, value: _swig_setattr(self, Value_4_t, name, value)
@@ -311,21 +669,9 @@ Posit_8_1_t_swigregister = _Posit.Posit_8_1_t_swigregister
 Posit_8_1_t_swigregister(Posit_8_1_t)
 
 
-def to_binary_8_1(number):
-    return _Posit.to_binary_8_1(number)
-to_binary_8_1 = _Posit.to_binary_8_1
-
-def __sub__(lhs, rhs):
-    return _Posit.__sub__(lhs, rhs)
-__sub__ = _Posit.__sub__
-
-def __mul__(lhs, rhs):
-    return _Posit.__mul__(lhs, rhs)
-__mul__ = _Posit.__mul__
-
-def __truediv__(lhs, rhs):
-    return _Posit.__truediv__(lhs, rhs)
-__truediv__ = _Posit.__truediv__
+def posit_to_binary_8_1(number):
+    return _Posit.posit_to_binary_8_1(number)
+posit_to_binary_8_1 = _Posit.posit_to_binary_8_1
 
 def posit_format_8_1(p):
     return _Posit.posit_format_8_1(p)
@@ -478,6 +824,739 @@ Quire_8_1_14_t_swigregister = _Posit.Quire_8_1_14_t_swigregister
 Quire_8_1_14_t_swigregister(Quire_8_1_14_t)
 
 
+def quire_abs_8_1_14(q):
+    return _Posit.quire_abs_8_1_14(q)
+quire_abs_8_1_14 = _Posit.quire_abs_8_1_14
+
+def quire_to_value_8_1_14(q):
+    return _Posit.quire_to_value_8_1_14(q)
+quire_to_value_8_1_14 = _Posit.quire_to_value_8_1_14
+
+def quire_from_value_8_1_14(q, v):
+    return _Posit.quire_from_value_8_1_14(q, v)
+quire_from_value_8_1_14 = _Posit.quire_from_value_8_1_14
+
+def convert_q81_to_p81(v, p):
+    return _Posit.convert_q81_to_p81(v, p)
+convert_q81_to_p81 = _Posit.convert_q81_to_p81
+
+def quire_tobits_8_1_14(q):
+    return _Posit.quire_tobits_8_1_14(q)
+quire_tobits_8_1_14 = _Posit.quire_tobits_8_1_14
+class Value_3_t(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, Value_3_t, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, Value_3_t, name)
+    __repr__ = _swig_repr
+
+    def to_long_double(self):
+        return _Posit.Value_3_t_to_long_double(self)
+
+    def to_double(self):
+        return _Posit.Value_3_t_to_double(self)
+
+    def to_float(self):
+        return _Posit.Value_3_t_to_float(self)
+
+    def __init__(self):
+        this = _Posit.new_Value_3_t()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _Posit.delete_Value_3_t
+    __del__ = lambda self: None
+Value_3_t_swigregister = _Posit.Value_3_t_swigregister
+Value_3_t_swigregister(Value_3_t)
+
+class Value_13_t(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, Value_13_t, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, Value_13_t, name)
+    __repr__ = _swig_repr
+
+    def to_long_double(self):
+        return _Posit.Value_13_t_to_long_double(self)
+
+    def to_double(self):
+        return _Posit.Value_13_t_to_double(self)
+
+    def to_float(self):
+        return _Posit.Value_13_t_to_float(self)
+
+    def __init__(self):
+        this = _Posit.new_Value_13_t()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _Posit.delete_Value_13_t
+    __del__ = lambda self: None
+Value_13_t_swigregister = _Posit.Value_13_t_swigregister
+Value_13_t_swigregister(Value_13_t)
+
+class Value_18_t(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, Value_18_t, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, Value_18_t, name)
+    __repr__ = _swig_repr
+
+    def to_long_double(self):
+        return _Posit.Value_18_t_to_long_double(self)
+
+    def to_double(self):
+        return _Posit.Value_18_t_to_double(self)
+
+    def to_float(self):
+        return _Posit.Value_18_t_to_float(self)
+
+    def __init__(self):
+        this = _Posit.new_Value_18_t()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _Posit.delete_Value_18_t
+    __del__ = lambda self: None
+Value_18_t_swigregister = _Posit.Value_18_t_swigregister
+Value_18_t_swigregister(Value_18_t)
+
+class Posit_8_2_t(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, Posit_8_2_t, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, Posit_8_2_t, name)
+    __repr__ = _swig_repr
+
+    def __init__(self, *args):
+        this = _Posit.new_Posit_8_2_t(*args)
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+
+    def to_int(self):
+        return _Posit.Posit_8_2_t_to_int(self)
+
+    def to_long(self):
+        return _Posit.Posit_8_2_t_to_long(self)
+
+    def to_long_long(self):
+        return _Posit.Posit_8_2_t_to_long_long(self)
+
+    def to_float(self):
+        return _Posit.Posit_8_2_t_to_float(self)
+
+    def to_double(self):
+        return _Posit.Posit_8_2_t_to_double(self)
+
+    def to_long_double(self):
+        return _Posit.Posit_8_2_t_to_long_double(self)
+
+    def assign(self, *args):
+        return _Posit.Posit_8_2_t_assign(self, *args)
+
+    def __neg__(self):
+        return _Posit.Posit_8_2_t___neg__(self)
+
+    def __pos__(self):
+        return _Posit.Posit_8_2_t___pos__(self)
+
+    def __iadd__(self, rhs):
+        return _Posit.Posit_8_2_t___iadd__(self, rhs)
+
+    def __isub__(self, rhs):
+        return _Posit.Posit_8_2_t___isub__(self, rhs)
+
+    def __imul__(self, rhs):
+        return _Posit.Posit_8_2_t___imul__(self, rhs)
+
+    def __itruediv__(self, *args):
+        return _Posit.Posit_8_2_t___itruediv__(self, *args)
+    __idiv__ = __itruediv__
+
+
+
+    def increment(self):
+        return _Posit.Posit_8_2_t_increment(self)
+
+    def decrement(self):
+        return _Posit.Posit_8_2_t_decrement(self)
+
+    def reciprocate(self):
+        return _Posit.Posit_8_2_t_reciprocate(self)
+
+    def set_raw_bits(self, value):
+        return _Posit.Posit_8_2_t_set_raw_bits(self, value)
+
+    def abs(self):
+        return _Posit.Posit_8_2_t_abs(self)
+
+    def isnar(self):
+        return _Posit.Posit_8_2_t_isnar(self)
+
+    def iszero(self):
+        return _Posit.Posit_8_2_t_iszero(self)
+
+    def isone(self):
+        return _Posit.Posit_8_2_t_isone(self)
+
+    def isminusone(self):
+        return _Posit.Posit_8_2_t_isminusone(self)
+
+    def isneg(self):
+        return _Posit.Posit_8_2_t_isneg(self)
+
+    def ispos(self):
+        return _Posit.Posit_8_2_t_ispos(self)
+
+    def ispowerof2(self):
+        return _Posit.Posit_8_2_t_ispowerof2(self)
+
+    def get(self):
+        return _Posit.Posit_8_2_t_get(self)
+
+    def cfg(self):
+        return _Posit.Posit_8_2_t_cfg(self)
+    __swig_destroy__ = _Posit.delete_Posit_8_2_t
+    __del__ = lambda self: None
+Posit_8_2_t_swigregister = _Posit.Posit_8_2_t_swigregister
+Posit_8_2_t_swigregister(Posit_8_2_t)
+
+
+def posit_to_binary_8_2(number):
+    return _Posit.posit_to_binary_8_2(number)
+posit_to_binary_8_2 = _Posit.posit_to_binary_8_2
+
+def posit_format_8_2(p):
+    return _Posit.posit_format_8_2(p)
+posit_format_8_2 = _Posit.posit_format_8_2
+
+def posit_to_string_8_2(p, precision=17):
+    return _Posit.posit_to_string_8_2(p, precision)
+posit_to_string_8_2 = _Posit.posit_to_string_8_2
+
+def posit_to_base2_scientific_8_2(number):
+    return _Posit.posit_to_base2_scientific_8_2(number)
+posit_to_base2_scientific_8_2 = _Posit.posit_to_base2_scientific_8_2
+
+def minpos_8_2():
+    return _Posit.minpos_8_2()
+minpos_8_2 = _Posit.minpos_8_2
+
+def maxpos_8_2():
+    return _Posit.maxpos_8_2()
+maxpos_8_2 = _Posit.maxpos_8_2
+
+def fma_8_2(a, b, c):
+    return _Posit.fma_8_2(a, b, c)
+fma_8_2 = _Posit.fma_8_2
+
+def fam_8_2(a, b, c):
+    return _Posit.fam_8_2(a, b, c)
+fam_8_2 = _Posit.fam_8_2
+
+def convert_13_to_8(v, p):
+    return _Posit.convert_13_to_8(v, p)
+convert_13_to_8 = _Posit.convert_13_to_8
+
+def convert_18_to_8(v, p):
+    return _Posit.convert_18_to_8(v, p)
+convert_18_to_8 = _Posit.convert_18_to_8
+
+def posit_to_value_8_2(p):
+    return _Posit.posit_to_value_8_2(p)
+posit_to_value_8_2 = _Posit.posit_to_value_8_2
+class Bitblock_127_t(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, Bitblock_127_t, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, Bitblock_127_t, name)
+    __repr__ = _swig_repr
+
+    def to_ulong(self):
+        return _Posit.Bitblock_127_t_to_ulong(self)
+
+    def to_ullong(self):
+        return _Posit.Bitblock_127_t_to_ullong(self)
+
+    def __init__(self):
+        this = _Posit.new_Bitblock_127_t()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _Posit.delete_Bitblock_127_t
+    __del__ = lambda self: None
+Bitblock_127_t_swigregister = _Posit.Bitblock_127_t_swigregister
+Bitblock_127_t_swigregister(Bitblock_127_t)
+
+
+def bitblock_127_tobitstring(bits, separator=True):
+    return _Posit.bitblock_127_tobitstring(bits, separator)
+bitblock_127_tobitstring = _Posit.bitblock_127_tobitstring
+
+def bitblock_127_tohexstring(bits):
+    return _Posit.bitblock_127_tohexstring(bits)
+bitblock_127_tohexstring = _Posit.bitblock_127_tohexstring
+class Value_126_t(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, Value_126_t, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, Value_126_t, name)
+    __repr__ = _swig_repr
+
+    def to_long_double(self):
+        return _Posit.Value_126_t_to_long_double(self)
+
+    def to_double(self):
+        return _Posit.Value_126_t_to_double(self)
+
+    def to_float(self):
+        return _Posit.Value_126_t_to_float(self)
+
+    def __init__(self):
+        this = _Posit.new_Value_126_t()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _Posit.delete_Value_126_t
+    __del__ = lambda self: None
+Value_126_t_swigregister = _Posit.Value_126_t_swigregister
+Value_126_t_swigregister(Value_126_t)
+
+
+def value_126_show(v):
+    return _Posit.value_126_show(v)
+value_126_show = _Posit.value_126_show
+class Quire_8_2_30_t(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, Quire_8_2_30_t, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, Quire_8_2_30_t, name)
+    __repr__ = _swig_repr
+
+    def __init__(self, *args):
+        this = _Posit.new_Quire_8_2_30_t(*args)
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+
+    def assign(self, *args):
+        return _Posit.Quire_8_2_30_t_assign(self, *args)
+
+    def __iadd__(self, *args):
+        return _Posit.Quire_8_2_30_t___iadd__(self, *args)
+
+    def __isub__(self, *args):
+        return _Posit.Quire_8_2_30_t___isub__(self, *args)
+
+    def reset(self):
+        return _Posit.Quire_8_2_30_t_reset(self)
+
+    def set_sign(self, v):
+        return _Posit.Quire_8_2_30_t_set_sign(self, v)
+
+    def sign(self):
+        return _Posit.Quire_8_2_30_t_sign(self)
+
+    def load_bits(self, string_of_bits):
+        return _Posit.Quire_8_2_30_t_load_bits(self, string_of_bits)
+
+    def isneg(self):
+        return _Posit.Quire_8_2_30_t_isneg(self)
+
+    def ispos(self):
+        return _Posit.Quire_8_2_30_t_ispos(self)
+
+    def iszero(self):
+        return _Posit.Quire_8_2_30_t_iszero(self)
+    __swig_destroy__ = _Posit.delete_Quire_8_2_30_t
+    __del__ = lambda self: None
+Quire_8_2_30_t_swigregister = _Posit.Quire_8_2_30_t_swigregister
+Quire_8_2_30_t_swigregister(Quire_8_2_30_t)
+
+
+def quire_abs_8_2_30(q):
+    return _Posit.quire_abs_8_2_30(q)
+quire_abs_8_2_30 = _Posit.quire_abs_8_2_30
+
+def quire_to_value_8_2_30(q):
+    return _Posit.quire_to_value_8_2_30(q)
+quire_to_value_8_2_30 = _Posit.quire_to_value_8_2_30
+
+def quire_from_value_8_2_30(q, v):
+    return _Posit.quire_from_value_8_2_30(q, v)
+quire_from_value_8_2_30 = _Posit.quire_from_value_8_2_30
+
+def convert_q82_to_p82(v, p):
+    return _Posit.convert_q82_to_p82(v, p)
+convert_q82_to_p82 = _Posit.convert_q82_to_p82
+
+def quire_tobits_8_2_30(q):
+    return _Posit.quire_tobits_8_2_30(q)
+quire_tobits_8_2_30 = _Posit.quire_tobits_8_2_30
+class Bitblock_4_t(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, Bitblock_4_t, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, Bitblock_4_t, name)
+    __repr__ = _swig_repr
+
+    def to_ulong(self):
+        return _Posit.Bitblock_4_t_to_ulong(self)
+
+    def to_ullong(self):
+        return _Posit.Bitblock_4_t_to_ullong(self)
+
+    def __init__(self):
+        this = _Posit.new_Bitblock_4_t()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _Posit.delete_Bitblock_4_t
+    __del__ = lambda self: None
+Bitblock_4_t_swigregister = _Posit.Bitblock_4_t_swigregister
+Bitblock_4_t_swigregister(Bitblock_4_t)
+
+
+def bitblock_4_tobitstring(bits, separator=True):
+    return _Posit.bitblock_4_tobitstring(bits, separator)
+bitblock_4_tobitstring = _Posit.bitblock_4_tobitstring
+
+def bitblock_4_tohexstring(bits):
+    return _Posit.bitblock_4_tohexstring(bits)
+bitblock_4_tohexstring = _Posit.bitblock_4_tohexstring
+class Value_1_t(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, Value_1_t, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, Value_1_t, name)
+    __repr__ = _swig_repr
+
+    def to_long_double(self):
+        return _Posit.Value_1_t_to_long_double(self)
+
+    def to_double(self):
+        return _Posit.Value_1_t_to_double(self)
+
+    def to_float(self):
+        return _Posit.Value_1_t_to_float(self)
+
+    def __init__(self):
+        this = _Posit.new_Value_1_t()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _Posit.delete_Value_1_t
+    __del__ = lambda self: None
+Value_1_t_swigregister = _Posit.Value_1_t_swigregister
+Value_1_t_swigregister(Value_1_t)
+
+class Value_9_t(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, Value_9_t, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, Value_9_t, name)
+    __repr__ = _swig_repr
+
+    def to_long_double(self):
+        return _Posit.Value_9_t_to_long_double(self)
+
+    def to_double(self):
+        return _Posit.Value_9_t_to_double(self)
+
+    def to_float(self):
+        return _Posit.Value_9_t_to_float(self)
+
+    def __init__(self):
+        this = _Posit.new_Value_9_t()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _Posit.delete_Value_9_t
+    __del__ = lambda self: None
+Value_9_t_swigregister = _Posit.Value_9_t_swigregister
+Value_9_t_swigregister(Value_9_t)
+
+class Value_14_t(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, Value_14_t, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, Value_14_t, name)
+    __repr__ = _swig_repr
+
+    def to_long_double(self):
+        return _Posit.Value_14_t_to_long_double(self)
+
+    def to_double(self):
+        return _Posit.Value_14_t_to_double(self)
+
+    def to_float(self):
+        return _Posit.Value_14_t_to_float(self)
+
+    def __init__(self):
+        this = _Posit.new_Value_14_t()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _Posit.delete_Value_14_t
+    __del__ = lambda self: None
+Value_14_t_swigregister = _Posit.Value_14_t_swigregister
+Value_14_t_swigregister(Value_14_t)
+
+class Posit_4_0_t(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, Posit_4_0_t, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, Posit_4_0_t, name)
+    __repr__ = _swig_repr
+
+    def __init__(self, *args):
+        this = _Posit.new_Posit_4_0_t(*args)
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+
+    def to_int(self):
+        return _Posit.Posit_4_0_t_to_int(self)
+
+    def to_long(self):
+        return _Posit.Posit_4_0_t_to_long(self)
+
+    def to_long_long(self):
+        return _Posit.Posit_4_0_t_to_long_long(self)
+
+    def to_float(self):
+        return _Posit.Posit_4_0_t_to_float(self)
+
+    def to_double(self):
+        return _Posit.Posit_4_0_t_to_double(self)
+
+    def to_long_double(self):
+        return _Posit.Posit_4_0_t_to_long_double(self)
+
+    def assign(self, *args):
+        return _Posit.Posit_4_0_t_assign(self, *args)
+
+    def __neg__(self):
+        return _Posit.Posit_4_0_t___neg__(self)
+
+    def __pos__(self):
+        return _Posit.Posit_4_0_t___pos__(self)
+
+    def __iadd__(self, rhs):
+        return _Posit.Posit_4_0_t___iadd__(self, rhs)
+
+    def __isub__(self, rhs):
+        return _Posit.Posit_4_0_t___isub__(self, rhs)
+
+    def __imul__(self, rhs):
+        return _Posit.Posit_4_0_t___imul__(self, rhs)
+
+    def __itruediv__(self, *args):
+        return _Posit.Posit_4_0_t___itruediv__(self, *args)
+    __idiv__ = __itruediv__
+
+
+
+    def increment(self):
+        return _Posit.Posit_4_0_t_increment(self)
+
+    def decrement(self):
+        return _Posit.Posit_4_0_t_decrement(self)
+
+    def reciprocate(self):
+        return _Posit.Posit_4_0_t_reciprocate(self)
+
+    def set_raw_bits(self, value):
+        return _Posit.Posit_4_0_t_set_raw_bits(self, value)
+
+    def abs(self):
+        return _Posit.Posit_4_0_t_abs(self)
+
+    def isnar(self):
+        return _Posit.Posit_4_0_t_isnar(self)
+
+    def iszero(self):
+        return _Posit.Posit_4_0_t_iszero(self)
+
+    def isone(self):
+        return _Posit.Posit_4_0_t_isone(self)
+
+    def isminusone(self):
+        return _Posit.Posit_4_0_t_isminusone(self)
+
+    def isneg(self):
+        return _Posit.Posit_4_0_t_isneg(self)
+
+    def ispos(self):
+        return _Posit.Posit_4_0_t_ispos(self)
+
+    def ispowerof2(self):
+        return _Posit.Posit_4_0_t_ispowerof2(self)
+
+    def get(self):
+        return _Posit.Posit_4_0_t_get(self)
+
+    def cfg(self):
+        return _Posit.Posit_4_0_t_cfg(self)
+    __swig_destroy__ = _Posit.delete_Posit_4_0_t
+    __del__ = lambda self: None
+Posit_4_0_t_swigregister = _Posit.Posit_4_0_t_swigregister
+Posit_4_0_t_swigregister(Posit_4_0_t)
+
+
+def posit_to_binary_4_0(number):
+    return _Posit.posit_to_binary_4_0(number)
+posit_to_binary_4_0 = _Posit.posit_to_binary_4_0
+
+def __sub__(*args):
+    return _Posit.__sub__(*args)
+__sub__ = _Posit.__sub__
+
+def __mul__(*args):
+    return _Posit.__mul__(*args)
+__mul__ = _Posit.__mul__
+
+def __truediv__(*args):
+    return _Posit.__truediv__(*args)
+__truediv__ = _Posit.__truediv__
+
+def posit_format_4_0(p):
+    return _Posit.posit_format_4_0(p)
+posit_format_4_0 = _Posit.posit_format_4_0
+
+def posit_to_string_4_0(p, precision=17):
+    return _Posit.posit_to_string_4_0(p, precision)
+posit_to_string_4_0 = _Posit.posit_to_string_4_0
+
+def posit_to_base2_scientific_4_0(number):
+    return _Posit.posit_to_base2_scientific_4_0(number)
+posit_to_base2_scientific_4_0 = _Posit.posit_to_base2_scientific_4_0
+
+def minpos_4_0():
+    return _Posit.minpos_4_0()
+minpos_4_0 = _Posit.minpos_4_0
+
+def maxpos_4_0():
+    return _Posit.maxpos_4_0()
+maxpos_4_0 = _Posit.maxpos_4_0
+
+def fma_4_0(a, b, c):
+    return _Posit.fma_4_0(a, b, c)
+fma_4_0 = _Posit.fma_4_0
+
+def fam_4_0(a, b, c):
+    return _Posit.fam_4_0(a, b, c)
+fam_4_0 = _Posit.fam_4_0
+
+def convert_9_to_4(v, p):
+    return _Posit.convert_9_to_4(v, p)
+convert_9_to_4 = _Posit.convert_9_to_4
+
+def convert_14_to_4(v, p):
+    return _Posit.convert_14_to_4(v, p)
+convert_14_to_4 = _Posit.convert_14_to_4
+
+def posit_to_value_4_0(p):
+    return _Posit.posit_to_value_4_0(p)
+posit_to_value_4_0 = _Posit.posit_to_value_4_0
+class Bitblock_15_t(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, Bitblock_15_t, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, Bitblock_15_t, name)
+    __repr__ = _swig_repr
+
+    def to_ulong(self):
+        return _Posit.Bitblock_15_t_to_ulong(self)
+
+    def to_ullong(self):
+        return _Posit.Bitblock_15_t_to_ullong(self)
+
+    def __init__(self):
+        this = _Posit.new_Bitblock_15_t()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _Posit.delete_Bitblock_15_t
+    __del__ = lambda self: None
+Bitblock_15_t_swigregister = _Posit.Bitblock_15_t_swigregister
+Bitblock_15_t_swigregister(Bitblock_15_t)
+
+
+def bitblock_15_tobitstring(bits, separator=True):
+    return _Posit.bitblock_15_tobitstring(bits, separator)
+bitblock_15_tobitstring = _Posit.bitblock_15_tobitstring
+
+def bitblock_15_tohexstring(bits):
+    return _Posit.bitblock_15_tohexstring(bits)
+bitblock_15_tohexstring = _Posit.bitblock_15_tohexstring
+
+def value_14_show(v):
+    return _Posit.value_14_show(v)
+value_14_show = _Posit.value_14_show
+class Quire_4_0_6_t(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, Quire_4_0_6_t, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, Quire_4_0_6_t, name)
+    __repr__ = _swig_repr
+
+    def __init__(self, *args):
+        this = _Posit.new_Quire_4_0_6_t(*args)
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+
+    def assign(self, *args):
+        return _Posit.Quire_4_0_6_t_assign(self, *args)
+
+    def __iadd__(self, *args):
+        return _Posit.Quire_4_0_6_t___iadd__(self, *args)
+
+    def __isub__(self, *args):
+        return _Posit.Quire_4_0_6_t___isub__(self, *args)
+
+    def reset(self):
+        return _Posit.Quire_4_0_6_t_reset(self)
+
+    def set_sign(self, v):
+        return _Posit.Quire_4_0_6_t_set_sign(self, v)
+
+    def sign(self):
+        return _Posit.Quire_4_0_6_t_sign(self)
+
+    def load_bits(self, string_of_bits):
+        return _Posit.Quire_4_0_6_t_load_bits(self, string_of_bits)
+
+    def isneg(self):
+        return _Posit.Quire_4_0_6_t_isneg(self)
+
+    def ispos(self):
+        return _Posit.Quire_4_0_6_t_ispos(self)
+
+    def iszero(self):
+        return _Posit.Quire_4_0_6_t_iszero(self)
+    __swig_destroy__ = _Posit.delete_Quire_4_0_6_t
+    __del__ = lambda self: None
+Quire_4_0_6_t_swigregister = _Posit.Quire_4_0_6_t_swigregister
+Quire_4_0_6_t_swigregister(Quire_4_0_6_t)
+
+
 def __ne__(*args):
     return _Posit.__ne__(*args)
 __ne__ = _Posit.__ne__
@@ -502,25 +1581,25 @@ def __gt__(*args):
     return _Posit.__gt__(*args)
 __gt__ = _Posit.__gt__
 
-def quire_abs_8_1_14(q):
-    return _Posit.quire_abs_8_1_14(q)
-quire_abs_8_1_14 = _Posit.quire_abs_8_1_14
+def quire_abs_4_0_6(q):
+    return _Posit.quire_abs_4_0_6(q)
+quire_abs_4_0_6 = _Posit.quire_abs_4_0_6
 
-def quire_to_value_8_1_14(q):
-    return _Posit.quire_to_value_8_1_14(q)
-quire_to_value_8_1_14 = _Posit.quire_to_value_8_1_14
+def quire_to_value_4_0_6(q):
+    return _Posit.quire_to_value_4_0_6(q)
+quire_to_value_4_0_6 = _Posit.quire_to_value_4_0_6
 
-def quire_from_value_8_1_14(q, v):
-    return _Posit.quire_from_value_8_1_14(q, v)
-quire_from_value_8_1_14 = _Posit.quire_from_value_8_1_14
+def quire_from_value_4_0_6(q, v):
+    return _Posit.quire_from_value_4_0_6(q, v)
+quire_from_value_4_0_6 = _Posit.quire_from_value_4_0_6
 
-def convert_q8_to_p8(v, p):
-    return _Posit.convert_q8_to_p8(v, p)
-convert_q8_to_p8 = _Posit.convert_q8_to_p8
+def convert_q40_to_p40(v, p):
+    return _Posit.convert_q40_to_p40(v, p)
+convert_q40_to_p40 = _Posit.convert_q40_to_p40
 
-def quire_tobits_8_1_14(q):
-    return _Posit.quire_tobits_8_1_14(q)
-quire_tobits_8_1_14 = _Posit.quire_tobits_8_1_14
+def quire_tobits_4_0_6(q):
+    return _Posit.quire_tobits_4_0_6(q)
+quire_tobits_4_0_6 = _Posit.quire_tobits_4_0_6
 
 def __add__(*args):
     return _Posit.__add__(*args)
