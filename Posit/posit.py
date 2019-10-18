@@ -65,7 +65,7 @@ class PositN4E0(object):
     def fma(self, mul, add):
         p = unum.Posit_4_0_t()
         res = unum.fma_4_0(self.__p4_0, mul.__p4_0, add.__p4_0)
-        unum.convert_9_to_8(res, p)
+        unum.convert_9_to_4(res, p)
         out = PositN4E0()
         out.__p4_0 = p
         return out
@@ -73,7 +73,7 @@ class PositN4E0(object):
     def fam(self, add, mul):
         p = unum.Posit_4_0_t()
         res = unum.fam_4_0(self.__p4_0, add.__p4_0, mul.__p4_0)
-        unum.convert_14_to_8(res, p)
+        unum.convert_14_to_4(res, p)
         out = PositN4E0()
         out.__p4_0 = p
         return out

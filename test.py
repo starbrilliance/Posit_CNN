@@ -1,6 +1,6 @@
 from Matrix import convert, func
 from Posit import posit, quire
-from LeNet import lenet, dataloader
+from LeNet import lenet, dataloader, run_lenet
 import torch
 
 """
@@ -63,24 +63,7 @@ test_res = lenet.lenet_test(images[0][0])
 print(labels)
 print(test_res)
 """
-"""
-total = 0
-equal = 0
-(weight, bias) = lenet.read_param_from_txt('./LeNet/p8_1_weight.txt', './LeNet/p8_1_bias.txt')
-(train_data, test_data) = dataloader.read_data("./LeNet/data")
 
-for i, (images, labels) in enumerate(test_data):
-    if total == 1:
-        break
-
-    total += 1
-    test_res = lenet.lenet_test_without_read_param(images[0][0], weight, bias)
-
-    if (labels[0].item() == test_res):
-        equal += 1
-
-print("total = " + str(total))
-print("equal = " + str(equal))
 """
 print("posit<8,2>")
 a = posit.PositN8E2(1)
@@ -111,3 +94,8 @@ for i in range(len(c)):
     print("op(a,b) = " + c[i].format_bits_string())
     q += c[i]
     print("quire = " + str(q.to_float()))
+"""
+#posit_type = ["p4_0", "p8_0", "p8_1", "p8_2"]
+#for i in range(len(posit_type)):
+#    run_lenet.run(10, posit_type[i], True, "log.txt")
+run_lenet.run(10, "p4_0")
