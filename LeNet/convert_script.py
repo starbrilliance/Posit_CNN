@@ -1,4 +1,4 @@
-from LeNet import weight2posit
+from LeNet import param2posit
 
 
 root_path = "./parameters/"
@@ -8,5 +8,5 @@ wfile = "_weight.txt"
 bfile = "_bias.txt"
 
 for i in range(len(posit_type)):
-    weight2posit.posit_weight_file(root_path+ifile, root_path+posit_type[i]+wfile, root_path+posit_type[i]+bfile,
-                                   posit_type[i])
+    param2posit.posit_weight_file(root_path + ifile, root_path + posit_type[i] + wfile, root_path + posit_type[i] + bfile,
+                                  posit_type[i])
