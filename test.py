@@ -1,4 +1,4 @@
-from Matrix import convert, func
+from Matrix import convert, func, func_v2
 from Posit import posit, quire
 from LeNet import lenet, dataloader, run_lenet
 import torch
@@ -95,7 +95,7 @@ for i in range(len(c)):
     print("op(a,b) = " + c[i].format_bits_string())
     q += c[i]
     print("quire = " + str(q.to_float()))
-"""
+
 #posit_type = ["p4_0", "p8_0", "p8_1", "p8_2"]
 #for i in range(len(posit_type)):
 #    run_lenet.run(10, posit_type[i], True, "log.txt")
@@ -106,28 +106,85 @@ device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 collection = torch.load(ifile, map_location=device)
 for param_tensor in collection:
     print(param_tensor,"\t",collection[param_tensor].size())
+"""
 
-print(collection['features.1.conv.0.1.running_var'])
+from MobileNet_V2 import mobilenet_v2
+"""
+input_data = [
+                [
+                    [posit.PositN8E1(1), posit.PositN8E1(1), posit.PositN8E1(1)],
+                    [posit.PositN8E1(1), posit.PositN8E1(1), posit.PositN8E1(1)],
+                    [posit.PositN8E1(1), posit.PositN8E1(1), posit.PositN8E1(1)]
+                ],
+                [
+                    [posit.PositN8E1(2), posit.PositN8E1(2), posit.PositN8E1(2)],
+                    [posit.PositN8E1(2), posit.PositN8E1(2), posit.PositN8E1(2)],
+                    [posit.PositN8E1(2), posit.PositN8E1(2), posit.PositN8E1(2)]
+                ],
+                [
+                    [posit.PositN8E1(4), posit.PositN8E1(4), posit.PositN8E1(6)],
+                    [posit.PositN8E1(4), posit.PositN8E1(4), posit.PositN8E1(10)],
+                    [posit.PositN8E1(4), posit.PositN8E1(4), posit.PositN8E1(4)]
+                ]
+            ]
 
-a = collection['features.1.conv.0.1.weight'][0].item()
-print("a: " + str(a))
-b = collection['features.1.conv.0.1.bias'][0].item()
-print("b: " + str(b))
-c = collection['features.1.conv.0.1.running_mean'][0].item()
-print("c: " + str(c))
-d = collection['features.1.conv.0.1.running_var'][0].item()
-print("d: " + str(d))
+conv_kernel = [[
+                [
+                    [posit.PositN8E1(1), posit.PositN8E1(1), posit.PositN8E1(1)],
+                    [posit.PositN8E1(1), posit.PositN8E1(1), posit.PositN8E1(1)],
+                    [posit.PositN8E1(1), posit.PositN8E1(1), posit.PositN8E1(1)]
+                ]],
 
-coeff = 1 / math.sqrt(d)
-print("coeff: " + str(coeff))
-weight = coeff * a
-bias = b - c * weight
-print("weight(float): " + str(weight))
-print("bias(float): " + str(bias))
-x = posit.PositN8E1(weight)
-y = posit.PositN8E1(bias)
-print("weight(posit<8,1>): " + x.value_string() + '\t' + x.raw_hex_string())
-print("bias(posit<8,1>): " + y.value_string() + '\t' + y.raw_hex_string())
+                [[
+                    [posit.PositN8E1(1), posit.PositN8E1(1), posit.PositN8E1(1)],
+                    [posit.PositN8E1(1), posit.PositN8E1(1), posit.PositN8E1(1)],
+                    [posit.PositN8E1(1), posit.PositN8E1(1), posit.PositN8E1(1)]
+                ]],
+                [[
+                    [posit.PositN8E1(1), posit.PositN8E1(1), posit.PositN8E1(1)],
+                    [posit.PositN8E1(1), posit.PositN8E1(1), posit.PositN8E1(1)],
+                    [posit.PositN8E1(1), posit.PositN8E1(1), posit.PositN8E1(1)]
+                ]]
+            ]
 
+bn_weight = [posit.PositN8E1(1)] * 3
+bn_bias = [posit.PositN8E1(0)] * 3
+thr = posit.PositN8E1().set_maxpos()
 
+res_t = mobilenet_v2.ConvBNReLU(input_data, conv_kernel, bn_weight, bn_bias, 3, 3, 1, 3, 3, thr, use_quire=True, one_group=False)
+res = func_v2.posit_avg_pool(res_t,3,3,use_quire=True)
 
+for x in range(3):
+    for i in range(len(res[0])):
+        for j in range(len(res[0][0])):
+            print(res[x][i][j].value_string(), end='\t')
+        print('\n')
+
+test = res[0][0][0] + res[1][0][0] + res[2][0][0]
+test = test * posit.PositN8E1(0.5) + bn_weight[0]
+print(test.value_string())
+"""
+root_path = "./MobileNet_V2/parameters/"
+wfile = "_weight.txt"
+bfile = "_bias.txt"
+posit_type = "p4_0"
+w_read = open(root_path+posit_type+wfile)
+b_read = open(root_path+posit_type+bfile)
+(conv_weight, bn_weight, bn_bias) = mobilenet_v2.read_param_for_convbnrelu(w_read, b_read, 3, 32, 3, posit_type)
+w_read.close()
+b_read.close()
+
+for i in range(3):
+    for j in range(3):
+        print(conv_weight[31][2][i][j].raw_hex_string(), end='\t')
+    print('\n')
+
+for i in range(len(bn_weight)):
+    print(bn_weight[i].raw_hex_string(), end='\t')
+
+print('\n')
+
+for i in range(len(bn_bias)):
+    print(bn_bias[i].raw_hex_string(), end='\t')
+
+    
